@@ -137,6 +137,6 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "PBW_DM51A1_NoFrag","BWA3_DM51A1", "kat_Pulseoximeter","hlc_rifle_awmagnum_FDE","hlc_rifle_awmagnum_FDE_ghillie"
 
 
-], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally﻿
+], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally
 
 hint "Arsenal wurde Geladen";

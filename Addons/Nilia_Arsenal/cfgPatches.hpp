@@ -1,6 +1,6 @@
 class cfgPatches {
 
-    class Nilia_Server_Functions
+    class Nilia_Arsenal_Server_Functions
     {
         units[]={};
         weapons[]={};
