@@ -14,7 +14,7 @@
 //		[] call Nilia_fnc_Vehicle
 //		[this] call Nilia_fnc_VehicleInv;
 //
-//Arsenal stand 13.08.2022
+//Inventar stand 13.08.2022
 
 if (!isServer) exitWith { hint "Kein Server!" };
 
