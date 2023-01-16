@@ -1,0 +1,83 @@
+comment "Exported from Arsenal by [OberstLt.] Nilia";
+
+comment "Remove existing items";
+removeAllWeapons player;
+removeAllItems player;
+removeAllAssignedItems player;
+removeUniform player;
+removeVest player;
+removeBackpack player;
+removeHeadgear player;
+removeGoggles player;
+
+comment "Add weapons";
+player addWeapon "hlc_rifle_SG551LB_TAC_GL";
+player addPrimaryWeaponItem "hlc_muzzle_SF3P_556";
+player addPrimaryWeaponItem "ACE_acc_pointer_green";
+player addPrimaryWeaponItem "optic_ERCO_blk_F";
+player addPrimaryWeaponItem "hlc_30Rnd_556x45_SPR_sg550";
+player addPrimaryWeaponItem "rhs_mag_M433_HEDP";
+player addWeapon "hlc_pistol_P226R_357Combat";
+player addHandgunItem "HLC_optic_ATT";
+player addHandgunItem "hlc_12Rnd_357SIG_B_P226";
+
+comment "Add containers";
+player forceAddUniform "BWA3_Uniform_Tropen";
+player addVest "BWA3_Vest_Leader_Tropen";
+player addBackpack "ACREFR_rt1523g_big_bwmod_tropen";
+
+comment "Add binoculars";
+player addMagazine "Laserbatteries";
+player addWeapon "Laserdesignator_01_khk_F";
+
+comment "Add items to containers";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_EarPlugs";};
+player addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_splint";};
+player addItemToUniform "ACE_morphine";
+for "_i" from 1 to 4 do {player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 19 do {player addItemToUniform "ACE_elasticBandage";};
+player addItemToVest "ItemAndroid";
+player addItemToVest "kat_guedel";
+player addItemToVest "ACE_surgicalKit";
+for "_i" from 1 to 2 do {player addItemToVest "hlc_12Rnd_357SIG_B_P226";};
+for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {player addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {player addItemToVest "Chemlight_blue";};
+player addItemToVest "B_IR_Grenade";
+player addItemToVest "BWA3_DM32_Green";
+for "_i" from 1 to 5 do {player addItemToVest "hlc_30Rnd_556x45_SPR_sg550";};
+for "_i" from 1 to 4 do {player addItemToVest "hlc_30Rnd_556x45_T_sg550";};
+player addItemToBackpack "ACE_HuntIR_monitor";
+player addItemToBackpack "NVGogglesB_gry_F";
+for "_i" from 1 to 2 do {player addItemToBackpack "ACE_salineIV_250";};
+player addItemToBackpack "BWA3_Beret_Jaeger";
+player addItemToBackpack "BWA3_G_Combat_clear";
+player addItemToBackpack "BWA3_G_Combat_black";
+player addItemToBackpack "BWA3_G_Combat_orange";
+player addItemToBackpack "kat_X_AED";
+player addItemToBackpack "ACRE_SEM70";
+for "_i" from 1 to 2 do {player addItemToBackpack "BWA3_DM25";};
+for "_i" from 1 to 8 do {player addItemToBackpack "rhs_mag_M433_HEDP";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeBlue_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeYellow_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeOrange_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokePurple_Grenade_shell";};
+for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
+player addHeadgear "PBW_Helm4_tropen_H";
+
+comment "Add items";
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
+player linkItem "ItemRadioAcreFlagged";
+player linkItem "ItemcTab";
+
+comment "Set identity";
+[player,"9Jgkp_Insignia_Leutnant"] call BIS_fnc_setUnitInsignia;
