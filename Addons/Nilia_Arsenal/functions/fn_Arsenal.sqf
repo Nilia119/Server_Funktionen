@@ -15,7 +15,9 @@
 //		[ this ] call Nilia_fnc_Arsenal;
 //
 //Arsenal stand 13.08.2022
-if (!isServer) exitWith { hint "Kein Server!" };
+//if (!isServer) exitWith { hint "Kein Server!" };
+
+//nicht Spawnbar
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };

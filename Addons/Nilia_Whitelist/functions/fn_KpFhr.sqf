@@ -16,7 +16,11 @@
 //		onPreloadstarted '[this] call Nilia_fnc_KpFhr'; //Wenn Loadouts gecalled werden!
 //
 
-if (!isServer) exitWith {};
+//if (!isServer) exitWith {};
+
+params ["_unit"];
+
+if (! (local _unit)) exitWith {};
 
 private _uid = getPlayerUID player;
 

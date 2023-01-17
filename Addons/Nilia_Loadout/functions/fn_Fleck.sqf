@@ -16,7 +16,9 @@
 //
 // stand 16.01.2023
 
-if (!isServer) exitWith {};
+//Wenn Midmission nur für mich sichtbar, muss Global ausgeführt werden!
+
+//if (!isServer) exitWith {};
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };

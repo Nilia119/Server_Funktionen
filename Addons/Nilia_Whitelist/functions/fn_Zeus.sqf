@@ -16,7 +16,13 @@
 //		onPreloadstarted '[this] call Nilia_fnc_Zeus'; //Wenn Loadouts gecalled werden!
 //
 
-if (!isServer) exitWith {};
+//FÜhrt Script Global aus?!?
+
+//if (!isServer) exitWith {};
+
+params ["_unit"];
+
+if (! (local _unit)) exitWith {};
 
 private _uid = getPlayerUID player;
 
