@@ -31,7 +31,6 @@ private _WL = [ //"76561198088210593",	/* Nilia */
 
 
 if (!(_uid in _WL)) then {
-sleep 5;
 titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
 endMission "END1";
 } else {

@@ -20,12 +20,11 @@ if (!isServer) exitWith {};
 
 private _uid = getPlayerUID player;
 
-private _WL = ["76561198088210593", //Nilia
+private _WL = ["76561198088210593" //Nilia
                //"76561198320063927"  //Juggernaut
                ];
 
 if (!(_uid in _WL)) then {
-sleep 5;
 titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
 endMission "END1";
 } else {
