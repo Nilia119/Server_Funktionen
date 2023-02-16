@@ -27,7 +27,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 [
 //Waffen
 "hlc_rifle_G36VAG36","hlc_rifle_PSG1A1_RIS","hlc_rifle_ACR68_full_black_grip","arifle_SPAR_03_blk_F","hlc_rifle_SG551LB_TAC","hlc_rifle_SG551LB_TAC_GL","hlc_rifle_awmagnum_FDE",
-"hlc_rifle_ACR_SBR_black_grip3","hlc_rifle_ACR_GL_SBR_black","hlc_rifle_416D145_x15_grip3","hlc_rifle_M27IAR","hlc_rifle_mk18mod0","hlc_lmg_MG3_optic","srifle_DMR_07_blk_F",
+"hlc_rifle_ACR_SBR_black_grip3","hlc_rifle_ACR_GL_SBR_black","hlc_rifle_M27IAR","hlc_rifle_mk18mod0","hlc_lmg_MG3_optic","srifle_DMR_07_blk_F",
 "ACE_VMH3","hlc_rifle_awcovert","hlc_rifle_awmagnum","hlc_rifle_awMagnum_OD_ghillie","srifle_GM6_F","srifle_LRR_F","launch_MRAWS_green_F","launch_MRAWS_olive_F","rhs_weap_fim92",
 "hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","arifle_MX_Black_F","hlc_pistol_P226R_357Combat","hlc_rifle_G36V","launch_MRAWS_sand_F","hlc_rifle_416D145_gl",
 "hlc_rifle_auga2lsw","hlc_rifle_RU5562","hlc_rifle_ACR_GL_Carb_tan","hlc_rifle_m4m203","rhs_weap_fim92","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_Colt727_GL","hlc_rifle_416D145",
@@ -52,7 +52,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "optic_NVS","optic_Nightstalker","BWA3_optic_M5Xi_Tremor3_MicroT2_pip","BWA3_optic_M5Xi_MSR_pip","muzzle_snds_H","BWA3_optic_NSV80","BWA3_optic_NSV600","BWA3_muzzle_snds_Rotex_II",
 "BWA3_optic_MicroT2_G36A2_pip","BWA3_optic_RSAS_G36A2_pip","BWA3_acc_VarioRay_irlaser","BWA3_optic_PMII_DMR_MicroT1_rear_pip","BWA3_optic_PMII_DMR_MicroT1_front_pip","optic_Holosight",
 "optic_Holosight_khk_F","BWA3_optic_EOTech_Mag_Off","BWA3_optic_EOTech_sand_Mag_Off","BWA3_optic_ZO4x30_MicroT2_pip","muzzle_snds_570","rhsusf_acc_rotex_mp7","rhsusf_acc_rotex_mp7_desert",
-"rhsusf_acc_rotex_mp7_winter",
+"rhsusf_acc_rotex_mp7_winter","acc_pointer_blue","acc_pointer_squad","hlc_grip_pmvfg_black","hlc_grip_pmvfg_tan","hlc_grip_pmvfg",
 //Munition
 "hlc_30rnd_556x45_EPR_G36","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","ACE_20Rnd_762x51_Mag_SD",
 "1Rnd_SmokeOrange_Grenade_shell","hlc_20Rnd_762x51_S_M14","hlc_20Rnd_762x51_T_M14","20Rnd_650x39_Cased_Mag_F","ACE_20Rnd_65x47_Scenar_mag","ACE_20Rnd_65_Creedmor_mag","rhs_fim92_mag",
@@ -106,7 +106,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "greenmag_ammo_650x39_basic_60Rnd","greenmag_beltlinked_650x39_basic_100","greenmag_beltlinked_650x39_basic_150","greenmag_beltlinked_650x39_basic_200","greenmag_beltlinked_93x64_basic_50",
 "greenmag_beltlinked_650x39_basic_50","greenmag_ammo_762x39_basic_30Rnd","greenmag_ammo_762x39_basic_60Rnd","greenmag_ammo_762x51_basic_30Rnd","greenmag_ammo_762x51_basic_60Rnd",
 "greenmag_beltlinked_762x51_basic_100","greenmag_beltlinked_762x51_basic_150","greenmag_ammo_93x64_basic_30Rnd","greenmag_ammo_93x64_basic_60Rnd","greenmag_beltlinked_93x64_basic_100",
-"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd",
+"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd","hlc_30rnd_556x45_t_L5",
 //Granaten
 "Chemlight_blue","ACE_Chemlight_HiWhite","BWA3_DM32_Blue","B_IR_Grenade","BWA3_DM25","BWA3_DM51A1","ACE_HandFlare_White","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_HandFlare_Yellow",
 "BWA3_DM32_Purple","BWA3_DM32_Red","BWA3_DM32_Orange","BWA3_DM32_Yellow","BWA3_DM32_Green","ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed","BWA3_DM51A1",
