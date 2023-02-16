@@ -34,7 +34,8 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "hlc_rifle_CQBR","MMG_01_tan_F","HLC_Rifle_g3ka4_GL","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","srifle_DMR_05_blk_F","hlc_rifle_g3a3vris","srifle_DMR_05_tan_f","hlc_rifle_BAB",
 "hlc_rifle_416D165","hlc_rifle_416D10","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","hlc_rifle_hk53RAS","hlc_m249_SQuantoon","hlc_m249_pip3","hlc_rifle_M14dmr_Rail","hlc_lmg_MG3KWS_b",
 "hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_STG58F","hgun_esd_01_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_MXC_Black_F","arifle_MX_SW_Black_F","BWA3_G28","BWA3_G29",
-"BWA3_G36A2_pip","BWA3_MP7","ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag",
+"BWA3_G36A2_pip","BWA3_MP7","ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","SMG_03C_TR_camo","BWA3_RGW90","rhsusf_acc_rotex_mp7_aor1",
+"SMG_03C_TR_black","rhsusf_weap_MP7A2_folded","SMG_03C_TR_khaki","SMG_03C_TR_hex","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_folded_winter",
 "hlc_rifle_awmagnum_FDE_ghillie",
 //Waffen Aufsätze
 "hlc_muzzle_SF3P_556","optic_Hamr","bipod_01_F_blk","BWA3_optic_EOTech_sand","hlc_muzzle_TiRant9","HLC_Optic_Romeo1_RX","HLC_optic_HP","HLC_optic_VTAC","HLC_optic_XS","optic_ACO_grn_smg",
@@ -50,7 +51,8 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "HLC_Optic_G36Export35x2d","ACE_muzzle_mzls_H","rhsusf_acc_anpeq15side_bk","BWA3_optic_PMII_DMR_MicroT1_front","HLC_bipod_UTGShooters","muzzle_antenna_03_f","muzzle_antenna_01_f",
 "optic_NVS","optic_Nightstalker","BWA3_optic_M5Xi_Tremor3_MicroT2_pip","BWA3_optic_M5Xi_MSR_pip","muzzle_snds_H","BWA3_optic_NSV80","BWA3_optic_NSV600","BWA3_muzzle_snds_Rotex_II",
 "BWA3_optic_MicroT2_G36A2_pip","BWA3_optic_RSAS_G36A2_pip","BWA3_acc_VarioRay_irlaser","BWA3_optic_PMII_DMR_MicroT1_rear_pip","BWA3_optic_PMII_DMR_MicroT1_front_pip","optic_Holosight",
-"optic_Holosight_khk_F","BWA3_optic_EOTech_Mag_Off","BWA3_optic_EOTech_sand_Mag_Off","BWA3_optic_ZO4x30_MicroT2_pip",
+"optic_Holosight_khk_F","BWA3_optic_EOTech_Mag_Off","BWA3_optic_EOTech_sand_Mag_Off","BWA3_optic_ZO4x30_MicroT2_pip","muzzle_snds_570","rhsusf_acc_rotex_mp7","rhsusf_acc_rotex_mp7_desert",
+"rhsusf_acc_rotex_mp7_winter",
 //Munition
 "hlc_30rnd_556x45_EPR_G36","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","ACE_20Rnd_762x51_Mag_SD",
 "1Rnd_SmokeOrange_Grenade_shell","hlc_20Rnd_762x51_S_M14","hlc_20Rnd_762x51_T_M14","20Rnd_650x39_Cased_Mag_F","ACE_20Rnd_65x47_Scenar_mag","ACE_20Rnd_65_Creedmor_mag","rhs_fim92_mag",
@@ -91,7 +93,10 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "3Rnd_SmokeBlue_Grenade_shell","3Rnd_SmokeYellow_Grenade_shell","3Rnd_SmokeGreen_Grenade_shell","3Rnd_SmokeOrange_Grenade_shell","3Rnd_SmokeRed_Grenade_shell","greenmag_ammo_9x19_basic_60Rnd",
 "3Rnd_SmokePurple_Grenade_shell","3Rnd_Smoke_Grenade_shell","3Rnd_HE_Grenade_shell","40xtra_3Rnd_40mm_msblack","40xtra_3Rnd_40mm_msblue","40xtra_3Rnd_40mm_msbrown","BWA3_10Rnd_86x70_G29",
 "40xtra_3Rnd_40mm_mscyan","40xtra_3Rnd_40mm_msgreen","40xtra_3Rnd_40mm_msorange","40xtra_3Rnd_40mm_mspink","40xtra_3Rnd_40mm_mspurple","40xtra_3Rnd_40mm_msred","BWA3_40Rnd_46x30_MP7_SD",
-"40xtra_3Rnd_40mm_regblack","greenmag_ammo_50BW_basic_30Rnd","greenmag_ammo_50BW_basic_60Rnd","greenmag_ammo_127x108_basic_30Rnd","greenmag_ammo_127x108_basic_60Rnd","BWA3_40Rnd_46x30_MP7",
+"40xtra_3Rnd_40mm_regblack","50Rnd_570x28_SMG_03","BWA3_RGW90_HH","50Rnd_570x28_SMG_03_tracer_blue","CUP_50Rnd_570x28_Green_Tracer_P90_M","CUP_50Rnd_570x28_Red_Tracer_P90_M",
+"CUP_40Rnd_46x30_MP7_Green_Tracer","CUP_40Rnd_46x30_MP7_Red_Tracer","CUP_40Rnd_46x30_MP7_Yellow_Tracer","rhsusf_mag_40Rnd_46x30_AP","rhsusf_mag_40Rnd_46x30_FMJ",
+"rhsusf_mag_40Rnd_46x30_JHP","CUP_50Rnd_570x28_Yellow_Tracer_P90_M","CUP_20Rnd_46x30_MP7","CUP_40Rnd_46x30_MP7",
+"greenmag_ammo_50BW_basic_30Rnd","greenmag_ammo_50BW_basic_60Rnd","greenmag_ammo_127x108_basic_30Rnd","greenmag_ammo_127x108_basic_60Rnd","BWA3_40Rnd_46x30_MP7",
 "greenmag_beltlinked_127x108_basic_100","greenmag_ammo_127x54_basic_30Rnd","greenmag_ammo_127x54_basic_60Rnd","greenmag_beltlinked_93x64_basic_146","greenmag_ammo_9x21_basic_30Rnd",
 "greenmag_beltlinked_127x108_basic_150","greenmag_beltlinked_127x108_basic_200","greenmag_beltlinked_127x108_basic_50","greenmag_ammo_127x99_basic_30Rnd","BWA3_10Rnd_86x70_G29_Tracer",
 "greenmag_ammo_127x99_basic_60Rnd","greenmag_beltlinked_127x99_basic_100","greenmag_beltlinked_127x99_basic_150","greenmag_beltlinked_127x99_basic_200","greenmag_beltlinked_93x64_basic_150",
@@ -101,6 +106,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "greenmag_ammo_650x39_basic_60Rnd","greenmag_beltlinked_650x39_basic_100","greenmag_beltlinked_650x39_basic_150","greenmag_beltlinked_650x39_basic_200","greenmag_beltlinked_93x64_basic_50",
 "greenmag_beltlinked_650x39_basic_50","greenmag_ammo_762x39_basic_30Rnd","greenmag_ammo_762x39_basic_60Rnd","greenmag_ammo_762x51_basic_30Rnd","greenmag_ammo_762x51_basic_60Rnd",
 "greenmag_beltlinked_762x51_basic_100","greenmag_beltlinked_762x51_basic_150","greenmag_ammo_93x64_basic_30Rnd","greenmag_ammo_93x64_basic_60Rnd","greenmag_beltlinked_93x64_basic_100",
+"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd",
 //Granaten
 "Chemlight_blue","ACE_Chemlight_HiWhite","BWA3_DM32_Blue","B_IR_Grenade","BWA3_DM25","BWA3_DM51A1","ACE_HandFlare_White","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_HandFlare_Yellow",
 "BWA3_DM32_Purple","BWA3_DM32_Red","BWA3_DM32_Orange","BWA3_DM32_Yellow","BWA3_DM32_Green","ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed","BWA3_DM51A1",
@@ -132,23 +138,30 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "kat_lidocaine","kat_naloxone","kat_norepinephrine","kat_phenylephrine","KAT_Empty_bloodIV_500","KAT_Empty_bloodIV_250","Nilia_MedPanel","kat_Carbonate","rhs_googles_clear",
 "rhs_googles_orange","rhs_googles_black","rhs_googles_yellow","kat_AED","kat_bloodIV_O_N","kat_bloodIV_O_250_N","kat_bloodIV_O_500_N","ace_marker_flags_blue","ace_marker_flags_yellow",
 "ace_marker_flags_green","ace_marker_flags_purple","ace_marker_flags_orange","ace_marker_flags_red","ace_marker_flags_black","ace_marker_flags_white","MRH_FoldedSatcomAntenna",
+"ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","ABP_Cocaine","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil",
+"kat_gasmaskFilter","kat_ketamine","kat_sealant","kat_clamp","kat_plate","kat_lidocaine","tsp_lockpick","kat_lorazepam","kat_nalbuphine","kat_ncdKit","ABP_Pervitin","kat_retractor",
+"kat_scalpel","kat_Pervitin","kat_Caffeine","PBW_DM12","tsp_frameCharge_mag","FlareTripMine_Wire_Mag","tsp_popperCharge_mag","tsp_popperCharge_auto_mag","tsp_stickCharge_mag",
+"tsp_stickCharge_auto_mag",
 //Uniform
 "BWA3_Uniform_Tropen","BWA3_Uniform_tee_Tropen","BWA3_Uniform_sleeves_Tropen","BWA3_Uniform_Ghillie_Tropen","BWA3_Uniform_sleeves_Fleck","BWA3_Uniform_Fleck","BWA3_Uniform_sleeves_Fleck",
 "U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","BWA3_Uniform_Ghillie_Fleck","BWA3_Uniform_Tropen","W_BW2035_Uniform_Fleck1","W_BW2035_Uniform_Fleck",
+"W_BW2035_Uniform_Fleck","W_BW2035_Uniform_Fleck1","W_BW2035_Uniform_Tropen",
 //Westen
 "BWA3_Vest_Leader_Tropen","BWA3_Vest_Grenadier_Tropen","BWA3_Vest_Medic_Tropen","BWA3_Vest_Rifleman_Tropen","BWA3_Vest_MachineGunner_Tropen","BWA3_Vest_Marksman_Tropen","BWA3_Vest_Fleck",
 "BWA3_Uniform_tee_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_MachineGunner_Fleck","BWA3_Vest_Medic_Fleck","BWA3_Vest_Rifleman_Fleck",
-"BWA3_Vest_Tropen","BWA3_Vest_JPC_Rifleman_Fleck","BWA3_Vest_JPC_Leader_Tropen","BWA3_Vest_JPC_Rifleman_Tropen","BWA3_Vest_JPC_Leader_Fleck",
+"BWA3_Vest_Tropen","BWA3_Vest_JPC_Rifleman_Fleck","BWA3_Vest_JPC_Leader_Tropen","BWA3_Vest_JPC_Rifleman_Tropen","BWA3_Vest_JPC_Leader_Fleck","CUP_V_B_GER_Armatus_BB_Fleck",
+"CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop","CUP_V_B_GER_Armatus_BB_Trop",
 //Rucksäcke
 "ACREFR_rt1523g_big_bwmod_tropen","BWA3_AssaultPack_Tropen","BWA3_Kitbag_Tropen_Medic","BWA3_Carryall_Tropen","BWA3_PatrolPack_Tropen","BWA3_AssaultPack_Tropen_Medic",
 "BWA3_FieldPack_tropen","BWA3_Kitbag_Tropen","BWA3_TacticalPack_Tropen","BWA3_TacticalPack_Tropen_Medic","BWA3_AssaultPack_Fleck","BWA3_AssaultPack_Fleck_Medic","BWA3_FieldPack_Fleck",
 "BWA3_Carryall_Fleck","BWA3_PatrolPack_Fleck","BWA3_Kitbag_Fleck","BWA3_Kitbag_Fleck_Medic","BWA3_TacticalPack_Fleck","BWA3_TacticalPack_Fleck_Medic","ACREFR_rt1523g_big_bwmod",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_bwmod","TBW_Funk_Fleck","TBW_Funk_Tropen","B_LegStrapBag_coyote_F","B_LegStrapBag_black_F","B_LegStrapBag_olive_F",
+"BW2035_Backpack_Fleck_Tortilia_Arzt","BW2035_Backpack_Tropen_Tortilia","BW2035_Backpack_Tropen_Tortilia_Arzt","BW2035_Backpack_San_Tortilia",
 //Helme
 "BWA3_Booniehat_Tropen","BWA3_OpsCore_Tropen_Camera","BWA3_OpsCore_Tropen","BWA3_OpsCore_Tropen_Patch","BWA3_Beret_Jaeger","BWA3_Booniehat_Fleck","BWA3_OpsCore_Fleck",
 "BWA3_OpsCore_Fleck_Camera","BWA3_OpsCore_Fleck_Patch","PBW_muetze1_fleck","PBW_muetze2_fleck","PBW_muetze1_tropen","PBW_muetze2_tropen","PBW_Helm4_fleck","PBW_Helm4_fleck_HBO",
 "PBW_Helm4_fleck_HBOD","PBW_Helm5_fleck","PBW_Helm5_fleck_H","PBW_Helm4_fleck_H","PBW_Helm4_tropen","PBW_Helm4_tropen_HBO","PBW_Helm4_tropen_HBOD","PBW_Helm4_tropen_H",
-"H_Hat_Tinfoil_F","PBW_barett_san","PBW_barett_fespaeh","rhsusf_opscore_fg_pelt_cam"
+"H_Hat_Tinfoil_F","PBW_barett_san","PBW_barett_fespaeh","rhsusf_opscore_fg_pelt_cam","PBW_barett_art","CUP_H_Ger_Cap_Tan2"
 
 
 ], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally
