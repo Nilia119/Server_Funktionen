@@ -13,9 +13,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Fleck";
-_unit addVest "BWA3_Vest_Marksman_Fleck";
-_unit addBackpack "BWA3_AssaultPack_Fleck";
+_unit forceAddUniform "W_BW2035_Uniform_Tropen";
+_unit addVest "BWA3_Vest_Marksman_Tropen";
+_unit addBackpack "BWA3_AssaultPack_Tropen";
 
 // "Add binoculars";
 _unit addMagazine "Laserbatteries";
@@ -57,14 +57,13 @@ _unit addItemToBackpack "ACE_salineIV";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "hlc_20rnd_762x51_T_G3";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "hlc_20rnd_762x51_IRDim_G3";};
-_unit addHeadgear "PBW_Helm1_fleck_H";
+_unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 
 // "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
-_unit linkItem "ItemRadioAcreFlagged";
 
 // "Set identity";
 [_unit,"9JgKp_Insignia_Jaeger"] call BIS_fnc_setUnitInsignia;
