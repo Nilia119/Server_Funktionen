@@ -12,11 +12,11 @@
 //
 //	Example:
 //		[] call Nilia_fnc_Tropen
-//		[ this ] call Nilia_fnc_Tropen;
+//		[this] call Nilia_fnc_Tropen;
 //
-// stand 16.01.2023
-
-//if (!isServer) exitWith {};
+//
+//  Für ACE Medic siehe: https://github.com/acemod/ACE3/issues/6655
+//
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };
