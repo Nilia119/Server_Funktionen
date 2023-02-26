@@ -125,7 +125,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "APERSMine_Range_Mag","APERSTripMine_Wire_Mag","SLAMDirectionalMine_Wire_Mag","ATMine_Range_Mag","IEDUrbanSmall_Remote_Mag","IEDLandSmall_Remote_Mag","IEDUrbanBig_Remote_Mag",
 "IEDLandBig_Remote_Mag","ACE_salineIV_250","ACE_salineIV_500","ACE_surgicalKit","ACE_salineIV","ACE_RangeCard","immersion_pops_poppack","ACE_Chemlight_Shield","ACE_Cellphone",
 "ACE_UAVBattery","ACE_wirecutter","mgm_item_mre","ACE_NVG_GEN4","NVGogglesB_blk_F","NVGogglesB_grn_F","Laserdesignator_01_khk_F","Laserdesignator_03","Binocular","ACE_NVG_Wide",
-"ACE_RangeTable_82mm","kka3_ace_extension_Land_DrillAku_F","ACE_artilleryTable","ACE_Banana","ACE_Fortify","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_Vector",
+"ACE_RangeTable_82mm","kka3_ace_extension_Land_DrillAku_F","ACE_artilleryTable","ACE_Banana","ACE_Fortify","ACE_Vector","kat_bloodIV_O_N_250","kat_bloodIV_O_N_500","kat_EACA",
 "M40_Gas_mask_nbc_green_k3_d","M40_Gas_mask_nbc_green_k4_d","M40_Gas_mask_nbc_green_k2_d","M40_Gas_mask_nbc_green_k1_d","PBW_Brille_braun","PBW_Brille_gelb","PBW_Brille_schwarz",
 "PBW_RevisionF_klar","PBW_RevisionF_Dunkel","PBW_RevisionT_Klar","PBW_RevisionT_Dunkel","kka3_ace_extension_Land_Camping_Light_off_F","kka3_ace_extension_Land_CampingChair_V1_F",
 "kka3_ace_extension_Land_CampingTable_F","ACE_Can_Franta","ACE_Can_RedGull","ACE_Can_Spirit","ACE_MRE_CreamChickenSoup","ACE_MRE_CreamTomatoSoup","ACE_MRE_MeatballsPasta",
@@ -143,7 +143,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","ABP_Cocaine","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil",
 "kat_gasmaskFilter","kat_ketamine","kat_sealant","kat_clamp","kat_plate","kat_lidocaine","tsp_lockpick","kat_lorazepam","kat_nalbuphine","kat_ncdKit","ABP_Pervitin","kat_retractor",
 "kat_scalpel","kat_Pervitin","kat_Caffeine","PBW_DM12","tsp_frameCharge_mag","FlareTripMine_Wire_Mag","tsp_popperCharge_mag","tsp_popperCharge_auto_mag","tsp_stickCharge_mag",
-"tsp_stickCharge_auto_mag",
+"tsp_stickCharge_auto_mag","ACE_bodyBag","kat_vacuum",
 //Uniform
 "BWA3_Uniform_Tropen","BWA3_Uniform_tee_Tropen","BWA3_Uniform_sleeves_Tropen","BWA3_Uniform_Ghillie_Tropen","BWA3_Uniform_sleeves_Fleck","BWA3_Uniform_Fleck","BWA3_Uniform_sleeves_Fleck",
 "U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","BWA3_Uniform_Ghillie_Fleck","BWA3_Uniform_Tropen","W_BW2035_Uniform_Fleck1","W_BW2035_Uniform_Fleck",
@@ -159,6 +159,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_Carryall_Fleck","BWA3_PatrolPack_Fleck","BWA3_Kitbag_Fleck","BWA3_Kitbag_Fleck_Medic","BWA3_TacticalPack_Fleck","BWA3_TacticalPack_Fleck_Medic","ACREFR_rt1523g_big_bwmod",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_bwmod","TBW_Funk_Fleck","TBW_Funk_Tropen","B_LegStrapBag_coyote_F","B_LegStrapBag_black_F","B_LegStrapBag_olive_F",
 "BW2035_Backpack_Fleck_Tortilia_Arzt","BW2035_Backpack_Fleck_Tortilia","BW2035_Backpack_Tropen_Tortilia","BW2035_Backpack_Tropen_Tortilia_Arzt","BW2035_Backpack_San_Tortilia",
+"ACE_TacticalLadder_Pack",
 //Helme
 "BWA3_Booniehat_Tropen","BWA3_OpsCore_Tropen_Camera","BWA3_OpsCore_Tropen","BWA3_OpsCore_Tropen_Patch","BWA3_Beret_Jaeger","BWA3_Booniehat_Fleck","BWA3_OpsCore_Fleck",
 "BWA3_OpsCore_Fleck_Camera","BWA3_OpsCore_Fleck_Patch","PBW_muetze1_fleck","PBW_muetze2_fleck","PBW_muetze1_tropen","PBW_muetze2_tropen","PBW_Helm4_fleck","PBW_Helm4_fleck_HBO",
