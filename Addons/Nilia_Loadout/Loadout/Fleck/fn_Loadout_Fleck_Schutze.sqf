@@ -1,5 +1,5 @@
-if (!local _unit) exitWith {};
 private _unit = player;
+if (!local _unit) exitWith {};
 _unit setUnitLoadout (configFile >> "EmptyLoadout");
 // "Exported from Arsenal by [OberstLt.] Nilia";
 
