@@ -14,16 +14,13 @@
 //		[] call Nilia_fnc_Arsenal
 //		[ this ] call Nilia_fnc_Arsenal;
 //
-//Arsenal stand 13.08.2022
-//if (!isServer) exitWith { hint "Kein Server!" };
-
-//nicht Spawnbar
+//Arsenal stand 05.03.2023
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };
 
 
-[ _obj, 
+[ _obj,
 [
 //Waffen
 "hlc_rifle_G36VAG36","hlc_rifle_g3sg1ris","hlc_rifle_ACR68_full_black_grip","arifle_SPAR_03_blk_F","hlc_rifle_SG551LB_TAC","hlc_rifle_SG551LB_TAC_GL","hlc_rifle_awmagnum_FDE",
