@@ -141,7 +141,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "kat_lidocaine","kat_naloxone","kat_norepinephrine","kat_phenylephrine","KAT_Empty_bloodIV_500","KAT_Empty_bloodIV_250","Nilia_MedPanel","kat_Carbonate","rhs_googles_clear",
 "rhs_googles_orange","rhs_googles_black","rhs_googles_yellow","kat_AED","kat_bloodIV_O_N","kat_bloodIV_O_250_N","kat_bloodIV_O_500_N","ace_marker_flags_blue","ace_marker_flags_yellow",
 "ace_marker_flags_green","ace_marker_flags_purple","ace_marker_flags_orange","ace_marker_flags_red","ace_marker_flags_black","ace_marker_flags_white","MRH_FoldedSatcomAntenna",
-"ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","ABP_Cocaine","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil",
+"ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil",
 "kat_gasmaskFilter","kat_ketamine","kat_sealant","kat_clamp","kat_plate","kat_lidocaine","tsp_lockpick","kat_lorazepam","kat_nalbuphine","kat_ncdKit","ABP_Pervitin","kat_retractor",
 "kat_scalpel","kat_Pervitin","kat_Caffeine","PBW_DM12","tsp_frameCharge_mag","FlareTripMine_Wire_Mag","tsp_popperCharge_mag","tsp_popperCharge_auto_mag","tsp_stickCharge_mag",
 "tsp_stickCharge_auto_mag","ACE_bodyBag","kat_vacuum","diw_armor_plates_main_plate",
