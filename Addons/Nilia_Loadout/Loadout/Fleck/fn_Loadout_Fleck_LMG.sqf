@@ -52,7 +52,7 @@ _unit addItemToBackpack "kat_Pulseoximeter";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "100Rnd_65x39_caseless_black_mag_tracer";};
 _unit addItemToBackpack "ACE_SpareBarrel";
-_unit addHeadgear "PBW_Helm4_tropen_H";
+_unit addHeadgear "PBW_Helm4_fleck_H";
 _unit addGoggles "rhs_googles_clear";
 
 // "Add items";
