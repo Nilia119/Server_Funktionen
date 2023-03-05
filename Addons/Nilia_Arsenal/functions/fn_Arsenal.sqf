@@ -108,7 +108,8 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "greenmag_ammo_650x39_basic_60Rnd","greenmag_beltlinked_650x39_basic_100","greenmag_beltlinked_650x39_basic_150","greenmag_beltlinked_650x39_basic_200","greenmag_beltlinked_93x64_basic_50",
 "greenmag_beltlinked_650x39_basic_50","greenmag_ammo_762x39_basic_30Rnd","greenmag_ammo_762x39_basic_60Rnd","greenmag_ammo_762x51_basic_30Rnd","greenmag_ammo_762x51_basic_60Rnd",
 "greenmag_beltlinked_762x51_basic_100","greenmag_beltlinked_762x51_basic_150","greenmag_ammo_93x64_basic_30Rnd","greenmag_ammo_93x64_basic_60Rnd","greenmag_beltlinked_93x64_basic_100",
-"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd","hlc_30rnd_556x45_t_L5","130Rnd_338_Mag",
+"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd","hlc_30rnd_556x45_t_L5","130Rnd_338_Mag","7Rnd_408_Mag","WNZ_EMP408_Mag",
+"ace_7rnd_408_305gr_mag",
 //Granaten
 "Chemlight_blue","ACE_Chemlight_HiWhite","BWA3_DM32_Blue","B_IR_Grenade","BWA3_DM25","BWA3_DM51A1","ACE_HandFlare_White","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_HandFlare_Yellow",
 "BWA3_DM32_Purple","BWA3_DM32_Red","BWA3_DM32_Orange","BWA3_DM32_Yellow","BWA3_DM32_Green","ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed","BWA3_DM51A1",
