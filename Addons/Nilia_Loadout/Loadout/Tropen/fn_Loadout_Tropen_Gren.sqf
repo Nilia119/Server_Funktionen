@@ -54,6 +54,7 @@ _unit addItemToBackpack "ACE_salineIV";
 _unit addItemToBackpack "ACE_salineIV_250";
 _unit addItemToBackpack "kat_Pulseoximeter";
 _unit addItemToBackpack "BWA3_DM32_Green";
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_HuntIR_M203";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "rhs_mag_M433_HEDP";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_40mm_Flare_white";};
