@@ -41,3 +41,9 @@ endMission "END1";
 } else {
 systemChat "Du bist in der Kompanieführer Whitelist!";
 };
+
+//Destroy Variables
+
+_unit = nil;
+_WL = nil;
+_uid = nil;

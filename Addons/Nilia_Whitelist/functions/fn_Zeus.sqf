@@ -49,3 +49,9 @@ endMission "END1";
     systemChat "Du bist in der Zeus Whitelist!";
 };
 
+
+//Destroy Variables
+
+_unit = nil;
+_WL = nil;
+_uid = nil;

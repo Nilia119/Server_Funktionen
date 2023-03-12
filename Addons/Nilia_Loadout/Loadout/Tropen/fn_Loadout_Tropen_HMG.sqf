@@ -62,3 +62,6 @@ _unit linkItem "ItemWatch";
 
 // "Set identity";
 [_unit,"9JgKp_Insignia_Jaeger"] call BIS_fnc_setUnitInsignia;
+
+//Destroy Variables
+_unit = nil;
