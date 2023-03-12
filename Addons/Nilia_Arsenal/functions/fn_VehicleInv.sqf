@@ -43,7 +43,7 @@ _obj addItemCargoGlobal _x;
 ["greenmag_item_speedloader", 10], ["ACE_WaterBottle", 5], ["ACE_adenosine", 10], ["kat_larynx", 20], ["kat_guedel", 20], ["kat_accuvac", 1], ["kat_bloodIV_O_N", 15], ["KAT_Empty_bloodIV_500", 4],
 ["KAT_Empty_bloodIV_250", 4], ["kat_X_AED", 1], ["kat_crossPanel", 2], ["kat_IV_16", 20], ["kat_IO_FAST", 15], ["kat_naloxone", 10], ["kat_TXA", 20], ["kat_norepinephrine", 5], ["kat_phenylephrine", 5],
 ["kat_nitroglycerin", 5], ["kat_amiodarone", 20], ["kat_lidocaine", 20], ["kat_atropine", 20], ["kat_Pulseoximeter", 10], ["kat_chestSeal", 30], ["kat_aatKit", 30], ["kat_EACA", 20], ["kat_bloodIV_O_N_250", 15],
-["kat_bloodIV_O_N_500", 15], ["ABP_Cocaine", 5], ["kat_etomidate", 10], ["kat_fentanyl", 15], ["kat_flumazenil", 10], ["kat_clamp", 10], ["ACE_salineIV", 15], ["ACE_salineIV_250", 15], ["ACE_salineIV_500", 15],
+["kat_bloodIV_O_N_500", 15], ["kat_etomidate", 10], ["kat_fentanyl", 15], ["kat_flumazenil", 10], ["kat_clamp", 10], ["ACE_salineIV", 15], ["ACE_salineIV_250", 15], ["ACE_salineIV_500", 15],
 ["kat_lorazepam", 10], ["kat_nalbuphine", 20], ["kat_ketamine", 20], ["kat_plate", 20], ["kat_retractor", 10], ["kat_scalpel", 20], ["kat_vacuum", 15]];
 
 hint "Inventar wurde Geladen";
