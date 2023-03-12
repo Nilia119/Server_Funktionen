@@ -63,7 +63,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Red";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Purple";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Yellow";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Blue";};
-_unit addHeadgear "PBW_Helm4_tropen_HBOD";
+_unit addHeadgear "PBW_Helm4_fleck_HBOD";
 _unit addGoggles "rhs_googles_clear";
 
 // "Add items";
@@ -74,3 +74,6 @@ _unit linkItem "ItemcTab";
 
 // "Set identity";
 [_unit,"9JgKp_Insignia_Feldwebel"] call BIS_fnc_setUnitInsignia;
+
+//Destroy Variables
+_unit = nil;
