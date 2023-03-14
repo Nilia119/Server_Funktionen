@@ -61,7 +61,6 @@ comment "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
-_unit linkItem "ItemRadioAcreFlagged";
 
 comment "Set identity";
 [_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;
