@@ -14,7 +14,7 @@
 //		[] call Nilia_fnc_Arsenal
 //		[ this ] call Nilia_fnc_Arsenal;
 //
-//Arsenal stand 05.03.2023
+//Arsenal stand 14.03.2023
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };
@@ -134,13 +134,13 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "RyanZombiesAntiVirusCure_Item","RyanZombiesAntiVirusTemporary_Item","BW_Facepaint","dev_enzymeCapsule","dev_enzymeCapsule_refined","PapersPlease_PassportMilitary","kat_Pulseoximeter",
 "PapersPlease_PermitGeneric","greenmag_item_speedloader","Serbian_Facepaint","MRH_FoldedSatcomAntenna","MRH_TacticalDisplay","US_Facepaint","PapersPlease_PermitWeapons",
 "PapersPlease_PermitVehicle","JSHK_contam_mask_s10_fleck","JSHK_contam_mask_m04_fleck_hood","JSHK_contam_detector","ACE_Altimeter","kat_stethoscope","kat_crossPanel","kat_IV_16",
-"kat_TXA","kat_aatKit","kat_accuvac","kat_Painkiller","kat_chestSeal","kat_IO_FAST","kat_larynx","kat_nitroglycerin","kat_X_AED","kat_amiodarone","kat_atropine","kat_guedel",
-"kat_lidocaine","kat_naloxone","kat_norepinephrine","kat_phenylephrine","KAT_Empty_bloodIV_500","KAT_Empty_bloodIV_250","Nilia_MedPanel","kat_Carbonate","rhs_googles_clear",
+"kat_TXA","kat_aatKit","kat_accuvac","kat_PainkillerItem","kat_chestSeal","kat_IO_FAST","kat_larynx","kat_nitroglycerin","kat_X_AED","kat_amiodarone","kat_atropine","kat_guedel",
+"kat_lidocaine","kat_naloxone","kat_norepinephrine","kat_phenylephrine","KAT_Empty_bloodIV_500","KAT_Empty_bloodIV_250","Nilia_MedPanel","kat_CarbonateItem","rhs_googles_clear",
 "rhs_googles_orange","rhs_googles_black","rhs_googles_yellow","kat_AED","kat_bloodIV_O_N","kat_bloodIV_O_250_N","kat_bloodIV_O_500_N","ace_marker_flags_blue","ace_marker_flags_yellow",
 "ace_marker_flags_green","ace_marker_flags_purple","ace_marker_flags_orange","ace_marker_flags_red","ace_marker_flags_black","ace_marker_flags_white","MRH_FoldedSatcomAntenna",
 "ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil",
 "kat_gasmaskFilter","kat_ketamine","kat_sealant","kat_clamp","kat_plate","kat_lidocaine","tsp_lockpick","kat_lorazepam","kat_nalbuphine","kat_ncdKit","ABP_Pervitin","kat_retractor",
-"kat_scalpel","kat_Pervitin","kat_Caffeine","PBW_DM12","tsp_frameCharge_mag","FlareTripMine_Wire_Mag","tsp_popperCharge_mag","tsp_popperCharge_auto_mag","tsp_stickCharge_mag",
+"kat_scalpel","kat_PervitinItem","kat_CaffeineItem","PBW_DM12","tsp_frameCharge_mag","FlareTripMine_Wire_Mag","tsp_popperCharge_mag","tsp_popperCharge_auto_mag","tsp_stickCharge_mag",
 "tsp_stickCharge_auto_mag","ACE_bodyBag","kat_vacuum","diw_armor_plates_main_plate",
 //Uniform
 "BWA3_Uniform_Tropen","BWA3_Uniform_tee_Tropen","BWA3_Uniform_sleeves_Tropen","BWA3_Uniform_Ghillie_Tropen","BWA3_Uniform_sleeves_Fleck","BWA3_Uniform_Fleck","BWA3_Uniform_sleeves_Fleck",
@@ -150,7 +150,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_Vest_Leader_Tropen","BWA3_Vest_Grenadier_Tropen","BWA3_Vest_Medic_Tropen","BWA3_Vest_Rifleman_Tropen","BWA3_Vest_MachineGunner_Tropen","BWA3_Vest_Marksman_Tropen","BWA3_Vest_Fleck",
 "BWA3_Uniform_tee_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_MachineGunner_Fleck","BWA3_Vest_Medic_Fleck","BWA3_Vest_Rifleman_Fleck",
 "BWA3_Vest_Tropen","BWA3_Vest_JPC_Rifleman_Fleck","BWA3_Vest_JPC_Leader_Tropen","BWA3_Vest_JPC_Rifleman_Tropen","BWA3_Vest_JPC_Leader_Fleck","CUP_V_B_GER_Armatus_BB_Fleck",
-"CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop","CUP_V_B_GER_Armatus_BB_Trop",
+"CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop","CUP_V_B_GER_Armatus_BB_Trop","BWA3_Vest_Multi",
 //Rucksäcke
 "ACREFR_rt1523g_big_bwmod_tropen","BWA3_AssaultPack_Tropen","BWA3_Kitbag_Tropen_Medic","BWA3_Carryall_Tropen","BWA3_PatrolPack_Tropen","BWA3_AssaultPack_Tropen_Medic",
 "BWA3_FieldPack_tropen","BWA3_Kitbag_Tropen","BWA3_TacticalPack_Tropen","BWA3_TacticalPack_Tropen_Medic","BWA3_AssaultPack_Fleck","BWA3_AssaultPack_Fleck_Medic","BWA3_FieldPack_Fleck",
@@ -167,4 +167,8 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 
 ], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally
 
+/*
 hint "Arsenal wurde Geladen";
+sleep 5;
+hintSilent "";
+ */
