@@ -87,3 +87,6 @@ _unit linkItem "ItemcTab";
 
 comment "Set identity";
 [_unit,"9JgKp_Insignia_Unteroffizier"] call BIS_fnc_setUnitInsignia;
+
+//Destroy Variables
+_unit = nil;

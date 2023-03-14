@@ -64,4 +64,5 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadioAcreFlagged";
 
 comment "Set identity";
-[_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;
+[_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;//Destroy Variables
+_unit = nil;

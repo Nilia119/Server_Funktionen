@@ -79,3 +79,6 @@ _unit linkItem "ItemAndroid";
 
 // "Set identity";
 [_unit,"9JgKp_Insignia_Stabsunteroffizier"] call BIS_fnc_setUnitInsignia;
+
+//Destroy Variables
+_unit = nil;
