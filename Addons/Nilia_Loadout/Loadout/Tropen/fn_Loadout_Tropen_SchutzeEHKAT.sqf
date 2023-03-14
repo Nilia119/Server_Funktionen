@@ -1,8 +1,10 @@
 private _unit = player;
+if (!local _unit) exitWith {};
 _unit setUnitLoadout (configFile >> "EmptyLoadout");
-// "Exported from Arsenal by [OberstLt.] Nilia";
 
-comment "Add weapons";
+//"Exported from Arsenal by [OberstLt.] Nilia";
+
+// "Add weapons";
 _unit addWeapon "hlc_rifle_G36C";
 _unit addPrimaryWeaponItem "hlc_muzzle_SF3P_556";
 _unit addPrimaryWeaponItem "ACE_acc_pointer_green";
@@ -11,12 +13,12 @@ _unit addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
 _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
-comment "Add containers";
+// "Add containers";
 _unit forceAddUniform "BWA3_Uniform_Tropen";
 _unit addVest "BWA3_Vest_Medic_Tropen";
 _unit addBackpack "BWA3_Carryall_Tropen";
 
-comment "Add items to containers";
+// "Add items to containers";
 _unit addItemToUniform "ACE_MapTools";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_EarPlugs";};
 _unit addItemToUniform "ACE_Flashlight_XL50";
@@ -73,12 +75,12 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "kat_Carbonate";};
 _unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 
-comment "Add items";
+// "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 
-comment "Set identity";
+// "Set identity";
 [_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;
 
 //Destroy Variables
