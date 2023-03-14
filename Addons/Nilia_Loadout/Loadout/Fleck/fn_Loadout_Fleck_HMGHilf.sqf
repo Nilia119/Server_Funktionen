@@ -5,7 +5,7 @@ _unit setUnitLoadout (configFile >> "EmptyLoadout");
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
 // "Add weapons";
-_unit addWeapon "hlc_rifle_416D145_grip";
+_unit addWeapon "hlc_rifle_416D10_grip";
 _unit addPrimaryWeaponItem "hlc_muzzle_SF3P_556";
 _unit addPrimaryWeaponItem "ACE_acc_pointer_green";
 _unit addPrimaryWeaponItem "optic_Hamr";
