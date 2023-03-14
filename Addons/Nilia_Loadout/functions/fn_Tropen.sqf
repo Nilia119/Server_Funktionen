@@ -41,4 +41,8 @@ _obj addAction ["Loadout: Zugführung", Nilia_fnc_Loadout_Tropen_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Tropen_Spotter];
 _obj addAction ["Loadout: Scharfschütze", Nilia_fnc_Loadout_Tropen_Sniper];
 
+/*
 hint "Tropentarn Ausrüstung wurde Geladen";
+sleep 5;
+hintSilent ""; // hides the previous hint display
+ */
