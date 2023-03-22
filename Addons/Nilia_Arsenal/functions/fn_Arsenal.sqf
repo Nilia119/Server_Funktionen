@@ -12,7 +12,7 @@
 //
 //	Example:
 //		[] call Nilia_fnc_Arsenal
-//		[ this ] call Nilia_fnc_Arsenal;
+//		[this] call Nilia_fnc_Arsenal;
 //
 //Arsenal stand 14.03.2023
 
