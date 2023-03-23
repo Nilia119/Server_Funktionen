@@ -84,7 +84,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeYellow_Grenade_shell
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeBlue_Grenade_shell";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokePurple_Grenade_shell";};
-_unit addHeadgear "PBW_Helm4_tropen_HBOD";
+_unit addHeadgear "PBW_Helm4_fleck_HBOD";
 _unit addGoggles "rhs_googles_yellow";
 
 // "Add items";
