@@ -72,6 +72,7 @@ _unit addGoggles "rhs_googles_clear";
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
+_unit linkItem "ItemMicroDAGR";
 
 // "Set identity";
 [_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;
