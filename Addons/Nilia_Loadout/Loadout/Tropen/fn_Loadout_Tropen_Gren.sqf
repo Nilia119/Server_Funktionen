@@ -2,6 +2,10 @@ private _unit = player;
 if (!local _unit) exitWith {};
 _unit setUnitLoadout (configFile >> "EmptyLoadout");
 
+// Set ACRE Babble Language
+["en","gr","ru","ar"] call acre_api_fnc_babelSetSpokenLanguages;
+["en","gr","ru","ar"] call acre_api_fnc_babelSetSpeakingLanguage;
+
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
 // "Add weapons";
