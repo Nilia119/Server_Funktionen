@@ -18,6 +18,13 @@ class CfgFunctions {
             class Tropen {};
         };
 
+        class Nilia_Rank_Server_Functions
+        {
+            file="\Nilia_Loadout\Rank";
+
+            class SetRank {};
+        };
+
         class Nilia_Loadouts_Fleck_Server_Functions
         {
             //Path where script files can be found for all functions defined within this category
