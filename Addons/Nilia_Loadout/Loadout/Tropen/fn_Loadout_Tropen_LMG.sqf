@@ -11,6 +11,9 @@ _unit setVariable ["ACE_isEOD", false];              //Sprengstoff
 _unit setVariable ["ACE_isEngineer", 0, true];      //Pionier 0=0, 1=EOD, 2=Pionier "true" muss sein :O
 _unit setVariable ["ACE_medical_medicClass", 0];    //Medic 0=0, 1=Sani, 2=Arzt
 
+//hint
+systemChat "Tropentarn Ausrüstung: LMG-Schütze geladen!";
+
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
 // "Add weapons";
