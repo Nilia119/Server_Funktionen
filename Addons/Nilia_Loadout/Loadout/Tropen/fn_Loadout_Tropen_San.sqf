@@ -13,6 +13,7 @@ _unit setVariable ["ACE_medical_medicClass", 2];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
 systemChat "Tropentarn Ausrüstung: Sani geladen und Rechte (Arzt) gesetzt!";
+[_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
@@ -85,9 +86,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 _unit linkItem "ItemAndroid";
-
-// "Set identity";
-[_unit,"9JgKp_Insignia_Gefreiter"] call BIS_fnc_setUnitInsignia;
 
 //Destroy Variables
 _unit = nil;

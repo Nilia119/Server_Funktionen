@@ -11,6 +11,10 @@ _unit setVariable ["ACE_isEOD", true];              //Sprengstoff
 _unit setVariable ["ACE_isEngineer", 2, true];      //Pionier 0=0, 1=EOD, 2=Pionier "true" muss sein :O
 _unit setVariable ["ACE_medical_medicClass", 2];    //Medic 0=0, 1=Sani, 2=Arzt
 
+//hint
+systemChat "Tropentarn Ausrüstung: KpFhr geladen, sprachen konfiguriert und alle Rechte gesetzt!";
+[_unit] call Nilia_fnc_SetRank;
+
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
 // "Add weapons";
@@ -92,9 +96,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 _unit linkItem "ItemcTab";
-
-// "Set identity";
-[_unit,"9JgKp_Insignia_Hauptmann"] call BIS_fnc_setUnitInsignia;
 
 //Destroy Variables
 _unit = nil;

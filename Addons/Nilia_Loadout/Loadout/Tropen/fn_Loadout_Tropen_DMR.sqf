@@ -13,6 +13,7 @@ _unit setVariable ["ACE_medical_medicClass", 0];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
 systemChat "Tropentarn Ausrüstung: DMR-Schütze geladen!";
+[_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
@@ -77,9 +78,6 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 _unit linkItem "ItemMicroDAGR";
-
-// "Set identity";
-[_unit,"9JgKp_Insignia_Jaeger"] call BIS_fnc_setUnitInsignia;
 
 //Destroy Variables
 _unit = nil;
