@@ -46,8 +46,8 @@ systemChat "Du bist in der Kompanieführer Whitelist!";
 
 switch (_farbe) do {
 case "Fleck";
-case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout erfolgreich Geladen!";};
-default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout erfolgreich Geladen!";};
+case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout wird geladen...";};
+default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout wird geladen...";};
 };
 
 //Destroy Variables
