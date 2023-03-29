@@ -17,7 +17,7 @@
 //		[this] call Nilia_fnc_KpFhr;    oder:
 //
 //      Wenn über Init Gecalled:
-//      onPreloadFinished {[this, "Fleck"]call Nilia_fnc_KpFhr};
+//      onPreloadFinished {[this, "Fleck"]call Nilia_fnc_KpFhr; onPreloadFinished ""};
 //
 
 if (!hasInterface) exitWith {};

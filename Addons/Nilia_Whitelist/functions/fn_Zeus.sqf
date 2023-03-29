@@ -17,7 +17,7 @@
 //		[this] call Nilia_fnc_Zeus  oder:
 //
 //      Wenn über Init Gecalled:
-//      onPreloadFinished {[this, "Fleck"]call Nilia_fnc_Zeus};
+//      onPreloadFinished {[this, "Fleck"]call Nilia_fnc_Zeus; onPreloadFinished ""};
 
 if (!hasInterface) exitWith {};
 
