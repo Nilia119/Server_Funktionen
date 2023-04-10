@@ -20,6 +20,9 @@ if (!hasInterface) exitWith {};
 private _unit = player;
 private _name = name _unit;
 
+//Remove Insignia prior to Adding
+[_unit,""] call BIS_fnc_setUnitInsignia;
+
 switch (true) do {
     //Spieler mit eigenen Emblemen
     case ("Nilia" in _name): {[_unit,"9JgKp_Insignia_Nilia"] call BIS_fnc_setUnitInsignia; systemChat "Hey, Nilia!";};
