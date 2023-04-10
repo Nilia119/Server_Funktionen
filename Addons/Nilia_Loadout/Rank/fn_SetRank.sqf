@@ -76,5 +76,5 @@ switch (true) do {
     //Alle anderen
     case ("Lt." in _name): {[_unit,"9JgKp_Insignia_Leutnant"] call BIS_fnc_setUnitInsignia; systemChat "Du bist Leutnant!";};
     case ("Maj." in _name): {[_unit,"9JgKp_Insignia_Major"] call BIS_fnc_setUnitInsignia; systemChat "Du bist Major!";};
-    default {[_unit,"9JgKp_Insignia_Logo"] call BIS_fnc_setUnitInsignia; systemChat "Nahhh M8 du bist nichts!";};
+    default {[_unit,"9JgKp_Insignia_Logo"] call BIS_fnc_setUnitInsignia; systemChat "Dein Name enthält leider keinen Rangkürzel oder du bist nicht gelistet.";};
 };
