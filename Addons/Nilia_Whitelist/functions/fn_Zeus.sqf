@@ -30,23 +30,24 @@ _unit = player;
 
 if (! (local _unit)) exitWith {};
 
+private _future = time + 10;
+
 private _uid = getPlayerUID _unit;
 
 private _WL = [ "76561198088210593",	/* Nilia */
                 "76561198320063927",	/* Juggernaut */
-                "76561198329749528",	/* Itzz-_-Pat */
                 "76561198095074814",	/* EwL */
                 "76561198246422814",    /* Sam */
                 "76561198064961977",    /* Tom */
                 "76561198069023022",    /* Haasm1 */
                 "76561198258776107",    /* Lucky */
-                "76561198244175774",    /* Manuel */
                 "76561198271628215"     /* Stein */
                 ];
 
 
 if (!(_uid in _WL)) then {
 titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
+//waitUntil { time >= _future };
 endMission "END1";
 } else {
     systemChat "Du bist in der Zeus Whitelist!";
