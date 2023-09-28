@@ -32,6 +32,7 @@ class CfgFunctions {
             file="\Nilia_Loadout\Loadout\Fleck";
 
             //Name of file minus fn_ prefix. So fn_Arsenal.sqf
+            class Loadout_Fleck_Breacher {};
             class Loadout_Fleck_DMR {};
             class Loadout_Fleck_Gren {};
             class Loadout_Fleck_GrpFhr {};
@@ -59,6 +60,7 @@ class CfgFunctions {
             file="\Nilia_Loadout\Loadout\Tropen";
 
             //Name of file minus fn_ prefix. So fn_Arsenal.sqf
+            class Loadout_Tropen_Breacher {};
             class Loadout_Tropen_DMR {};
             class Loadout_Tropen_Gren {};
             class Loadout_Tropen_GrpFhr {};
