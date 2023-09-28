@@ -34,7 +34,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_G36A2_pip","BWA3_MP7","ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","SMG_03C_TR_camo","BWA3_RGW90","rhsusf_acc_rotex_mp7_aor1",
 "SMG_03C_TR_black","rhsusf_weap_MP7A2_folded","SMG_03C_TR_khaki","SMG_03C_TR_hex","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_folded_winter",
 "hlc_rifle_awmagnum_FDE_ghillie","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS","MMG_02_sand_F","MMG_02_black_F","hlc_pistol_Mk25TR","hlc_rifle_bcmblackjack","hlc_rifle_auga3_b",
-"hlc_rifle_auga3_bl","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM","hlc_rifle_honeybadger",
+"hlc_rifle_auga3_bl","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM","hlc_rifle_honeybadger","CUP_sgun_M1014_Entry_vfg",
 //Waffen Aufsätze
 "hlc_muzzle_SF3P_556","optic_Hamr","bipod_01_F_blk","BWA3_optic_EOTech_sand","hlc_muzzle_TiRant9","HLC_Optic_Romeo1_RX","HLC_optic_HP","HLC_optic_VTAC","HLC_optic_XS","optic_ACO_grn_smg",
 "HLC_optic_stavenhagen","ACE_muzzle_mzls_93mmg","bipod_02_F_tan","hlc_muzzle_Gunfighter_comp","HLC_Optic_G36Export35x","muzzle_snds_B","optic_LRPS","muzzle_snds_93mmg","optic_Aco_smg",
@@ -112,7 +112,11 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "hlc_20Rnd_762x51_barrier_SCARH","hlc_20Rnd_762x51_barrier_SCARH_MW2","hlc_20Rnd_762x51_barrier_SCARH_tan","hlc_20Rnd_762x51_S_SCARH","hlc_20Rnd_762x51_S_SCARH_MW2","hlc_20Rnd_762x51_T_SCARH",
 "hlc_20Rnd_762x51_S_SCARH_tan","hlc_20Rnd_762x51_T_SCARH_MW2","hlc_20Rnd_762x51_T_SCARH_tan","hlc_20Rnd_762x51_MDIM_SCARH_tan","hlc_20rnd_762x51_MDIM_SCARH","hlc_20Rnd_762x51_M_SCARH_camo",
 "hlc_20Rnd_762x51_M_SCARH_MW2","hlc_20Rnd_762x51_M_SCARH_tan","hlc_20Rnd_762x51_B_SCARH","hlc_20Rnd_762x51_B_SCARH_MW2","hlc_20Rnd_762x51_B_SCARH_Tan","hlc_20Rnd_762x51_TDim_SCARH",
-"hlc_20Rnd_762x51_TDIM_SCARH_MW2","hlc_20Rnd_762x51_TDim_SCARH_tan",
+"hlc_20Rnd_762x51_TDIM_SCARH_MW2","hlc_20Rnd_762x51_TDim_SCARH_tan","40xtra_6Rnd_12g_buckshottriball","40xtra_6Rnd_12g_buckshotSS","40xtra_6Rnd_12g_buckshotsg_softload",
+"40xtra_6Rnd_12g_buckshotsgm","40xtra_6Rnd_12g_buckshotsg","40xtra_6Rnd_12g_buckshotrs","40xtra_6Rnd_12g_buckshotmix_softload","40xtra_6Rnd_12g_buckshotmixm",
+"40xtra_6Rnd_12g_buckshotmix","40xtra_6Rnd_12g_buckshotmg_softload","40xtra_6Rnd_12g_buckshotmgm","40xtra_6Rnd_12g_buckshotmg","40xtra_6Rnd_12g_buckshotlg_softload",
+"40xtra_6Rnd_12g_buckshotlgm","40xtra_6Rnd_12g_buckshotlg","40xtra_6Rnd_12g_buckshotflec","40xtra_6Rnd_12g_buckshotbb","40xtra_6Rnd_12g_buckshotSpike","40xtra_6Rnd_12g_buckshotdb",
+"40xtra_6Rnd_12g_buckshotslug",
 //Granaten
 "Chemlight_blue","ACE_Chemlight_HiWhite","BWA3_DM32_Blue","B_IR_Grenade","BWA3_DM25","BWA3_DM51A1","ACE_HandFlare_White","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_HandFlare_Yellow",
 "BWA3_DM32_Purple","BWA3_DM32_Red","BWA3_DM32_Orange","BWA3_DM32_Yellow","BWA3_DM32_Green","ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed","BWA3_DM51A1",
