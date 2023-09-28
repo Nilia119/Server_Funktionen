@@ -19,6 +19,7 @@ params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };
 
 _obj addAction ["Setze Emblem", Nilia_fnc_SetRank];
+_obj addAction ["Loadout: Breacher", Nilia_fnc_Loadout_Tropen_Breacher];
 _obj addAction ["Loadout: DMR-Schütze", Nilia_fnc_Loadout_Tropen_DMR];
 _obj addAction ["Loadout: Gruppenführer", Nilia_fnc_Loadout_Tropen_GrpFhr];
 _obj addAction ["Loadout: Grenadier", Nilia_fnc_Loadout_Tropen_Gren];
