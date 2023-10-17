@@ -34,7 +34,6 @@ switch (true) do {
     case ("Paul" in _name): {[_unit,"9JgKp_Insignia_Paul"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Paul!";};
     case ("Toyo" in _name): {[_unit,"9JgKp_Insignia_Toyo"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Toyo!";};
     case ("Farid" in _name): {[_unit,"9JgKp_Insignia_Farid_Khaleel"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Farid!";};
-    case ("Haasm" in _name): {[_unit,"9JgKp_Insignia_Haasm"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Haasm!";};
     case ("Hotshrek" in _name): {[_unit,"9JgKp_Insignia_Hotshrek"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Hotshrek!";};
     case ("Manuel" in _name): {[_unit,"9JgKp_Insignia_Manuel"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Manuel!";};
     case ("Sam King" in _name): {[_unit,"9JgKp_Insignia_SamKing"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Sam!";};
