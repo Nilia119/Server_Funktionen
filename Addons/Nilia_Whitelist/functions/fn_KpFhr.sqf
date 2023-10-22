@@ -34,7 +34,9 @@ if (! (local _unit)) exitWith {};
 private _uid = getPlayerUID _unit;
 
 private _WL = ["76561198088210593", //Nilia
-               "76561198320063927"  //Juggernaut
+               "76561198320063927",  //Juggernaut
+               "76561198007555705",    /* Akahito */
+               "76561198006519428"      /* Olympus */
                ];
 
 if (!(_uid in _WL)) then {
