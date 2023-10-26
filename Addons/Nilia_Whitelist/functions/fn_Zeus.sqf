@@ -10,7 +10,7 @@
 //                  1: "Farbe" Des Loadouts, welches verwendet werden soll (wenn nichts angegeben, Tropentarn)
 //
 //	Returns:
-//		Strings
+//		Bool
 //
 //	Example:
 //      [this, "Fleck"] call Nilia_fnc_Zeus;
@@ -26,7 +26,6 @@ params [
 ["_farbe", "Tropen"]
 ];
 
-_unit = player;
 
 if (! (local _unit)) exitWith {};
 
