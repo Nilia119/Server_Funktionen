@@ -64,7 +64,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 _unit addItemToVest "B_IR_Grenade";
 _unit addItemToVest "BWA3_DM32_Blue";
-_unit addItemToVest "BWA3_DM51A1";
+_unit addItemToVest "rhs_mag_m67";
 for "_i" from 1 to 9 do {_unit addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 11 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_fieldDressing";};

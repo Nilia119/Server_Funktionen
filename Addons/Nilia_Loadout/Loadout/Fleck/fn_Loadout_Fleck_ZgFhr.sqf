@@ -61,7 +61,7 @@ _unit addItemToVest "ACE_HuntIR_monitor";
 _unit addItemToVest "ItemAndroid";
 _unit addItemToVest "ACE_surgicalKit";
 for "_i" from 1 to 3 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 5 do {_unit addItemToVest "hlc_30Rnd_556x45_SPR_sg550";};
 _unit addItemToVest "hlc_30Rnd_556x45_T_sg550";
 _unit addItemToBackpack "NVGogglesB_gry_F";

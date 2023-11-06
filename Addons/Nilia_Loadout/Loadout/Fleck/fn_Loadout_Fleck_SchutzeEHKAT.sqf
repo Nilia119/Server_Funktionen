@@ -41,7 +41,7 @@ for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_splint";};
 _unit addItemToUniform "ACE_salineIV_250";
 for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
-_unit addItemToUniform "ACRE_SEM52SL";
+_unit addItemToUniform "ACRE_PRC152";
 _unit addItemToUniform "BWA3_DM32_Blue";
 _unit addItemToVest "kat_stethoscope";
 _unit addItemToVest "kat_crossPanel";

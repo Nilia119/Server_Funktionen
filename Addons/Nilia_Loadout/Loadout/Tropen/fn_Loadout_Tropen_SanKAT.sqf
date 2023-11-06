@@ -64,7 +64,7 @@ for "_i" from 1 to 8 do {_unit addItemToVest "kat_scalpel";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACRE_PRC152";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 _unit addItemToVest "BWA3_DM32_Blue";
 for "_i" from 1 to 2 do {_unit addItemToVest "50Rnd_570x28_SMG_03_tracer_blue";};
 _unit addItemToBackpack "kat_X_AED";

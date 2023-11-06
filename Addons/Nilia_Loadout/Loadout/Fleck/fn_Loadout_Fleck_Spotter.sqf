@@ -57,7 +57,7 @@ _unit addItemToVest "ItemAndroid";
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "kat_chestSeal";
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
-_unit addItemToVest "BWA3_DM51A1";
+_unit addItemToVest "rhs_mag_m67";
 _unit addItemToVest "BWA3_DM32_Blue";
 _unit addItemToVest "hlc_12Rnd_357SIG_B_P226";
 for "_i" from 1 to 5 do {_unit addItemToVest "hlc_20rnd_762x51_T_G3";};
@@ -117,7 +117,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addItemToBackpack "kat_Caffeine";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Carbonate";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Painkiller";};
-_unit addItemToBackpack "BWA3_DM51A1";
+_unit addItemToBackpack "rhs_mag_m67";
 _unit addHeadgear "PBW_Helm4_fleck_H";
 _unit addGoggles "rhs_googles_clear";
 
