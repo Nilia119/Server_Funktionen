@@ -67,7 +67,7 @@ _unit addItemToBackpack "kat_Pulseoximeter";
 _unit addItemToBackpack "ACE_EntrenchingTool";
 _unit addItemToBackpack "ACE_salineIV_250";
 _unit addItemToBackpack "ACE_salineIV";
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "hlc_20rnd_762x51_T_G3";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "hlc_20rnd_762x51_IRDim_G3";};
 _unit addHeadgear "PBW_Helm4_tropen_H";

@@ -53,7 +53,7 @@ for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "kat_larynx";};
 _unit addItemToUniform "kat_Pulseoximeter";
 _unit addItemToUniform "ItemAndroid";
-_unit addItemToUniform "ACRE_SEM52SL";
+_unit addItemToUniform "ACRE_PRC152";
 for "_i" from 1 to 2 do {_unit addItemToUniform "Chemlight_blue";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_Chemlight_HiWhite";};
 _unit addItemToUniform "B_IR_Grenade";

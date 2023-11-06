@@ -113,7 +113,7 @@ for "_i" from 1 to 5 do {_unit addItemToBackpack "kat_chestSeal";};
 _unit addItemToBackpack "kat_stethoscope";
 _unit addItemToBackpack "kat_vacuum";
 _unit addItemToBackpack "ACE_surgicalKit";
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addItemToBackpack "kat_Caffeine";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Carbonate";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Painkiller";};

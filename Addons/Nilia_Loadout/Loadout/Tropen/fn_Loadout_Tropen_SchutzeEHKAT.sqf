@@ -82,7 +82,7 @@ for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 6 do {_unit addItemToBackpack "kat_IO_FAST";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "kat_amiodarone";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "kat_Pulseoximeter";};
-_unit addItemToBackpack "ACRE_SEM52SL";
+_unit addItemToBackpack "ACRE_PRC152";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Painkiller";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "kat_Carbonate";};
 _unit addHeadgear "PBW_Helm4_tropen_H";

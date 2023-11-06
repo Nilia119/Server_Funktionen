@@ -66,7 +66,7 @@ _unit addItemToBackpack "kat_guedel";
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_elasticBandage";};
 _unit addItemToBackpack "ACE_EntrenchingTool";
 _unit addItemToBackpack "ACE_salineIV_250";
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "MRAWS_HEAT_F";};
 _unit addItemToBackpack "MRAWS_HE_F";
 _unit addHeadgear "PBW_Helm4_tropen_H";

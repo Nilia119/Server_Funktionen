@@ -64,7 +64,7 @@ _unit addItemToBackpack "ACE_wirecutter";
 _unit addItemToBackpack "ACE_DefusalKit";
 _unit addItemToBackpack "ACE_M26_Clacker";
 _unit addItemToBackpack "ToolKit";
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addItemToBackpack "hlc_pistol_P226R_357Combat";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
 _unit addHeadgear "PBW_Helm4_fleck_H";

@@ -79,7 +79,7 @@ for "_i" from 1 to 8 do {_unit addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 6 do {_unit addItemToBackpack "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_elasticBandage";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addItemToBackpack "CUP_sgun_M1014_Entry_vfg";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "40xtra_6Rnd_12g_buckshotslug";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "tsp_frameCharge_mag";};

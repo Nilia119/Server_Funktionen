@@ -61,7 +61,7 @@ for "_i" from 1 to 8 do {_unit addItemToVest "kat_chestSeal";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_salineIV";};
 _unit addItemToVest "ACE_salineIV_250";
 for "_i" from 1 to 8 do {_unit addItemToVest "kat_scalpel";};
-for "_i" from 1 to 2 do {_unit addItemToVest "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToVest "ACRE_PRC152";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM51A1";};
