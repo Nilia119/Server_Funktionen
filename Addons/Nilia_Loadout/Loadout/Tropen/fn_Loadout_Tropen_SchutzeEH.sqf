@@ -54,7 +54,7 @@ _unit addItemToUniform "B_IR_Grenade";
 for "_i" from 1 to 3 do {_unit addItemToVest "ACE_salineIV_250";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 6 do {_unit addItemToVest "hlc_30rnd_556x45_SOST_L5";};
 for "_i" from 1 to 3 do {_unit addItemToVest "hlc_30rnd_556x45_t_L5";};
 _unit addItemToVest "BWA3_DM32_Blue";
@@ -70,7 +70,7 @@ for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 30 do {_unit addItemToBackpack "ACE_quikclot";};
 for "_i" from 1 to 30 do {_unit addItemToBackpack "ACE_packingBandage";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 

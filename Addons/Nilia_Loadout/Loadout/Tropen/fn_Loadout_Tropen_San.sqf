@@ -64,7 +64,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 _unit addItemToVest "B_IR_Grenade";
 _unit addItemToVest "BWA3_DM32_Blue";
-_unit addItemToVest "BWA3_DM51A1";
+_unit addItemToVest "rhs_mag_m67";
 for "_i" from 1 to 9 do {_unit addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 11 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_fieldDressing";};
@@ -77,7 +77,7 @@ for "_i" from 1 to 15 do {_unit addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 30 do {_unit addItemToBackpack "ACE_packingBandage";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_salineIV";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_SEM52SL";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 

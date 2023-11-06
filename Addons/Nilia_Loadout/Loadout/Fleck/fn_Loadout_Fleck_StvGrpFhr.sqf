@@ -56,7 +56,7 @@ _unit addItemToUniform "B_IR_Grenade";
 _unit addItemToUniform "hlc_30rnd_556x45_SOST_L5";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM51A1";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 _unit addItemToVest "BWA3_DM32_Blue";
 _unit addItemToVest "BWA3_DM32_Green";
 for "_i" from 1 to 6 do {_unit addItemToVest "hlc_30rnd_556x45_SOST_L5";};
@@ -80,7 +80,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";}
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokePurple_Grenade_shell";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "40xtra_1Rnd_40mm_msblue";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_m576";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 
