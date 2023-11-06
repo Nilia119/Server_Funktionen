@@ -66,7 +66,7 @@ for "_i" from 1 to 5 do {_unit addItemToVest "hlc_30Rnd_556x45_SPR_sg550";};
 _unit addItemToVest "hlc_30Rnd_556x45_T_sg550";
 _unit addItemToBackpack "NVGogglesB_gry_F";
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_salineIV_250";};
-_unit addItemToBackpack "BWA3_Beret_Jaeger";
+_unit addItemToBackpack "H_Barett_EuDeF";
 _unit addItemToBackpack "BWA3_G_Combat_clear";
 _unit addItemToBackpack "BWA3_G_Combat_black";
 _unit addItemToBackpack "BWA3_G_Combat_orange";

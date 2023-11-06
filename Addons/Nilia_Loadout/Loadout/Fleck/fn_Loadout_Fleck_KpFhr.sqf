@@ -71,7 +71,7 @@ _unit addItemToBackpack "NVGogglesB_gry_F";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_salineIV_250";};
 _unit addItemToBackpack "ACE_EntrenchingTool";
 _unit addItemToBackpack "kat_X_AED";
-_unit addItemToBackpack "BWA3_Beret_Jaeger";
+_unit addItemToBackpack "H_Barett_EuDeF";
 _unit addItemToBackpack "MRH_FoldedSatcomAntenna";
 _unit addItemToBackpack "MRH_TacticalDisplay";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "mgm_item_redgull";};
