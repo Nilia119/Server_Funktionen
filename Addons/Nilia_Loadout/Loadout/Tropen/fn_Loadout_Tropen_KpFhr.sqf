@@ -78,7 +78,7 @@ for "_i" from 1 to 4 do {_unit addItemToBackpack "mgm_item_redgull";};
 _unit addItemToBackpack "rhs_googles_orange";
 _unit addItemToBackpack "rhs_googles_black";
 _unit addItemToBackpack "rhs_googles_clear";
-_unit addItemToBackpack "ACRE_SEM70";
+_unit addItemToBackpack "ACRE_PRC117F";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM25";};
 for "_i" from 1 to 8 do {_unit addItemToBackpack "rhs_mag_M433_HEDP";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_Smoke_Grenade_shell";};

@@ -73,7 +73,7 @@ _unit addItemToBackpack "BWA3_G_Combat_orange";
 _unit addItemToBackpack "kat_X_AED";
 _unit addItemToBackpack "ACE_salineIV";
 _unit addItemToBackpack "kat_Pulseoximeter";
-_unit addItemToBackpack "ACRE_SEM70";
+_unit addItemToBackpack "ACRE_PRC117F";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM25";};
 for "_i" from 1 to 8 do {_unit addItemToBackpack "rhs_mag_M433_HEDP";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeBlue_Grenade_shell";};
