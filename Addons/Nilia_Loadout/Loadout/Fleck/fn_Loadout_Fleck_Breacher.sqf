@@ -12,7 +12,7 @@ _unit setVariable ["ACE_isEngineer", 1, true];      //Pionier 0=0, 1=EOD, 2=Pion
 _unit setVariable ["ACE_medical_medicClass", 1];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
-systemChat "Tropentarn Ausrüstung: Breacher wurde geladen!";
+systemChat "Flecktarn Ausrüstung: Breacher wurde geladen!";
 [_unit] call Nilia_fnc_SetRank;
 
 
