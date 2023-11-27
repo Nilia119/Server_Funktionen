@@ -27,7 +27,7 @@ _unit addPrimaryWeaponItem "hlc_grip_PMVFG_Black";
 _unit addWeapon "ACE_VMH3";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Tropen";
+_unit forceAddUniform "W_EUFOR_Uniform_Tropen";
 _unit addVest "BWA3_Vest_Rifleman_Tropen";
 _unit addBackpack "BWA3_Kitbag_Tropen";
 

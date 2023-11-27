@@ -27,9 +27,9 @@ _unit addHandgunItem "HLC_optic_ATT";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Tropen";
+_unit forceAddUniform "W_EUFOR_Uniform_Tropen";
 _unit addVest "BWA3_Vest_Medic_Tropen";
-_unit addBackpack "BW2035_Backpack_San_Tortilia";
+_unit addBackpack "EUFOR_Backpack_Tropen_Tortilia_Arzt";
 
 // "Add items to containers";
 for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_tourniquet";};

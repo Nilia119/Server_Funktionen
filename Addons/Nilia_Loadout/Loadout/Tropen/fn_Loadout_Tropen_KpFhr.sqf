@@ -29,7 +29,7 @@ _unit addHandgunItem "HLC_optic_ATT";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Tropen";
+_unit forceAddUniform "W_EUFOR_Uniform_Tropen";
 _unit addVest "BWA3_Vest_Leader_Tropen";
 _unit addBackpack "ACREFR_rt1523g_big_bwmod_tropen";
 

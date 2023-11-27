@@ -156,8 +156,8 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "ACE_bodyBag_white","ACE_suture","kat_Penthrox",
 //Uniform
 "BWA3_Uniform_Tropen","BWA3_Uniform_tee_Tropen","BWA3_Uniform_sleeves_Tropen","BWA3_Uniform_Ghillie_Tropen","BWA3_Uniform_sleeves_Fleck","BWA3_Uniform_Fleck","BWA3_Uniform_sleeves_Fleck",
-"U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","BWA3_Uniform_Ghillie_Fleck","BWA3_Uniform_Tropen","W_BW2035_Uniform_Fleck1","W_BW2035_Uniform_Fleck",
-"W_BW2035_Uniform_Fleck","W_BW2035_Uniform_Fleck1","W_BW2035_Uniform_Tropen",
+"U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","BWA3_Uniform_Ghillie_Fleck","BWA3_Uniform_Tropen","W_EUFOR_Uniform_Fleck1","W_EUFOR_Uniform_Fleck",
+"W_EUFOR_Uniform_Tropen",
 //Westen
 "BWA3_Vest_Leader_Tropen","BWA3_Vest_Grenadier_Tropen","BWA3_Vest_Medic_Tropen","BWA3_Vest_Rifleman_Tropen","BWA3_Vest_MachineGunner_Tropen","BWA3_Vest_Marksman_Tropen","BWA3_Vest_Fleck",
 "BWA3_Uniform_tee_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_MachineGunner_Fleck","BWA3_Vest_Medic_Fleck","BWA3_Vest_Rifleman_Fleck",
@@ -169,7 +169,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_FieldPack_tropen","BWA3_Kitbag_Tropen","BWA3_TacticalPack_Tropen","BWA3_TacticalPack_Tropen_Medic","BWA3_AssaultPack_Fleck","BWA3_AssaultPack_Fleck_Medic","BWA3_FieldPack_Fleck",
 "BWA3_PatrolPack_Fleck","BWA3_Kitbag_Fleck","BWA3_Kitbag_Fleck_Medic","BWA3_TacticalPack_Fleck","BWA3_TacticalPack_Fleck_Medic","ACREFR_rt1523g_big_bwmod",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_bwmod","B_LegStrapBag_coyote_F","B_LegStrapBag_black_F","B_LegStrapBag_olive_F",
-"BW2035_Backpack_Fleck_Tortilia_Arzt","BW2035_Backpack_Fleck_Tortilia","BW2035_Backpack_Tropen_Tortilia","BW2035_Backpack_Tropen_Tortilia_Arzt","BW2035_Backpack_San_Tortilia",
+"EUFOR_Backpack_Fleck_Tortilia_Arzt","EUFOR_Backpack_Fleck_Tortilia","EUFOR_Backpack_Tropen_Tortilia","EUFOR_Backpack_Tropen_Tortilia_Arzt","EUFOR_Backpack_San_Tortilia",
 "ACE_TacticalLadder_Pack",
 //NVGs
 "JAS_GPNVG18_blk","JAS_GPNVG18_Tan",

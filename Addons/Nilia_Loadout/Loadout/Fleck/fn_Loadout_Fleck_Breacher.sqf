@@ -29,9 +29,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_JHP_P226";
 
 //comment "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Fleck";
 _unit addVest "BWA3_Vest_Rifleman_Fleck";
-_unit addBackpack "BWA3_Carryall_Fleck";
+_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addBackpack "EUFOR_Backpack_Fleck_Tortilia";
 
 //comment "Add binoculars";
 _unit addWeapon "Rangefinder";
