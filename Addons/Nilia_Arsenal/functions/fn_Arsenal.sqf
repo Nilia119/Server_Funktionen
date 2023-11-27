@@ -163,7 +163,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_Uniform_tee_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck","BWA3_Vest_Marksman_Fleck","BWA3_Vest_MachineGunner_Fleck","BWA3_Vest_Medic_Fleck","BWA3_Vest_Rifleman_Fleck",
 "BWA3_Vest_Tropen","BWA3_Vest_JPC_Rifleman_Fleck","BWA3_Vest_JPC_Leader_Tropen","BWA3_Vest_JPC_Rifleman_Tropen","BWA3_Vest_JPC_Leader_Fleck","CUP_V_B_GER_Armatus_BB_Fleck",
 "CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop","CUP_V_B_GER_Armatus_BB_Trop","BWA3_Vest_Multi","pbw_splitter_zivil","pbw_splitter_schtz","pbw_splitter_sani","pbw_splitter_mg",
-"pbw_splitter_mg_h","pbw_splitter_grpfhr",
+"pbw_splitter_mg_h","pbw_splitter_grpfhr","V_Rangemaster_belt",
 //Rucksäcke
 "ACREFR_rt1523g_big_bwmod_tropen","BWA3_AssaultPack_Tropen","BWA3_Kitbag_Tropen_Medic","BWA3_PatrolPack_Tropen","BWA3_AssaultPack_Tropen_Medic",
 "BWA3_FieldPack_tropen","BWA3_Kitbag_Tropen","BWA3_TacticalPack_Tropen","BWA3_TacticalPack_Tropen_Medic","BWA3_AssaultPack_Fleck","BWA3_AssaultPack_Fleck_Medic","BWA3_FieldPack_Fleck",
