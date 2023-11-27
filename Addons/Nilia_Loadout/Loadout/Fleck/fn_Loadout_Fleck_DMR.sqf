@@ -26,9 +26,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit addBackpack "BWA3_AssaultPack_Fleck";
 _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
 _unit addVest "pbw_splitter_schtz";
+_unit addBackpack "EUFOR_Backpack_Fleck_Compact";
 
 // "Add binoculars";
 _unit addMagazine "Laserbatteries";

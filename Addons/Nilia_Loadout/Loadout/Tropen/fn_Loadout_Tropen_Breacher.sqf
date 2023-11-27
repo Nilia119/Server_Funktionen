@@ -31,7 +31,7 @@ _unit addHandgunItem "hlc_12Rnd_357SIG_JHP_P226";
 //comment "Add containers";
 _unit forceAddUniform "W_EUFOR_Uniform_Tropen";
 _unit addVest "BWA3_Vest_Rifleman_Tropen";
-_unit addBackpack "BWA3_Carryall_Tropen";
+_unit addBackpack "EUFOR_Backpack_Tropen_Tortilia";
 
 //comment "Add binoculars";
 _unit addWeapon "Rangefinder";

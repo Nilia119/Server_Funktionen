@@ -27,8 +27,8 @@ _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
 _unit forceAddUniform "U_B_FullGhillie_lsh";
-_unit addBackpack "BWA3_Kitbag_Fleck";
 _unit addVest "pbw_splitter_zivil";
+_unit addBackpack "EUFOR_Backpack_Fleck_Tortilia";
 
 // "Add binoculars";
 _unit addWeapon "ACE_Vector";
