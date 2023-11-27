@@ -28,9 +28,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit addVest "BWA3_Vest_Medic_Fleck";
 _unit addBackpack "BWA3_Kitbag_Fleck_Medic";
 _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_sani";
 
 // "Add items to containers";
 for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_tourniquet";};

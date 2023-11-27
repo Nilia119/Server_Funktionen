@@ -29,8 +29,8 @@ _unit addHandgunItem "HLC_optic_ATT";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit addVest "BWA3_Vest_Medic_Fleck";
 _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_sani";
 _unit addBackpack "EUFOR_Backpack_Fleck_Tortilia_Arzt";
 
 // "Add items to containers";

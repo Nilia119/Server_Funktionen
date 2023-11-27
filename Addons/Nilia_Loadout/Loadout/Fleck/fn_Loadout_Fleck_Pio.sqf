@@ -27,9 +27,9 @@ _unit addPrimaryWeaponItem "hlc_grip_PMVFG_Black";
 _unit addWeapon "ACE_VMH3";
 
 // "Add containers";
-_unit addVest "BWA3_Vest_Rifleman_Fleck";
 _unit addBackpack "BWA3_Kitbag_Fleck";
 _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_schtz";
 
 // "Add items to containers";
 for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_tourniquet";};

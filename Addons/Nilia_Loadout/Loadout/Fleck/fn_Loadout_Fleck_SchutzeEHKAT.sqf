@@ -28,8 +28,8 @@ _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
 _unit forceAddUniform "BWA3_Uniform_Fleck";
-_unit addVest "BWA3_Vest_Medic_Fleck";
 _unit addBackpack "BWA3_Carryall_Fleck";
+_unit addVest "pbw_splitter_sani";
 
 // "Add items to containers";
 _unit addItemToUniform "ACE_MapTools";
