@@ -69,7 +69,7 @@ _unit addItemToBackpack "kat_Pulseoximeter";
 _unit addItemToBackpack "BWA3_DM32_Green";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_HuntIR_M203";};
-for "_i" from 1 to 10 do {_unit addItemToBackpack "rhs_mag_M433_HEDP";};
+for "_i" from 1 to 12 do {_unit addItemToBackpack "rhs_mag_M433_HEDP";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_40mm_Flare_white";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeBlue_Grenade_shell";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeYellow_Grenade_shell";};
@@ -79,7 +79,6 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";}
 for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_SmokePurple_Grenade_shell";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "40xtra_1Rnd_40mm_msblue";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_m576";};
 _unit addHeadgear "PBW_Helm4_tropen_H";
 _unit addGoggles "rhs_googles_clear";
 
