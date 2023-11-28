@@ -28,9 +28,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Tropen";
+_unit forceAddUniform "W_EUFOR_Uniform_Tropen";
 _unit addVest "BWA3_Vest_MachineGunner_Tropen";
-_unit addBackpack "BWA3_AssaultPack_Tropen";
+_unit addBackpack "EUFOR_Backpack_Tropen_Tortilia";
 
 // "Add binoculars";
 _unit addWeapon "Binocular";

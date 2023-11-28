@@ -11,7 +11,6 @@
 //		BOOLEAN
 //
 //	Example:
-//		[] call Nilia_fnc_Vehicle
 //		[this] call Nilia_fnc_VehicleInv;
 //
 //Inventar stand 13.08.2022
@@ -28,13 +27,13 @@ clearBackpackCargoGlobal _obj;
 
 {
 _obj addWeaponCargoGlobal _x;
-} forEach [["hlc_rifle_G36C", 5]];
+} forEach [["hlc_rifle_416D10", 5]];
 
 {
 _obj addMagazineCargoGlobal _x;
-} forEach [["hlc_30rnd_556x45_Tracers_G36", 40], ["hlc_30rnd_556x45_M_G36", 40], ["hlc_20rnd_762x51_MDim_G3", 10], ["MRAWS_HEAT_F", 5], ["MRAWS_HE_F", 5],
-["BWA3_DM25", 10], ["BWA3_DM32_Blue", 10], ["B_IR_Grenade", 10], ["Laserbatteries", 2], ["MAA_MAAWS_MT756", 5], ["MAA_MAAWS_ILLUM545", 2], ["MAA_MAAWS_SMOKE469", 2],
-["MAA_MAAWS_HE441_AB250", 2], ["kat_Carbonate", 10], ["kat_Painkiller", 10], ["PBW_DM51A1_Frag", 10]];
+} forEach [["hlc_30rnd_556x45_t_L5", 15], ["hlc_30rnd_556x45_SOST_L5", 15], ["hlc_20rnd_762x51_MDim_G3", 10],["MRAWS_HEAT_F", 5],
+           ["MRAWS_HE_F", 5],["BWA3_DM25", 10], ["BWA3_DM32_Blue", 10], ["B_IR_Grenade", 10], ["Laserbatteries", 2], ["MAA_MAAWS_MT756", 5], ["MAA_MAAWS_ILLUM545", 2],
+           ["MAA_MAAWS_SMOKE469", 2], ["MAA_MAAWS_HE441_AB250", 2], ["kat_Carbonate", 10], ["kat_Painkiller", 10], ["rhs_mag_m67", 10]];
 
 {
 _obj addItemCargoGlobal _x;

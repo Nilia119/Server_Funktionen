@@ -12,31 +12,31 @@ _unit setVariable ["ACE_isEngineer", 0, true];      //Pionier 0=0, 1=EOD, 2=Pion
 _unit setVariable ["ACE_medical_medicClass", 1];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
-systemChat "Flecktarn Ausrüstung: Pionier geladen und Rechte (Sani) gesetzt!";
+systemChat "Flecktarn Ausrüstung: Schütze-EH geladen und Rechte (Sani) gesetzt!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
 
 // "Add weapons";
-_unit addWeapon "hlc_rifle_G36C";
+_unit addWeapon "hlc_rifle_416D10";
 _unit addPrimaryWeaponItem "hlc_muzzle_SF3P_556";
 _unit addPrimaryWeaponItem "ACE_acc_pointer_green";
 _unit addPrimaryWeaponItem "optic_Hamr";
-_unit addPrimaryWeaponItem "hlc_30rnd_556x45_EPR_G36";
+_unit addPrimaryWeaponItem "hlc_30rnd_556x45_SOST_L5";
+_unit addPrimaryWeaponItem "hlc_grip_PMVFG_Black";
 _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "BWA3_Uniform_Fleck";
-_unit addVest "BWA3_Vest_Medic_Fleck";
-_unit addBackpack "BWA3_Carryall_Fleck";
+_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_sani";
+_unit addBackpack "EUFOR_Backpack_Fleck_Tortilia";
 
 // "Add items to containers";
 _unit addItemToUniform "ACE_MapTools";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_EarPlugs";};
 _unit addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
-_unit addItemToUniform "Nilia_MedPanel";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_splint";};
 _unit addItemToUniform "ACE_salineIV_250";
@@ -54,14 +54,14 @@ for "_i" from 1 to 12 do {_unit addItemToVest "kat_TXA";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_morphine";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_adenosine";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
-for "_i" from 1 to 2 do {_unit addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
-for "_i" from 1 to 2 do {_unit addItemToVest "hlc_30rnd_556x45_EPR_G36";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 _unit addItemToVest "B_IR_Grenade";
 _unit addItemToVest "BWA3_DM32_Blue";
 _unit addItemToVest "kat_Painkiller";
+for "_i" from 1 to 2 do {_unit addItemToVest "hlc_30rnd_556x45_t_L5";};
+for "_i" from 1 to 2 do {_unit addItemToVest "hlc_30rnd_556x45_SOST";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "kat_chestSeal";};
 for "_i" from 1 to 12 do {_unit addItemToBackpack "kat_larynx";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "kat_aatKit";};

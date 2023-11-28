@@ -31,16 +31,19 @@ _unit = player;
 
 if (! (local _unit)) exitWith {};
 
+private _future = time + 10;
+
 private _uid = getPlayerUID _unit;
 
 private _WL = ["76561198088210593", //Nilia
                "76561198320063927",  //Juggernaut
-               "76561198007555705",    /* Akahito */
+               "76561198007555705",   /* Akahito */
                "76561198006519428"      /* Olympus */
                ];
 
 if (!(_uid in _WL)) then {
 titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
+waitUntil { time >= _future };
 endMission "END1";
 } else {
 systemChat "Du bist in der Kompanieführer Whitelist!";

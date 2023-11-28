@@ -12,7 +12,7 @@ _unit setVariable ["ACE_isEngineer", 1, true];      //Pionier 0=0, 1=EOD, 2=Pion
 _unit setVariable ["ACE_medical_medicClass", 1];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
-systemChat "Tropentarn Ausrüstung: Breacher wurde geladen!";
+systemChat "Flecktarn Ausrüstung: Breacher wurde geladen!";
 [_unit] call Nilia_fnc_SetRank;
 
 
@@ -29,9 +29,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_JHP_P226";
 
 //comment "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Fleck";
-_unit addVest "BWA3_Vest_Rifleman_Fleck";
-_unit addBackpack "BWA3_Carryall_Fleck";
+_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_schtz";
+_unit addBackpack "EUFOR_Backpack_Fleck_Tortilia";
 
 //comment "Add binoculars";
 _unit addWeapon "Rangefinder";

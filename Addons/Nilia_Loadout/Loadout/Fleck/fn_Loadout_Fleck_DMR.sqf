@@ -26,9 +26,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_BW2035_Uniform_Fleck";
-_unit addVest "BWA3_Vest_Marksman_Fleck";
-_unit addBackpack "BWA3_AssaultPack_Fleck";
+_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_schtz";
+_unit addBackpack "EUFOR_Backpack_Fleck_Compact";
 
 // "Add binoculars";
 _unit addMagazine "Laserbatteries";
@@ -49,8 +49,7 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_epinephrine";};
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "kat_larynx";};
 _unit addItemToUniform "ItemcTabHCam";
-_unit addItemToUniform "ACE_RangeCard";
-_unit addItemToUniform "ACE_Kestrel4500";
+_unit addItemToUniform "ACE_RangeCard";;
 for "_i" from 1 to 2 do {_unit addItemToUniform "Chemlight_blue";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_Chemlight_HiWhite";};
 _unit addItemToUniform "B_IR_Grenade";

@@ -14,5 +14,5 @@ tooltipOwned = "Server Scripte"; //Tooltip when mod icon is moused over in main 
 name = "Server Scripte"; //Full name of the mod
 overview = "Serverside Mod mit Scripten"; //Description of the mod displayed in the "DLC" page of the main menu
 actionName = "Github";
-action = "https://github.com/Nilia119/BW2035"; //Link to take people to from "Website" button
+action = "https://github.com/Nilia119/EUFOR"; //Link to take people to from "Website" button
 author = "[9.JgKp] Nilia";
