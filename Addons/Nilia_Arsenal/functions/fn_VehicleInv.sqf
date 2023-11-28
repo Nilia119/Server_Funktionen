@@ -11,8 +11,7 @@
 //		BOOLEAN
 //
 //	Example:
-//		[] call Nilia_fnc_Vehicle
-//		[_unit] call Nilia_fnc_VehicleInv;
+//		[this] call Nilia_fnc_VehicleInv;
 //
 //Inventar stand 13.08.2022
 
