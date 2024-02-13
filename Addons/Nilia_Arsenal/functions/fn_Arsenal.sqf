@@ -33,7 +33,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_STG58F","hgun_esd_01_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_MXC_Black_F","arifle_MX_SW_Black_F","BWA3_G28",
 "ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","SMG_03C_TR_camo","BWA3_RGW90","rhsusf_acc_rotex_mp7_aor1","hlc_rifle_falosw_grip",
 "SMG_03C_TR_black","rhsusf_weap_MP7A2_folded","rhsusf_weap_MP7A2","SMG_03C_TR_khaki","SMG_03C_TR_hex","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded","rhs_weap_rsp30_green",
-"rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_folded_winter","rhsusf_weap_MP7A2_winter","hlc_mp510_tac","hlc_smg_mp510","hlc_rifle_osw_GL","rhs_weap_rpg7"
+"rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_folded_winter","rhsusf_weap_MP7A2_winter","hlc_mp510_tac","hlc_smg_mp510","hlc_rifle_osw_GL","rhs_weap_rpg7",
 "hlc_rifle_awmagnum_FDE_ghillie","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS","MMG_02_sand_F","MMG_02_black_F","hlc_pistol_Mk25TR","hlc_rifle_bcmblackjack","hlc_rifle_auga3_b","rhs_weap_svdp",
 "hlc_rifle_auga3_bl","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM","hlc_rifle_honeybadger","CUP_sgun_M1014_Entry_vfg","rhs_weap_m240B",
 "HLC_Rifle_XM8_MWSF_Carbine_GL","hlc_rifle_bcmblackjack","HLC_Rifle_XM8_MWSF_Carbine","CUP_arifle_L85A2_NG","arifle_Katiba_F","arifle_Katiba_GL_F","arifle_Katiba_C_F","arifle_AK12U_F",
