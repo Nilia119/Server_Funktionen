@@ -30,6 +30,7 @@ class CfgFunctions {
             file="\Nilia_Loadout\Loadout\Allgemein";
 
             class Loadout_Allgemein_HeliPilot {};
+            class Loadout_Allgemein_JetPilot {};
         };
 
         class Nilia_Loadouts_Fleck_Server_Functions

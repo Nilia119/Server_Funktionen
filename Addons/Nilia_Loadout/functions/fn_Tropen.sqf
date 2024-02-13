@@ -39,6 +39,7 @@ _obj addAction ["Loadout: Kompanieführung", Nilia_fnc_Loadout_Tropen_KpFhr];
 _obj addAction ["Loadout: Zugführung", Nilia_fnc_Loadout_Tropen_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Tropen_Spotter];
 _obj addAction ["Loadout: Scharfschütze", Nilia_fnc_Loadout_Tropen_Sniper];
+_obj addAction ["Loadout: Jet Pilot", Nilia_fnc_Loadout_Allgemein_JetPilot];
 _obj addAction ["Loadout: Helikopter Pilot", Nilia_fnc_Loadout_Allgemein_HeliPilot];
 
 /*
