@@ -25,6 +25,13 @@ class CfgFunctions {
             class SetRank {};
         };
 
+        class Nilia_Loadouts_Allgemein_Server_Functions
+        {
+            file="\Nilia_Loadout\Loadout\Allgemein";
+
+            class Loadout_Allgemein_HeliPilot {};
+        };
+
         class Nilia_Loadouts_Fleck_Server_Functions
         {
             //Path where script files can be found for all functions defined within this category

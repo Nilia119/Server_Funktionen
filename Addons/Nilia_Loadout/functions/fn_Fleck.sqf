@@ -40,6 +40,7 @@ _obj addAction ["Loadout: Kompanieführung", Nilia_fnc_Loadout_Fleck_KpFhr];
 _obj addAction ["Loadout: Zugführung", Nilia_fnc_Loadout_Fleck_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Fleck_Spotter];
 _obj addAction ["Loadout: Scharfschütze", Nilia_fnc_Loadout_Fleck_Sniper];
+_obj addAction ["Loadout: Helikopter Pilot", Nilia_fnc_Loadout_Allgemein_HeliPilot];
 
 /*
 hint "Flecktarn Ausrüstung wurde Geladen";
