@@ -1,8 +1,8 @@
 //
-//	Author: [9.JgKp]Nilia
+//	Author: [EuDef]Nilia
 //
 //	Description:
-//		Script zum Hinzufügen des Limitierten ACE Arsenals auf unserem Server
+//		Script zum Hinzufügen des Limitierten ACE Arsenals auf unserem Server ohne Waffen
 //
 //	Parameter(s):
 //                  0: Name des Objektes auf das das Arsenal angewendet werden soll
@@ -11,8 +11,8 @@
 //		BOOLEAN
 //
 //	Example:
-//		[] call Nilia_fnc_Arsenal
-//		[this] call Nilia_fnc_Arsenal;
+//		[] call Nilia_fnc_Arsenal_Basis
+//		[this] call Nilia_fnc_Arsenal_Basis;
 //
 //Arsenal stand 11.02.2024
 
@@ -23,43 +23,27 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 [ _obj,
 [
 //Waffen
-"hlc_rifle_G36VAG36","hlc_rifle_g3sg1ris","hlc_rifle_ACR68_full_black_grip","arifle_SPAR_03_blk_F","hlc_rifle_SG551LB_TAC","hlc_rifle_SG551LB_TAC_GL","hlc_rifle_awmagnum_FDE",
-"hlc_rifle_ACR_SBR_black_grip3","hlc_rifle_ACR_GL_SBR_black","hlc_rifle_M27IAR","hlc_rifle_mk18mod0","srifle_DMR_07_blk_F","hlc_wp_SCARH_CQC_EGLM_Blk","hlc_WP_SCARH_DMR",
-"ACE_VMH3","hlc_rifle_awcovert","hlc_rifle_awmagnum","hlc_rifle_awMagnum_OD_ghillie","srifle_GM6_F","srifle_LRR_F","launch_MRAWS_green_F","launch_MRAWS_olive_F","rhs_weap_fim92",
-"hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","arifle_MX_Black_F","hlc_pistol_P226R_357Combat","hlc_rifle_G36V","launch_MRAWS_sand_F","hlc_rifle_416D145_gl",
-"hlc_rifle_auga2lsw","hlc_rifle_RU5562","hlc_rifle_ACR_GL_Carb_tan","hlc_rifle_m4m203","rhs_weap_fim92","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_Colt727_GL","hlc_rifle_416D145",
-"hlc_rifle_CQBR","MMG_01_tan_F","HLC_Rifle_g3ka4_GL","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","srifle_DMR_05_blk_F","hlc_rifle_g3a3vris","srifle_DMR_05_tan_f","hlc_rifle_BAB",
-"hlc_rifle_416D165","hlc_rifle_416D10","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","hlc_rifle_hk53RAS","hlc_m249_SQuantoon","hlc_m249_pip3","hlc_rifle_M14dmr_Rail","hlc_lmg_MG3KWS_b",
-"hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_STG58F","hgun_esd_01_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_MXC_Black_F","arifle_MX_SW_Black_F","BWA3_G28",
-"ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","SMG_03C_TR_camo","BWA3_RGW90","rhsusf_acc_rotex_mp7_aor1","hlc_rifle_falosw_grip",
-"SMG_03C_TR_black","rhsusf_weap_MP7A2_folded","rhsusf_weap_MP7A2","SMG_03C_TR_khaki","SMG_03C_TR_hex","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded","rhs_weap_rsp30_green",
-"rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_folded_winter","rhsusf_weap_MP7A2_winter","hlc_mp510_tac","hlc_smg_mp510","hlc_rifle_osw_GL","rhs_weap_rpg7",
-"hlc_rifle_awmagnum_FDE_ghillie","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS","MMG_02_sand_F","MMG_02_black_F","hlc_pistol_Mk25TR","hlc_rifle_bcmblackjack","hlc_rifle_auga3_b","rhs_weap_svdp",
-"hlc_rifle_auga3_bl","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM","hlc_rifle_honeybadger","CUP_sgun_M1014_Entry_vfg","rhs_weap_m240B",
-"HLC_Rifle_XM8_MWSF_Carbine_GL","hlc_rifle_bcmblackjack","HLC_Rifle_XM8_MWSF_Carbine","CUP_arifle_L85A2_NG","arifle_Katiba_F","arifle_Katiba_GL_F","arifle_Katiba_C_F","arifle_AK12U_F",
-"HLC_rifle_XM8_MWSF_DMAR_Grip","hlc_rifle_XM8_MWSF_Compact","CUP_Famas_F1_Rail","arifle_Mk20_plain_F","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","arifle_Mk20_GL_plain_F",
-"arifle_Mk20C_plain_F","arifle_TRG20_F","arifle_TRG21_GL_F","arifle_TRG21_F","hlc_lmg_M60E4","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2","srifle_DMR_02_F",
-"rhs_weap_ak105","arifle_AK12_F","arifle_AK12_GL_F",
+
 //Waffen Aufsätze
 "hlc_muzzle_SF3P_556","optic_Hamr","bipod_01_F_blk","BWA3_optic_EOTech_sand","hlc_muzzle_TiRant9","HLC_Optic_Romeo1_RX","HLC_optic_HP","HLC_optic_VTAC","HLC_optic_XS","optic_ACO_grn_smg",
 "HLC_optic_stavenhagen","ACE_muzzle_mzls_93mmg","bipod_02_F_tan","hlc_muzzle_Gunfighter_comp","HLC_Optic_G36Export35x","muzzle_snds_B","optic_LRPS","muzzle_snds_93mmg","optic_Aco_smg",
 "muzzle_snds_93mmg_tan","HLC_Optic_G36dualoptic35x","bwa3_acc_varioray_laser_black","optic_AMS","optic_AMS_khk","optic_AMS_snd","rhsusf_acc_ACOG_MDO","rhsusf_acc_su230a_mrds",
 "hlc_optic_HensoldtZO_lo_Docter_2D","hlc_optic_HensoldtZO_lo_Docter","hlc_optic_HensoldtZO_Hi_Docter_2D","acc_pointer_IR","hlc_muzzle_KX3_comp","hlc_optic_ATACR_Offset","bipod_01_F_khk",
-"hlc_muzzle_300blk_KAC","hlc_muzzle_SF3P_762","rhsusf_acc_SF3P556","HLC_Optic_Docter_CADEX","HLC_optic_Siglite","optic_ERCO_blk_F","ACE_acc_pointer_green","rhs_acc_2dpZenit","rhs_acc_tgpa",
-"optic_Holosight_blk_F","BWA3_optic_CompM2","hlc_optic_HensoldtZO_lo_Docter","hlc_muzzle_556NATO_KAC","HLC_optic_ATT","BWA3_optic_ZO4x30_RSAS_pip","rhs_acc_pso1m2_ak",
+"hlc_muzzle_300blk_KAC","hlc_muzzle_SF3P_762","rhsusf_acc_SF3P556","HLC_Optic_Docter_CADEX","HLC_optic_Siglite","optic_ERCO_blk_F","ACE_acc_pointer_green","rhs_acc_tgpv2",
+"optic_Holosight_blk_F","BWA3_optic_CompM2","hlc_optic_HensoldtZO_lo_Docter","hlc_muzzle_556NATO_KAC","HLC_optic_ATT","BWA3_optic_ZO4x30_RSAS_pip","rhs_acc_2dpZenit","rhs_acc_tgpa",
 "ACE_muzzle_mzls_smg_02","ACE_muzzle_mzls_B","ACE_muzzle_mzls_H","ACE_muzzle_mzls_L","ACE_muzzle_mzls_smg_01","ACE_muzzle_mzls_338","muzzle_snds_B_khk_F","muzzle_snds_B_snd_F",
 "HLC_Optic_G36Dualoptic15x","HLC_Optic_G36Dualoptic15x2d","HLC_Optic_G36dualoptic35x2d","hlc_optic_HensoldtZO_Hi_Docter","BWA3_optic_CompM2_tan","BWA3_optic_CompM2_green","bipod_01_F_snd",
 "optic_Arco_blk_F","optic_Arco","BWA3_optic_EOTech552","BWA3_optic_EOTech552_tan","optic_Hamr_khk_F","optic_ERCO_khk_F","optic_ERCO_snd_F","HLC_Optic_G36dualoptic35x2d","bipod_01_F_mtp",
-"HLC_Optic_G36dualoptic35x","HLC_Optic_G36Dualoptic15x2d","HLC_Optic_G36Dualoptic15x","HLC_Optic_G36Export15x","HLC_Optic_G36Export15x2d","HLC_Optic_G36Export35x",
+"HLC_Optic_G36dualoptic35x","HLC_Optic_G36Dualoptic15x2d","HLC_Optic_G36Dualoptic15x","HLC_Optic_G36Export15x","HLC_Optic_G36Export15x2d","HLC_Optic_G36Export35x","rhs_acc_pgs64",
 "HLC_Optic_G36Export35x2d","ACE_muzzle_mzls_H","rhsusf_acc_anpeq15side_bk","BWA3_optic_PMII_DMR_MicroT1_front","HLC_bipod_UTGShooters","muzzle_antenna_03_f","muzzle_antenna_01_f",
-"optic_NVS","optic_Nightstalker","BWA3_optic_M5Xi_Tremor3_MicroT2_pip","BWA3_optic_M5Xi_MSR_pip","muzzle_snds_H","BWA3_optic_NSV80","BWA3_optic_NSV600","rhs_acc_perst1ik",
-"BWA3_optic_PMII_DMR_MicroT1_rear_pip","BWA3_optic_PMII_DMR_MicroT1_front_pip","optic_Holosight","hlc_muzzle_Agendasix10mm","CUP_optic_SB_11_4x20_PM_pip","rhs_acc_pso1m21_ak",
+"optic_NVS","optic_Nightstalker","BWA3_optic_M5Xi_Tremor3_MicroT2_pip","BWA3_optic_M5Xi_MSR_pip","muzzle_snds_H","BWA3_optic_NSV80","BWA3_optic_NSV600","rhs_acc_pso1m21_ak",
+"BWA3_optic_PMII_DMR_MicroT1_rear_pip","BWA3_optic_PMII_DMR_MicroT1_front_pip","optic_Holosight","hlc_muzzle_Agendasix10mm","CUP_optic_SB_11_4x20_PM_pip","rhs_acc_pso1m2_ak",
 "optic_Holosight_khk_F","BWA3_optic_EOTech_Mag_Off","BWA3_optic_EOTech_sand_Mag_Off","BWA3_optic_ZO4x30_MicroT2_pip","muzzle_snds_570","rhsusf_acc_rotex_mp7","rhsusf_acc_rotex_mp7_desert",
 "rhsusf_acc_rotex_mp7_winter","acc_pointer_blue","acc_pointer_squad","hlc_grip_pmvfg_black","hlc_grip_pmvfg_tan","hlc_grip_pmvfg","hlc_optic_ATACR","hlc_muzzle_FSC30",
 "NForce_Atcr_RMR_Top_SkeetIR_Down","NForce_Atcr_RMR_Top_SkeetIR_Up","Elcan_SpecterDR_SkeetIR_Down","Elcan_SpecterDR_SkeetIR_Up","EoTech_EXPS3_G33_Down_SkeetIR_Down","EoTech_EXPS3_G33_Down_SkeetIR_UP",
-"EoTech_EXPS3_SkeetIR_Down","EoTech_EXPS3_SkeetIR_Up","Aimpoint_T2_SkeetIR_Down","Aimpoint_T2_SkeetIR_Up","SkeetIR_TWS_pip","muzzle_snds_338_sand","rhsusf_acc_anpas13gv1","rhs_acc_pgs64",
+"EoTech_EXPS3_SkeetIR_Down","EoTech_EXPS3_SkeetIR_Up","Aimpoint_T2_SkeetIR_Down","Aimpoint_T2_SkeetIR_Up","SkeetIR_TWS_pip","muzzle_snds_338_sand","rhsusf_acc_anpas13gv1",
 "HLC_Acc_Flashlight_PCAP","HLC_Acc_VFG_PCAP","CUP_muzzle_snds_L85","CUP_optic_G33_HWS_BLK","CUP_optic_CompM2_low","optic_MRCO","rhsusf_acc_compm4","CUP_muzzle_snds_FAMAS",
-"hlc_muzzle_545SUP_AK","rhs_acc_1p63","rhs_acc_1pn93_1","rhs_acc_ekp8_02d","rhs_acc_ekp1b","rhs_acc_okp7_dovetail","rhs_acc_pgo7v3_ak","rhs_acc_pkas","rhs_acc_nita_3d","rhs_acc_tgpv2",
+"hlc_muzzle_545SUP_AK","rhs_acc_1p63","rhs_acc_1pn93_1","rhs_acc_ekp8_02d","rhs_acc_ekp1b","rhs_acc_okp7_dovetail","rhs_acc_pgo7v3_ak","rhs_acc_pkas","rhs_acc_nita_3d","rhs_acc_perst1ik",
 //Munition
 "hlc_30rnd_556x45_EPR_G36","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","ACE_20Rnd_762x51_Mag_SD",
 "1Rnd_SmokeOrange_Grenade_shell","hlc_20Rnd_762x51_S_M14","hlc_20Rnd_762x51_T_M14","20Rnd_650x39_Cased_Mag_F","ACE_20Rnd_65x47_Scenar_mag","ACE_20Rnd_65_Creedmor_mag","rhs_fim92_mag",
