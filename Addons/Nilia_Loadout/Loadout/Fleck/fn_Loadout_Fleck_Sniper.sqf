@@ -20,7 +20,7 @@ systemChat "Flecktarn Ausrüstung: Scharfschütze geladen, sprachen konfiguriert
 // "Add weapons";
 _unit addWeapon "hlc_rifle_awmagnum";
 _unit addPrimaryWeaponItem "HLC_Charm_Teethgang";
-_unit addPrimaryWeaponItem "BWA3_optic_M5Xi_Tremor3_MicroT2";
+_unit addPrimaryWeaponItem "rhsusaf_acc_LEUPOLDMK4_2_mrds";
 _unit addPrimaryWeaponItem "hlc_5rnd_300WM_mk248_AWM";
 _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
@@ -55,7 +55,6 @@ _unit addItemToVest "ACE_DAGR";
 _unit addItemToVest "ACE_RangeCard";
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "ItemAndroid";
-_unit addItemToVest "BWA3_optic_NSV80";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
