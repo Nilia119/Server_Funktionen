@@ -33,7 +33,7 @@ _obj addWeaponCargoGlobal _x;
 {
 _obj addMagazineCargoGlobal _x;
 } forEach [["hlc_30rnd_556x45_t_L5", 15], ["hlc_30rnd_556x45_SOST_L5", 15], ["hlc_20rnd_762x51_MDim_G3", 10],["MRAWS_HEAT_F", 5],
-           ["MRAWS_HE_F", 5],["BWA3_DM25", 10], ["BWA3_DM32_Blue", 10], ["B_IR_Grenade", 10], ["Laserbatteries", 2], ["MAA_MAAWS_MT756", 5], ["MAA_MAAWS_ILLUM545", 2],
+           ["MRAWS_HE_F", 5],["SmokeShell", 10], ["BWA3_DM32_Blue", 10], ["B_IR_Grenade", 10], ["Laserbatteries", 2], ["MAA_MAAWS_MT756", 5], ["MAA_MAAWS_ILLUM545", 2],
            ["MAA_MAAWS_SMOKE469", 2], ["MAA_MAAWS_HE441_AB250", 2], ["kat_Carbonate", 10], ["kat_Painkiller", 10], ["rhs_mag_m67", 10]];
 
 {

@@ -56,7 +56,7 @@ _unit addItemToVest "ACE_RangeCard";
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "ItemAndroid";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 _unit addItemToVest "BWA3_DM32_Blue";
 for "_i" from 1 to 9 do {_unit addItemToVest "hlc_5rnd_300WM_mk248_AWM";};

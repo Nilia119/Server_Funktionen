@@ -56,7 +56,7 @@ for "_i" from 1 to 5 do {_unit addItemToVest "ACE_elasticBandage";};
 _unit addItemToVest "ItemAndroid";
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "kat_chestSeal";
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "rhs_mag_m67";
 _unit addItemToVest "BWA3_DM32_Blue";
 _unit addItemToVest "hlc_12Rnd_357SIG_B_P226";

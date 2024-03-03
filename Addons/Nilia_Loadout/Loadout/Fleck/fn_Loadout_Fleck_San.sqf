@@ -59,7 +59,7 @@ _unit addItemToVest "ACE_surgicalKit";
 for "_i" from 1 to 4 do {_unit addItemToVest "ACE_salineIV";};
 _unit addItemToVest "ACE_salineIV_500";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 _unit addItemToVest "B_IR_Grenade";

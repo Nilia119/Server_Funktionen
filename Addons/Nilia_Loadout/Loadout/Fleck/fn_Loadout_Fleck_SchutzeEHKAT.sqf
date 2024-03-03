@@ -54,7 +54,7 @@ for "_i" from 1 to 12 do {_unit addItemToVest "kat_TXA";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_morphine";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_adenosine";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 _unit addItemToVest "B_IR_Grenade";

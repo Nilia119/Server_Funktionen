@@ -55,7 +55,7 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_Chemlight_HiWhite";};
 _unit addItemToUniform "B_IR_Grenade";
 _unit addItemToUniform "hlc_12Rnd_357SIG_B_P226";
 for "_i" from 1 to 5 do {_unit addItemToVest "ACE_elasticBandage";};
-for "_i" from 1 to 2 do {_unit addItemToVest "BWA3_DM25";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 _unit addItemToVest "BWA3_DM32_Blue";
 _unit addItemToVest "hlc_12Rnd_357SIG_B_P226";
