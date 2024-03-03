@@ -66,7 +66,7 @@ for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Orange";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Red";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Purple";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Yellow";};
-for "_i" from 1 to 2 do {_unit addItemToBackpack "BWA3_DM32_Blue";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShellBlue";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_Chemlight_IR";};
 _unit addHeadgear "H_PilotHelmetFighter_B";
 _unit addGoggles "rhs_googles_clear";

@@ -57,7 +57,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 6 do {_unit addItemToVest "hlc_30rnd_556x45_SOST_L5";};
 for "_i" from 1 to 3 do {_unit addItemToVest "hlc_30rnd_556x45_t_L5";};
-_unit addItemToVest "BWA3_DM32_Blue";
+_unit addItemToVest "SmokeShellBlue";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_salineIV";};
 for "_i" from 1 to 11 do {_unit addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 20 do {_unit addItemToBackpack "ACE_salineIV_250";};

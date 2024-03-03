@@ -58,7 +58,7 @@ _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "kat_chestSeal";
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "rhs_mag_m67";
-_unit addItemToVest "BWA3_DM32_Blue";
+_unit addItemToVest "SmokeShellBlue";
 _unit addItemToVest "hlc_12Rnd_357SIG_B_P226";
 for "_i" from 1 to 5 do {_unit addItemToVest "hlc_20rnd_762x51_T_G3";};
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_20rnd_762x51_IRDim_G3";};

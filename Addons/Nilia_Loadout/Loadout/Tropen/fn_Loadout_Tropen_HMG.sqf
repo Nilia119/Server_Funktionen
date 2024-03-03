@@ -55,7 +55,7 @@ _unit addItemToUniform "B_IR_Grenade";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
-_unit addItemToVest "BWA3_DM32_Blue";
+_unit addItemToVest "SmokeShellBlue";
 for "_i" from 1 to 3 do {_unit addItemToVest "hlc_100Rnd_762x51_M_MG3";};
 _unit addItemToBackpack "kat_Pulseoximeter";
 _unit addItemToBackpack "ACE_salineIV_250";

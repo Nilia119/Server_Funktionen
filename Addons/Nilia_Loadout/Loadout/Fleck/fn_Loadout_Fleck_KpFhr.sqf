@@ -63,7 +63,7 @@ _unit addItemToVest "ACE_surgicalKit";
 for "_i" from 1 to 2 do {_unit addItemToVest "hlc_12Rnd_357SIG_B_P226";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
-_unit addItemToVest "BWA3_DM32_Blue";
+_unit addItemToVest "SmokeShellBlue";
 for "_i" from 1 to 5 do {_unit addItemToVest "hlc_30Rnd_556x45_SPR_sg550";};
 _unit addItemToVest "hlc_30Rnd_556x45_T_sg550";
 _unit addItemToBackpack "ACE_HuntIR_monitor";

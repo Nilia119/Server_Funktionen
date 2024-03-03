@@ -55,7 +55,7 @@ _unit addItemToUniform "ItemcTabHCam";
 for "_i" from 1 to 2 do {_unit addItemToUniform "Chemlight_blue";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_Chemlight_HiWhite";};
 _unit addItemToUniform "B_IR_Grenade";
-_unit addItemToUniform "BWA3_DM32_Blue";
+_unit addItemToUniform "SmokeShellBlue";
 for "_i" from 1 to 2 do {_unit addItemToUniform "SmokeShell";};
 _unit addItemToVest "ACE_HuntIR_monitor";
 _unit addItemToVest "ItemAndroid";
