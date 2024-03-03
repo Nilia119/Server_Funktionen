@@ -65,7 +65,7 @@ _unit addItemToBackpack "ACE_salineIV";
 _unit addItemToBackpack "ACE_salineIV_250";
 _unit addItemToBackpack "ACE_EntrenchingTool";
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_WaterBottle";};
-for "_i" from 1 to 3 do {_unit addItemToBackpack "mgm_item_redgull";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_CaffeineItem";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 _unit addItemToBackpack "ACE_SpareBarrel";
 for "_i" from 1 to 5 do {_unit addItemToBackpack "hlc_100Rnd_762x51_M_MG3";};
