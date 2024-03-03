@@ -146,7 +146,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed",
 "ACE_Chemlight_HiYellow","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_UltraHiOrange","ACE_Chemlight_IR","ACE_IR_Strobe_Item","Chemlight_yellow","Chemlight_green",
 "Chemlight_red","SmokeShellBlue","SmokeShellYellow","SmokeShellGreen","SmokeShellOrange","SmokeShellRed","SmokeShellPurple","HandGrenade","SmokeShell","MiniGrenade","PBW_DM51A1_NoFrag",
-"rhs_charge_sb3kg_mag","rhs_mag_m18_yellow","rhs_mag_m18_green","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67",
+"rhs_charge_sb3kg_mag","rhs_mag_m18_yellow","rhs_mag_m18_green","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67","PBW_DM51A1_Frag",
 //Items
 "ACE_fieldDressing","ACE_EarPlugs","ACE_elasticBandage","ACE_tourniquet","ACE_packingBandage","ACE_quikclot","ACE_epinephrine","ACE_CableTie","ACE_morphine","ACE_Flashlight_XL50",
 "ACE_Sandbag_empty","ACE_SpottingScope","ACE_SpraypaintBlack","ACE_SpraypaintRed","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintYellow","ACE_SpraypaintWhite",
@@ -193,7 +193,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "BWA3_PatrolPack_Fleck","BWA3_Kitbag_Fleck","BWA3_Kitbag_Fleck_Medic","BWA3_TacticalPack_Fleck","BWA3_TacticalPack_Fleck_Medic","ACREFR_rt1523g_big_bwmod",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_bwmod","B_LegStrapBag_coyote_F","B_LegStrapBag_black_F","B_LegStrapBag_olive_F",
 "EUFOR_Backpack_Fleck_Tortilia_Arzt","EUFOR_Backpack_Fleck_Tortilia","EUFOR_Backpack_Tropen_Tortilia","EUFOR_Backpack_Tropen_Tortilia_Arzt","EUFOR_Backpack_San_Tortilia",
-"ACE_TacticalLadder_Pack",
+"ACE_TacticalLadder_Pack","EUFOR_Backpack_Fleck_Compact","EUFOR_Backpack_Fleck_Compact_Rk",
 //NVGs
 "JAS_GPNVG18_blk","JAS_GPNVG18_Tan",
 //Brillen etc.
