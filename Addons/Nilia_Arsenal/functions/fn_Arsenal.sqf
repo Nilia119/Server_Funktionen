@@ -141,7 +141,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "rhs_rpg7_PG7VS_mag","rhs_rpg7_TBG7V_mag",
 //Granaten
 "Chemlight_blue","ACE_Chemlight_HiWhite","B_IR_Grenade","ACE_HandFlare_White","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_HandFlare_Yellow",
-"BWA3_DM32_Purple","BWA3_DM32_Red","BWA3_DM32_Orange","BWA3_DM32_Yellow","BWA3_DM32_Green","ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed",
+"ACE_M84","ACE_Chemlight_Orange","ACE_Chemlight_White","ACE_Chemlight_HiRed",
 "ACE_Chemlight_HiYellow","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_UltraHiOrange","ACE_Chemlight_IR","ACE_IR_Strobe_Item","Chemlight_yellow","Chemlight_green",
 "Chemlight_red","SmokeShellBlue","SmokeShellYellow","SmokeShellGreen","SmokeShellOrange","SmokeShellRed","SmokeShellPurple","HandGrenade","SmokeShell","MiniGrenade","PBW_DM51A1_NoFrag",
 "rhs_charge_sb3kg_mag","rhs_mag_m18_yellow","rhs_mag_m18_green","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67",
