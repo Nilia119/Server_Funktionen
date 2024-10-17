@@ -39,7 +39,7 @@ _obj addMagazineCargoGlobal _x;
 {
 _obj addItemCargoGlobal _x;
 } forEach [["ACE_CableTie", 20], ["ACE_EarPlugs", 5], ["ACE_fieldDressing", 50], ["ACE_packingBandage", 50], ["ACE_elasticBandage", 50], ["ACE_splint", 20], ["ACE_morphine", 10],
-["ACE_epinephrine", 30], ["ACE_quikclot", 50], ["kat_CaffeineItem", 25], ["ToolKit", 1], ["greenmag_ammo_556x45_basic_60Rnd", 20], ["greenmag_ammo_762x54_basic_60Rnd", 10], ["greenmag_ammo_9x19_basic_60Rnd", 2],
+["ACE_epinephrine", 30], ["ACE_quikclot", 50], ["kat_Caffeine", 25], ["ToolKit", 1], ["greenmag_ammo_556x45_basic_60Rnd", 20], ["greenmag_ammo_762x54_basic_60Rnd", 10], ["greenmag_ammo_9x19_basic_60Rnd", 2],
 ["greenmag_item_speedloader", 10], ["ACE_WaterBottle", 5], ["ACE_adenosine", 10], ["kat_larynx", 20], ["kat_guedel", 10], ["kat_accuvac", 1], ["kat_bloodIV_O_N", 15], ["KAT_Empty_bloodIV_500", 4],
 ["KAT_Empty_bloodIV_250", 4], ["kat_X_AED", 1], ["kat_crossPanel", 2], ["kat_IV_16", 20], ["kat_IO_FAST", 15], ["kat_naloxone", 10], ["kat_TXA", 20], ["kat_norepinephrine", 5], ["kat_phenylephrine", 5],
 ["kat_nitroglycerin", 5], ["kat_amiodarone", 20], ["kat_lidocaine", 20], ["kat_atropine", 20], ["kat_Pulseoximeter", 10], ["kat_chestSeal", 30], ["kat_aatKit", 30], ["kat_EACA", 20],
