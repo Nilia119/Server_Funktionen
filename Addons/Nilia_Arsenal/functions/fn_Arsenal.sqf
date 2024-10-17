@@ -14,7 +14,7 @@
 //		[] call Nilia_fnc_Arsenal
 //		[this] call Nilia_fnc_Arsenal;
 //
-//Arsenal stand 03.03.2024
+//Arsenal stand 17.10.2024
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };

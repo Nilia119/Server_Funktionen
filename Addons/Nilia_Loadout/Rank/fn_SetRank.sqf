@@ -33,7 +33,6 @@ switch (true) do {
     case ("Plutokratie" in _name): {[_unit,"EuDef_Insignia_Plutokratie"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Plutokratie!";};
     case ("Paul" in _name): {[_unit,"EuDef_Insignia_Paul"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Paul!";};
     case ("Toyo" in _name): {[_unit,"EuDef_Insignia_Toyo"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Toyo!";};
-    case ("Scharfspelz" in _name): {[_unit,"EuDef_Insignia_Scharfspelz"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Scharfspelz!";};
     case ("Desert" in _name): {[_unit,"EuDef_Insignia_Desert"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Desert!";};
     case ("Sam King" in _name): {[_unit,"EuDef_Insignia_SamKing"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Sam!";};
     case ("Akahito" in _name): {[_unit,"EuDef_Insignia_Akahito"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Akahito!";};
@@ -52,7 +51,7 @@ switch (true) do {
     case ("Ratte" in _name): {[_unit,"EuDef_Insignia_Ratte"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Ratte!";};
     case ("Rock" in _name): {[_unit,"EuDef_Insignia_Rock"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Rock!";};
     case ("Sero" in _name): {[_unit,"EuDef_Insignia_Sero"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Sero!";};
-    case ("Okami" in _name): {[_unit,"EuDef_Insignia_Okami"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Okami! :D";};
+    case ("Okami" in _name): {[_unit,"EuDef_Insignia_Okami"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Hey, Okami! ;D";};
     //Jäger
     case ("Jg." in _name): {[_unit,"EuDef_Insignia_Jaeger"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Soldat!";};
     //Gefreite
@@ -74,6 +73,12 @@ switch (true) do {
     case ("HptFw." in _name): {[_unit,"EuDef_Insignia_Hauptfeldwebel"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Hauptfeldwebel!";};
     case ("OFw." in _name): {[_unit,"EuDef_Insignia_Oberfeldwebel"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Oberfeldwebel!";};
     case ("Fw." in _name): {[_unit,"EuDef_Insignia_Feldwebel"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Feldwebel!";};
+    //Warrant Officer
+    case ("WO1" in _name): {[_unit,"EuDef_Insignia_Warrant_Officer_1"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Warrant Officier 1!";};
+    case ("CW2" in _name): {[_unit,"EuDef_Insignia_Chief_Warrant_Officer_2"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Chief Warrant Officer 2!";};
+    case ("CW3" in _name): {[_unit,"EuDef_Insignia_Chief_Warrant_Officer_3"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Chief Warrant Officer 3!";};
+    case ("CW4" in _name): {[_unit,"EuDef_Insignia_Chief_Warrant_Officer_4"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Chief Warrant Officer 4!";};
+    case ("CW5" in _name): {[_unit,"EuDef_Insignia_Chief_Warrant_Officer_5"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Chief Warrant Officer 5!";};
     //Offiziere ->Leutnante
     case ("OFähnr." in _name): {[_unit,"EuDef_Insignia_Oberfaehnrich"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Oberfähnrich!";};
     case ("Fähnr." in _name): {[_unit,"EuDef_Insignia_Faehnrich"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Du bist Fähnrich!";};
