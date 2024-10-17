@@ -29,34 +29,38 @@ params [
 
 if (! (local _unit)) exitWith {};
 
-private _future = time + 10;
-
-private _uid = getPlayerUID _unit;
-
-private _WL = [ "76561198088210593",	/* Nilia */
-                "76561198320063927",	/* Juggernaut */
-                "76561198246422814",    /* Sam */
-                "76561198007555705",    /* Akahito */
-                "76561199034348802",    /* TheOkami */
-                "76561198959638073",    /* Miep */
-                "76561198840999766",    /* DieScholle */
-                ];
+systemChat "Die Zeus Whitelist ist Temporär ausgesetzt!";
 
 
-if (!(_uid in _WL)) then {
-titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
+
+//private _future = time + 10;
+
+//private _uid = getPlayerUID _unit;
+
+//private _WL = [ "76561198088210593",	/* Nilia */
+//                "76561198320063927",	/* Juggernaut */
+//                "76561198246422814",    /* Sam */
+//                "76561198007555705",    /* Akahito */
+//                "76561199034348802",    /* TheOkami */
+//                "76561198959638073",    /* Miep */
+//                "76561198840999766",    /* DieScholle */
+//                ];
+
+
+//if (!(_uid in _WL)) then {
+//titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
 //waitUntil { time >= _future };
-endMission "END1";
-} else {
-    systemChat "Du bist in der Zeus Whitelist!";
-};
-/* NO MORE LOADOUT LOADING
-switch (_farbe) do {
-    case "Fleck";
-    case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout wird geladen...";};
-    default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout wird geladen...";};
-};
-*/
+//endMission "END1";
+//} else {
+//    systemChat "Du bist in der Zeus Whitelist!";
+//};
+// /* NO MORE LOADOUT LOADING
+//switch (_farbe) do {
+//    case "Fleck";
+//    case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout wird geladen...";};
+//    default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout wird geladen...";};
+//};
+// */
 //Destroy Variables
 
 _unit = nil;

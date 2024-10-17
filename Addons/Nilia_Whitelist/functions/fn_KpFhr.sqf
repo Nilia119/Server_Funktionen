@@ -27,10 +27,11 @@ params [
 ["_farbe", "Tropen"]
 ];
 
-_unit = player;
 
 if (! (local _unit)) exitWith {};
 
+systemChat "Die Kompanieführer Whitelist ist Temporär ausgesetzt!";
+/*
 private _future = time + 10;
 
 private _uid = getPlayerUID _unit;
@@ -41,16 +42,16 @@ private _WL = ["76561198088210593", //Nilia
 
 if (!(_uid in _WL)) then {
 titleText["Dieser Slot benötigt einen Eintrag in eine separate Whitelist. Du bist nicht eingetragen und solltest den Slot wechseln! (Esc -> Abort/Abbrechen)","BLACK",8];
-waitUntil { time >= _future };
+//waitUntil { time >= _future };
 endMission "END1";
 } else {
-systemChat "Du bist in der Kompanieführer Whitelist!";
+    systemChat "Du bist in der Kompanieführer Whitelist!";
 };
 /* NO MORE LOADOUT LOADING
 switch (_farbe) do {
-case "Fleck";
-case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout wird geladen...";};
-default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout wird geladen...";};
+    case "Fleck";
+    case "fleck": {[_unit] call Nilia_fnc_Loadout_Fleck_KpFhr; systemChat "Flecktarn Loadout wird geladen...";};
+    default {[_unit] call Nilia_fnc_Loadout_Tropen_KpFhr; systemChat "Tropentarn Loadout wird geladen...";};
 };
  */
 
