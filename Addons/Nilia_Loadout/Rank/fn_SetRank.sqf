@@ -96,5 +96,5 @@ switch (true) do {
     //Alle anderen
     case ("Lt." in _name): {[_unit,"EuDef_Insignia_Leutnant"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of1a_leutnant"]] call etr_ranks_functions_fnc_setIcon; systemChat "Du bist Leutnant!";};
     case ("Maj." in _name): {[_unit,"EuDef_Insignia_Major"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of3_major"]] call etr_ranks_functions_fnc_setIcon; systemChat "Du bist Major!";};
-    default {[_unit,"EuDef_Insignia_Logo"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; systemChat "Dein Name enthält leider keinen Rangkürzel oder du hast kein Eigenes Patch.";};
+    default {[_unit,"EuDef_Insignia_Logo"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or1_soldat"]] call etr_ranks_functions_fnc_setIcon; systemChat "Dein Name enthält leider keinen Rangkürzel oder du hast kein Eigenes Patch.";};
 };
