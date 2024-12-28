@@ -39,7 +39,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "HLC_Rifle_XM8_MWSF_Carbine_GL","hlc_rifle_bcmblackjack","HLC_Rifle_XM8_MWSF_Carbine","CUP_arifle_L85A2_NG","arifle_Katiba_F","arifle_Katiba_GL_F","arifle_Katiba_C_F","arifle_AK12U_F",
 "HLC_rifle_XM8_MWSF_DMAR_Grip","hlc_rifle_XM8_MWSF_Compact","CUP_Famas_F1_Rail","arifle_Mk20_plain_F","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","arifle_Mk20_GL_plain_F",
 "arifle_Mk20C_plain_F","arifle_TRG20_F","arifle_TRG21_GL_F","arifle_TRG21_F","hlc_lmg_M60E4","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2","srifle_DMR_02_F",
-"rhs_weap_ak105","arifle_AK12_F",
+"rhs_weap_ak105","arifle_AK12_F","BWA3_MG4","BWA3_MG5","hlc_wp_SSR_grip2","hlc_rifle_416C","hlc_rifle_M16A1_m203","hlc_wp_M16A1","hlc_wp_mod653","hlc_wp_m16a2","hlc_rifle_m203",
 //Waffen Aufsätze
 "hlc_muzzle_SF3P_556","optic_Hamr","bipod_01_F_blk","hlc_muzzle_TiRant9","HLC_Optic_Romeo1_RX","HLC_optic_HP","HLC_optic_VTAC","HLC_optic_XS","optic_ACO_grn_smg",
 "HLC_optic_stavenhagen","ACE_muzzle_mzls_93mmg","bipod_02_F_tan","hlc_muzzle_Gunfighter_comp","HLC_Optic_G36Export35x","muzzle_snds_B","optic_LRPS","muzzle_snds_93mmg","optic_Aco_smg",
