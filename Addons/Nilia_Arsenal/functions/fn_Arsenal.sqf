@@ -174,7 +174,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "ACE_NVG_Wide_Black","ACE_NVG_Wide_Green","ACE_NVG_Gen4_Green","ACE_NVG_Gen4_Black","immersion_cigs_cigar0","kat_fentanyl","kat_etomidate","kat_flumazenil","tsp_frameCharge_mag",
 "kat_gasmaskFilter","kat_ketamine","kat_sealant","kat_clamp","kat_plate","kat_lidocaine","tsp_lockpick","ACE_painkillers","KNB_Notebook","KNB_PanelYellow","KNB_PanelGreen",
 "KNB_PanelRed","EUFOR_Lexikon","EUFOR_MedPanel","kat_coag_sense","kat_AFAK","kat_fluidWarmer","kat_handWarmer","kat_ultrasound","kat_IFAK","kat_epinephrineIV","kat_suction","kat_MFAK",
-"ACE_suture","kat_nasal","kat_phenylephrineAuto","kat_reboa","kat_Bubble_Wrap",
+"ACE_suture","kat_nasal","kat_phenylephrineAuto","kat_reboa","kat_Bubble_Wrap","KAT_STS",
 
 //Uniform
 "U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","W_EUFOR_Uniform_Fleck1","W_EUFOR_Uniform_Fleck","W_EUFOR_Uniform_Fleck_Sleeves",
