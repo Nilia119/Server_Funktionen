@@ -28,7 +28,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "ACE_VMH3","hlc_rifle_awcovert","hlc_rifle_awmagnum","hlc_rifle_awMagnum_OD_ghillie","srifle_GM6_F","srifle_LRR_F","launch_MRAWS_green_F","launch_MRAWS_olive_F","rhs_weap_fim92",
 "hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","arifle_MX_Black_F","hlc_pistol_P226R_357Combat","hlc_rifle_G36V","launch_MRAWS_sand_F","hlc_rifle_416D145_gl",
 "hlc_rifle_auga2lsw","hlc_rifle_RU5562","hlc_rifle_ACR_GL_Carb_tan","hlc_rifle_m4m203","rhs_weap_fim92","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_Colt727_GL","hlc_rifle_416D145",
-"hlc_rifle_CQBR","MMG_01_tan_F","HLC_Rifle_g3ka4_GL","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","srifle_DMR_05_blk_F","hlc_rifle_g3a3vris","srifle_DMR_05_tan_f","hlc_rifle_BAB",
+"hlc_rifle_CQBR","MMG_01_tan_F","HLC_Rifle_g3ka4_GL","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","srifle_DMR_05_blk_F","hlc_rifle_g3a3vris","srifle_DMR_05_tan_f",
 "hlc_rifle_416D165","hlc_rifle_416D10","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","hlc_rifle_hk53RAS","hlc_m249_SQuantoon","hlc_m249_pip3","hlc_rifle_M14dmr_Rail","hlc_lmg_MG3KWS_b",
 "hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_STG58F","hgun_esd_01_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_MXC_Black_F","arifle_MX_SW_Black_F","arifle_AK12_GL_F",
 "ACE_launch_NLAW_ready_F","NLAW_F","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","SMG_03C_TR_camo","rhsusf_acc_rotex_mp7_aor1","hlc_rifle_falosw_grip",
