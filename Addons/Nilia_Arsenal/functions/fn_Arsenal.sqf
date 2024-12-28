@@ -61,7 +61,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 "HLC_Acc_Flashlight_PCAP","HLC_Acc_VFG_PCAP","CUP_muzzle_snds_L85","CUP_optic_G33_HWS_BLK","CUP_optic_CompM2_low","optic_MRCO","rhsusf_acc_compm4","CUP_muzzle_snds_FAMAS",
 "hlc_muzzle_545SUP_AK","rhs_acc_1p63","rhs_acc_1pn93_1","rhs_acc_ekp8_02d","rhs_acc_ekp1b","rhs_acc_okp7_dovetail","rhs_acc_pgo7v3_ak","rhs_acc_pkas","rhs_acc_nita_3d","rhs_acc_tgpv2",
 "CUP_optic_Eotech553_Black","CUP_optic_Eotech553_Coyote","CUP_optic_Eotech553_Grey","CUP_optic_Eotech553_OD","CUP_optic_Eotech553","CUP_optic_G33_HWS_COYOTE","CUP_optic_G33_HWS_TAN",
-"CUP_optic_G33_HWS_OD","rhsusaf_acc_nxs_5522x56_md_sun","rhsusaf_acc_nxs_5522x56_md",
+"CUP_optic_G33_HWS_OD","rhsusaf_acc_nxs_5522x56_md_sun","rhsusaf_acc_nxs_5522x56_md","a3ti_reapir_pip","BWA3_optic_EOTech_Mag_Off",
 //Munition
 "hlc_30rnd_556x45_EPR_G36","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","ACE_20Rnd_762x51_Mag_SD",
 "1Rnd_SmokeOrange_Grenade_shell","hlc_20Rnd_762x51_S_M14","hlc_20Rnd_762x51_T_M14","20Rnd_650x39_Cased_Mag_F","ACE_20Rnd_65x47_Scenar_mag","ACE_20Rnd_65_Creedmor_mag","rhs_fim92_mag",
