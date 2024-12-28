@@ -1,0 +1,27 @@
+//
+//	Author: [EuDef] Nilia
+//
+//	Description:
+//		This File Contains an Array to add to an Whitelisted ACE-Arsenal
+//      Content: Grenades and Throwables
+//
+//	Important:
+//      The Last Item cannot have a Comma! All other MUST have commas after each Item!
+//
+//	Parameter(s):
+//
+//	Returns:
+//		CONTENT
+//
+//	Example:
+//		#include "Content\Grenades.hpp"
+//
+
+"Chemlight_blue","ACE_Chemlight_HiWhite","B_IR_Grenade","ACE_HandFlare_White","ACE_HandFlare_Red",
+"ACE_HandFlare_Green","ACE_HandFlare_Yellow","rhs_mag_m18_yellow","ACE_M84","ACE_Chemlight_Orange",
+"ACE_Chemlight_White","ACE_Chemlight_HiRed","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67",
+"PBW_DM51A1_Frag","rhs_mag_m18_green","ACE_Chemlight_HiYellow","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen",
+"ACE_Chemlight_UltraHiOrange","ACE_Chemlight_IR","ACE_IR_Strobe_Item","Chemlight_yellow","Chemlight_green",
+"Chemlight_red","SmokeShellBlue","SmokeShellYellow","SmokeShellGreen","SmokeShellOrange",
+"SmokeShellRed","SmokeShellPurple","HandGrenade","SmokeShell","MiniGrenade","PBW_DM51A1_NoFrag",
+"rhs_charge_sb3kg_mag"
