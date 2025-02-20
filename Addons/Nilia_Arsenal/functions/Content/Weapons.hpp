@@ -53,7 +53,7 @@
 "HLC_Rifle_XM8_MWSF_Carbine","HLC_Rifle_XM8_MWSF_Carbine_GL","HLC_rifle_XM8_MWSF_DMAR_Grip","hlc_rifle_XM8_MWSF_Compact",
 //      SONSTIGE
 "hlc_rifle_auga2lsw","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_M14dmr_Rail","hlc_rifle_awmagnum_FDE","hlc_rifle_awcovert","hlc_rifle_awmagnum",
-"hlc_rifle_awMagnum_OD_ghillie","hlc_rifle_awmagnum_FDE_ghillie","hlc_rifle_falosw_grip","hlc_rifle_osw_GL","hlc_rifle_auga3_b","hlc_rifle_auga3_bl",
+"hlc_rifle_awMagnum_OD_ghillie","hlc_rifle_awmagnum_FDE_ghillie","hlc_rifle_falosw_grip","hlc_rifle_osw_GL","hlc_rifle_auga3_b","hlc_rifle_auga3_bl","hlc_rifle_aks74u",
 
 //  CUP
 "CUP_sgun_M1014_Entry_vfg","CUP_arifle_L85A2_NG","CUP_Famas_F1_Rail","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2",

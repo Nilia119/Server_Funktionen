@@ -39,7 +39,7 @@
 "ACE_muzzle_mzls_smg_01","ACE_muzzle_mzls_338","muzzle_snds_B_khk_F","muzzle_snds_B_snd_F","ACE_muzzle_mzls_H","muzzle_antenna_03_f","muzzle_antenna_01_f","muzzle_snds_H",
 "hlc_muzzle_Agendasix10mm","rhsusf_acc_rotex_mp7_desert","muzzle_snds_570","rhsusf_acc_rotex_mp7","rhsusf_acc_rotex_mp7_winter","hlc_muzzle_FSC30","muzzle_snds_338_sand",
 "CUP_muzzle_snds_FAMAS","CUP_muzzle_snds_L85","hlc_muzzle_545SUP_AK","rhsusf_acc_rotex_mp7_aor1","hlc_acc_AIM1D_Generic","hlc_acc_AIM1D_M16","hlc_muzzle_A1_FlashHider",
-"hlc_muzzle_A2_FlashHider",
+"hlc_muzzle_A2_FlashHider","hlc_muzzle_SF3P_762R",
 //  Aufsätze
 "bipod_01_F_blk","bipod_02_F_tan","bwa3_acc_varioray_laser_black","bipod_01_F_khk","acc_pointer_IR","rhs_acc_tgpa","ACE_acc_pointer_green","rhs_acc_2dpZenit","rhsusaf_acc_premier",
 "bipod_01_F_snd","bipod_01_F_mtp","rhsusf_acc_anpeq15side_bk","HLC_bipod_UTGShooters","rhs_acc_perst1ik","BWA3_optic_NSV80","BWA3_optic_NSV600","hlc_grip_pmvfg","hlc_grip_pmvfg_tan",
