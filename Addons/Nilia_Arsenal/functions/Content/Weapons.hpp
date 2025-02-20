@@ -41,14 +41,14 @@
 //      ACR
 "hlc_rifle_ACR68_full_black_grip","hlc_rifle_ACR_SBR_black_grip3","hlc_rifle_ACR_GL_SBR_black","hlc_rifle_RU5562","hlc_rifle_ACR_GL_Carb_tan",
 //      SCAR
-"hlc_wp_SCARH_CQC_EGLM_Blk","hlc_WP_SCARH_DMR","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM",
+"hlc_wp_SCARH_CQC_EGLM_Blk","hlc_WP_SCARH_DMR","hlc_wp_SCARH_DMR_Blk","hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_EGLM","hlc_wp_SSR_Blk","hlc_wp_SSR_grip2",
 //      AR10/15
 "hlc_rifle_M27IAR","hlc_rifle_mk18mod0","hlc_rifle_416D145_gl","hlc_rifle_m4m203","hlc_rifle_CQBR","hlc_rifle_Colt727_GL","hlc_rifle_416D145","hlc_rifle_416C",
 "hlc_rifle_416D165","hlc_rifle_416D10","hlc_rifle_bcmblackjack","hlc_rifle_honeybadger","hlc_rifle_M16A1_m203","hlc_wp_M16A1","hlc_wp_mod653","hlc_wp_m16a2","hlc_rifle_m203",
 //      MP5/HK53
 "hlc_rifle_hk53RAS","hlc_mp510_tac","hlc_smg_mp510",
 //      MGS
-"hlc_lmg_MG3KWS_b","hlc_m249_SQuantoon","hlc_m249_pip3","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS","hlc_lmg_M60E4","hlc_wp_SSR_grip2",
+"hlc_lmg_MG3KWS_b","hlc_m249_SQuantoon","hlc_m249_pip3","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS","hlc_lmg_M60E4",
 //      XM8
 "HLC_Rifle_XM8_MWSF_Carbine","HLC_Rifle_XM8_MWSF_Carbine_GL","HLC_rifle_XM8_MWSF_DMAR_Grip","hlc_rifle_XM8_MWSF_Compact",
 //      SONSTIGE
