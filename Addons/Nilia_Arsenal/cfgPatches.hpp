@@ -2,10 +2,10 @@ class cfgPatches {
 
     class Nilia_Arsenal_Server_Functions
     {
-        units[]={};
+        units[] = {};
         weapons[]={};
         requiredVersion=0;
-        requiredAddons[]={};
+        requiredAddons[] = {};
         version="1.0";
         versionStr="1.0";
         versionAr[]={1,0,0};
