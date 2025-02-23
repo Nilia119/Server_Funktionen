@@ -26,7 +26,7 @@
 "kat_fentanyl","kat_etomidate","kat_flumazenil","kat_Pulseoximeter","kat_stethoscope","kat_crossPanel","kat_IV_16","kat_vacuum","kat_BVM","kat_oxygenTank_150","kat_oxygenTank_300",
 "kat_pocketBVM","ACE_fieldDressing","ACE_elasticBandage","ACE_tourniquet","ACE_packingBandage","ACE_quikclot","ACE_epinephrine","ACE_morphine","ACE_plasmaIV","ACE_plasmaIV_250",
 "ACE_plasmaIV_500","ACE_bodyBag_white","ACE_splint","ACE_adenosine","ACE_salineIV_250","ACE_salineIV_500","ACE_surgicalKit","ACE_salineIV","ACE_bodyBag_blue","ACE_ATNAA",
-"ACE_bodyBag","ACE_painkillers","kat_personal_oxygen",
+"ACE_bodyBag","ACE_painkillers","kat_personal_oxygen","kat_basicDiagnostic","kat_BPCuff",
 //  Basis Items
 "ACE_EarPlugs","EUFOR_Lexikon","ACE_Flashlight_XL50","ACE_SpraypaintBlack","ACE_SpraypaintRed","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintYellow","ACE_WaterBottle",
 "ACE_SpraypaintWhite","ACE_DefusalKit","ACE_MapTools","ItemcTabHCam","ACE_SpareBarrel","ACE_RangeCard","ACE_artilleryTable","ACE_Banana","ACE_rope6",
