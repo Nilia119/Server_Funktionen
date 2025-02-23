@@ -29,7 +29,7 @@
 "ACE_bodyBag","ACE_painkillers","kat_personal_oxygen",
 //  Basis Items
 "ACE_EarPlugs","EUFOR_Lexikon","ACE_Flashlight_XL50","ACE_SpraypaintBlack","ACE_SpraypaintRed","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintYellow","ACE_WaterBottle",
-"ACE_SpraypaintWhite","ACE_DefusalKit","ACE_MapTools","ItemcTabHCam","ACE_SpareBarrel","ACE_RangeCard","ACE_artilleryTable","ACE_Banana","ACE_RangeTable_82mm","ACE_rope6",
+"ACE_SpraypaintWhite","ACE_DefusalKit","ACE_MapTools","ItemcTabHCam","ACE_SpareBarrel","ACE_RangeCard","ACE_artilleryTable","ACE_Banana","ACE_rope6",
 "greenmag_item_speedloader","KNB_Notebook","KNB_PanelYellow","KNB_PanelGreen","KNB_PanelRed","acex_intelitems_notepad","ACE_PlottingBoard","ACE_Flashlight_MX991",
 "ACE_EHP","ace_flags_blue","ace_flags_yellow","ace_flags_green","ace_flags_orange","ace_flags_red","ace_flags_black","ace_flags_purple","ace_flags_white","tsp_sling",
 "ACE_Can_Franta","ACE_Can_RedGull","ACE_Can_Spirit","ACE_MRE_CreamChickenSoup","ACE_MRE_CreamTomatoSoup","ACE_MRE_MeatballsPasta","ACE_MRE_ChickenHerbDumplings",
