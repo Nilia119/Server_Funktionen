@@ -50,10 +50,8 @@ class CfgFunctions {
             class Loadout_Fleck_PA {};
             class Loadout_Fleck_PAHilf {};
             class Loadout_Fleck_Pio {};
-            class Loadout_Fleck_San {};
             class Loadout_Fleck_SanKAT {};
             class Loadout_Fleck_Schutze {};
-            class Loadout_Fleck_SchutzeEH {};
             class Loadout_Fleck_SchutzeEHKAT {};
             class Loadout_Fleck_Sniper {};
             class Loadout_Fleck_Spotter {};
@@ -77,10 +75,8 @@ class CfgFunctions {
             class Loadout_Tropen_PA {};
             class Loadout_Tropen_PAHilf {};
             class Loadout_Tropen_Pio {};
-            class Loadout_Tropen_San {};
             class Loadout_Tropen_SanKAT {};
             class Loadout_Tropen_Schutze {};
-            class Loadout_Tropen_SchutzeEH {};
             class Loadout_Tropen_SchutzeEHKAT {};
             class Loadout_Tropen_Sniper {};
             class Loadout_Tropen_Spotter {};
