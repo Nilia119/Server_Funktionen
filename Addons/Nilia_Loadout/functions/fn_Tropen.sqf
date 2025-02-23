@@ -23,7 +23,6 @@ _obj addAction ["Loadout: Breacher", Nilia_fnc_Loadout_Tropen_Breacher];
 _obj addAction ["Loadout: DMR-Schütze", Nilia_fnc_Loadout_Tropen_DMR];
 _obj addAction ["Loadout: Gruppenführer", Nilia_fnc_Loadout_Tropen_GrpFhr];
 _obj addAction ["Loadout: Grenadier", Nilia_fnc_Loadout_Tropen_Gren];
-_obj addAction ["Loadout: LMG-Schütze", Nilia_fnc_Loadout_Tropen_LMG];
 _obj addAction ["Loadout: MG-Schütze", Nilia_fnc_Loadout_Tropen_HMG];
 _obj addAction ["Loadout: MG-Hilfs Schütze", Nilia_fnc_Loadout_Tropen_HMGHilf];
 _obj addAction ["Loadout: Panzerabwehr Schütze", Nilia_fnc_Loadout_Tropen_PA];
