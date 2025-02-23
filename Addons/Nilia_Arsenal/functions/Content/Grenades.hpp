@@ -17,9 +17,9 @@
 //		#include "Content\Grenades.hpp"
 //
 
-"Chemlight_blue","ACE_Chemlight_HiWhite","B_IR_Grenade","ACE_HandFlare_White","ACE_HandFlare_Red",
-"ACE_HandFlare_Green","ACE_HandFlare_Yellow","rhs_mag_m18_yellow","ACE_M84","ACE_Chemlight_Orange",
-"ACE_Chemlight_White","ACE_Chemlight_HiRed","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67",
+"Chemlight_blue","ACE_Chemlight_HiWhite","B_IR_Grenade","ACE_HandFlare_White","ACE_HandFlare_Red","40xtra_nade_throw_hatchet","tsp_flashbang_fakels",
+"ACE_HandFlare_Green","ACE_HandFlare_Yellow","rhs_mag_m18_yellow","ACE_M84","ACE_Chemlight_Orange","tsp_flashbang_m84",
+"ACE_Chemlight_White","ACE_Chemlight_HiRed","rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67","tsp_flashbang_cts2","tsp_flashbang_cts",
 "PBW_DM51A1_Frag","rhs_mag_m18_green","ACE_Chemlight_HiYellow","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen",
 "ACE_Chemlight_UltraHiOrange","ACE_Chemlight_IR","ACE_IR_Strobe_Item","Chemlight_yellow","Chemlight_green",
 "Chemlight_red","SmokeShellBlue","SmokeShellYellow","SmokeShellGreen","SmokeShellOrange",

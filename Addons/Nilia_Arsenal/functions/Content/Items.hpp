@@ -33,4 +33,5 @@
 "ace_marker_flags_blue","ace_marker_flags_yellow","ace_marker_flags_green","ace_marker_flags_purple","ace_marker_flags_orange","ace_marker_flags_red","ace_marker_flags_black",
 "ace_marker_flags_white","MRH_FoldedSatcomAntenna","immersion_cigs_cigar0","tsp_frameCharge_mag","tsp_lockpick","EUFOR_MedPanel","KAT_STS","PapersPlease_PermitWeapons",
 "tsp_paperclip","ItemcTabMisc","ItemAndroidMisc","ChemicalDetector_01_black_F","ChemicalDetector_01_olive_F","ChemicalDetector_01_tan_F","ACE_microDAGR","ItemMicroDAGRMisc",
-"PapersPlease_PassportMilitary","tsp_breach_shock"
+"PapersPlease_PassportMilitary","tsp_breach_shock","tsp_breach_block_mag","tsp_breach_block_auto_mag","tsp_breach_linear_mag","tsp_breach_linear_auto_mag","tsp_breach_package_mag",
+"tsp_breach_silhouette_mag","tsp_breach_stick_mag"
