@@ -88,7 +88,7 @@
 "hlc_30Rnd_545x39_S_AK","hlc_30Rnd_545x39_S_AK_Black","hlc_30Rnd_545x39_S_AK_Plum","hlc_30Rnd_545x39_t_ak","hlc_30Rnd_545x39_t_ak_Black","hlc_30Rnd_545x39_t_ak_Plum",
 "hlc_30Rnd_762x39_AP_ak_6L10","hlc_30Rnd_762x39_AP_ak","hlc_30Rnd_762x39_AP_ak_PMAG","hlc_30Rnd_762x39_AP_ak_PMAGD","hlc_30Rnd_762x39_AP_ak_Valmet",
 "hlc_30Rnd_762x39_b_ak_6L10","hlc_30Rnd_762x39_m_ak_6L10","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_m_ak","hlc_30Rnd_762x39_b_ak_PMAG","hlc_30Rnd_762x39_m_ak_PMAG",
-"hlc_30Rnd_762x39_b_ak_PMAGD","hlc_30Rnd_762x39_m_ak_PMAGD","hlc_30Rnd_762x39_b_ak_Valmet","hlc_30Rnd_762x39_m_ak_Valmet",
+"hlc_30Rnd_762x39_b_ak_PMAGD","hlc_30Rnd_762x39_m_ak_PMAGD","hlc_30Rnd_762x39_b_ak_Valmet","hlc_30Rnd_762x39_m_ak_Valmet","rhsgref_1Rnd_Slug",
 "hlc_30rnd_762x39_s_ak_6L10","hlc_30rnd_762x39_s_ak","hlc_30rnd_762x39_s_ak_PMAG","hlc_30Rnd_762x39_S_ak_PMAGD","hlc_30rnd_762x39_s_ak_Valmet","hlc_30Rnd_762x39_t_ak_6L10",
 "hlc_30Rnd_762x39_t_ak","hlc_30Rnd_762x39_t_ak_PMAG","hlc_30Rnd_762x39_t_ak_PMAGD","hlc_30Rnd_762x39_t_ak_Valmet","hlc_30Rnd_762x39_b_ak",
 "BWA3_200Rnd_556x45_Tracer","BWA3_120Rnd_762x51_Tracer_soft","BWA3_120Rnd_762x51_Tracer"

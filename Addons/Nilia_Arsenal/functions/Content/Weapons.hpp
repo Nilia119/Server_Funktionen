@@ -59,7 +59,7 @@
 "CUP_sgun_M1014_Entry_vfg","CUP_arifle_L85A2_NG","CUP_Famas_F1_Rail","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2",
 //  RHS
 "rhs_weap_fim92","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_winter","rhs_weap_rpg7",
-"rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105",
+"rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105","rhs_weap_Izh18",
 //  BWMOD
 "BWA3_MG4","BWA3_MG5",
 //  ACE
