@@ -12,7 +12,7 @@ _unit setVariable ["ACE_isEngineer", 2, true];      //Pionier 0=0, 1=EOD, 2=Pion
 _unit setVariable ["ACE_medical_medicClass", 2];    //Medic 0=0, 1=Sani, 2=Arzt
 
 //hint
-systemChat "Flecktarn Ausrüstung: KpFhr geladen, sprachen konfiguriert und alle Rechte gesetzt!";
+systemChat "Ausrüstung (Fleck): KpFhr geladen, sprachen konfiguriert und alle Rechte gesetzt!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
