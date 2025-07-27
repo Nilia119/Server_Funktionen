@@ -11,8 +11,14 @@ _unit setVariable ["ACE_isEOD", false];              //Sprengstoff
 _unit setVariable ["ACE_isEngineer", 0, true];      //Pionier 0=0, 1=EOD, 2=Pionier "true" muss sein :O
 _unit setVariable ["ACE_medical_medicClass", 0];    //Medic 0=0, 1=Sani, 2=Arzt
 
+// Setzte Globale Klassen
+// Fünge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
+[_unit] call Nilia_fnc_Arsenal_setGlobalRang;
+_unit setVariable ["Nilia_Klasse", "Standard"];
+systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
+
 //hint
-systemChat "Tropentarn Ausrüstung: LMG-Schütze geladen!";
+systemChat "Flecktarn Ausrüstung: LMG-Schütze geladen!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
@@ -28,9 +34,9 @@ _unit addWeapon "hlc_pistol_P226R_357Combat";
 _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 
 // "Add containers";
-_unit forceAddUniform "W_EUFOR_Uniform_Tropen";
-_unit addVest "BWA3_Vest_MachineGunner_Tropen";
-_unit addBackpack "EUFOR_Backpack_Tropen_Tortilia";
+_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit addVest "pbw_splitter_mg";
+_unit addBackpack "EUFOR_Backpack_Fleck_Tortilia";
 
 // "Add binoculars";
 _unit addWeapon "Binocular";
@@ -65,7 +71,7 @@ _unit addItemToBackpack "kat_Pulseoximeter";
 for "_i" from 1 to 2 do {_unit addItemToBackpack "ACRE_PRC152";};
 for "_i" from 1 to 2 do {_unit addItemToBackpack "100Rnd_65x39_caseless_black_mag_tracer";};
 _unit addItemToBackpack "ACE_SpareBarrel";
-_unit addHeadgear "PBW_Helm4_tropen_H";
+_unit addHeadgear "PBW_Helm4_fleck_H";
 _unit addGoggles "rhs_googles_clear";
 
 // "Add items";

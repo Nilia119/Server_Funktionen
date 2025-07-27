@@ -2,6 +2,8 @@ private _unit = player;
 if (!local _unit) exitWith {};
 _unit setUnitLoadout (configFile >> "EmptyLoadout");
 
+// Loadout Fixen!
+
 // Set ACRE Babble Language
 ["en","gr","ru","ar"] call acre_api_fnc_babelSetSpokenLanguages;
 ["en","gr","ru","ar"] call acre_api_fnc_babelSetSpeakingLanguage;
@@ -10,6 +12,12 @@ _unit setUnitLoadout (configFile >> "EmptyLoadout");
 _unit setVariable ["ACE_isEOD", true];              //Sprengstoff
 _unit setVariable ["ACE_isEngineer", 2, true];      //Pionier 0=0, 1=EOD, 2=Pionier "true" muss sein :O
 _unit setVariable ["ACE_medical_medicClass", 2];    //Medic 0=0, 1=Sani, 2=Arzt
+
+// Setzte Globale Klassen
+// Fünge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
+[_unit] call Nilia_fnc_Arsenal_setGlobalRang;
+_unit setVariable ["Nilia_Klasse", "ULG"];
+systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
 
 //hint
 systemChat "Ausrüstung (Fleck): KpFhr geladen, sprachen konfiguriert und alle Rechte gesetzt!";
