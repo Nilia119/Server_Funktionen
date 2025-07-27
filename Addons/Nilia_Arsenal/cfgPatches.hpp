@@ -5,7 +5,9 @@ class cfgPatches {
         units[] = {};
         weapons[]={};
         requiredVersion=0;
-        requiredAddons[] = {};
+        requiredAddons[] = {"ace_interact_menu",
+                            "ace_arsenal"
+                            };
         version="1.0";
         versionStr="1.0";
         versionAr[]={1,0,0};

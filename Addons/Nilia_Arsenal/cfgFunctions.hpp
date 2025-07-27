@@ -18,6 +18,20 @@ class CfgFunctions {
             class Arsenal_Basis {};
             class Arsenal_New {};
             class VehicleInv {};
+
+            class Arsenal_RK {};
+            class Arsenal_Calculate {};
+            class Arsenal_Basis_Compiled {};
+            class Arsenal_Klasse_Standard {};
+            class Arsenal_Playeritems {};
+            class Arsenal_RangundKlasse {};
+            class Arsenal_RK_Debug {};
+            class Arsenal_setGlobalRang {};
+
         };
+        #include "\Nilia_Arsenal\functions\klassen\Keine\Keine.hpp"
+        #include "\Nilia_Arsenal\functions\klassen\Standard\Standard.hpp"
+
     };
 };
+
