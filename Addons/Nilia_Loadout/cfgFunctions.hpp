@@ -61,6 +61,7 @@ class CfgFunctions {
             class Loadout_Fleck_Sniper {};
             class Loadout_Fleck_Spotter {};
             class Loadout_Fleck_StvGrpFhr {};
+            class Loadout_Fleck_TrpFhr {};
             class Loadout_Fleck_ZgFhr {};
         };
         class Nilia_Loadouts_Tropen_Server_Functions
@@ -91,6 +92,7 @@ class CfgFunctions {
             class Loadout_Tropen_Sniper {};
             class Loadout_Tropen_Spotter {};
             class Loadout_Tropen_StvGrpFhr {};
+            class Loadout_Tropen_TrpFhr {};
             class Loadout_Tropen_ZgFhr {};
         };
     };
