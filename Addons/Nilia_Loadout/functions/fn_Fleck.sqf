@@ -33,6 +33,8 @@ _obj addAction ["Loadout: Sanitäter", Nilia_fnc_Loadout_Fleck_SanKAT];
 _obj addAction ["Loadout: Schütze", Nilia_fnc_Loadout_Fleck_Schutze];
 _obj addAction ["Loadout: Schütze-EH", Nilia_fnc_Loadout_Fleck_SchutzeEHKAT];
 _obj addAction ["Loadout: Stv. GrpFhr.", Nilia_fnc_Loadout_Fleck_StvGrpFhr];
+_obj addAction ["Loadout: Flugabwehr Schütze", Nilia_fnc_Loadout_Fleck_AA];
+_obj addAction ["Loadout: AA-Hilf Schütze", Nilia_fnc_Loadout_Fleck_AAHilf];
 _obj addAction ["Loadout: Kompanieführung", Nilia_fnc_Loadout_Fleck_KpFhr];
 _obj addAction ["Loadout: Zugführung", Nilia_fnc_Loadout_Fleck_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Fleck_Spotter];

@@ -32,6 +32,8 @@ _obj addAction ["Loadout: Sanitäter", Nilia_fnc_Loadout_Tropen_SanKAT];
 _obj addAction ["Loadout: Schütze", Nilia_fnc_Loadout_Tropen_Schutze];
 _obj addAction ["Loadout: Schütze-EH", Nilia_fnc_Loadout_Tropen_SchutzeEHKAT];
 _obj addAction ["Loadout: Stv. GrpFhr.", Nilia_fnc_Loadout_Tropen_StvGrpFhr];
+_obj addAction ["Loadout: Flugabwehr Schütze", Nilia_fnc_Loadout_Tropen_AA];
+_obj addAction ["Loadout: AA-Hilf Schütze", Nilia_fnc_Loadout_Tropen_AAHilf];
 _obj addAction ["Loadout: Kompanieführung", Nilia_fnc_Loadout_Tropen_KpFhr];
 _obj addAction ["Loadout: Zugführung", Nilia_fnc_Loadout_Tropen_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Tropen_Spotter];
