@@ -23,5 +23,10 @@
 "hlc_pistol_P226R_357Combat","hlc_pistol_Mk25TR",
 //  RHS
 "rhsusf_weap_MP7A2_folded","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded","rhs_weap_rsp30_green","rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_folded_winter",
+"rhsusf_weap_m9","rhsusf_weap_m1911a1",
 //  ACE
-"ACE_VMH3"
+"ACE_VMH3",
+// Melee
+"WBK_Katana","Knife_m3","Sashka_Russian",
+// CUP
+"CUP_hgun_P30L_blk","CUP_hgun_P30L_Match_blk","CUP_hgun_SWM327MP","CUP_hgun_Deagle"
