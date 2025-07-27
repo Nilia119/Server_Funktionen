@@ -28,24 +28,20 @@ private _name = name _unit;
 switch (true) do {
     //Spieler mit eigenen Emblemen
     case ("Nilia" in _name): {[_unit,"EuDef_Insignia_Nilia"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of4_oberstleunant"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Nilia!";};
-    case ("Juggernaut" in _name): {[_unit,"EuDef_Insignia_Juggernaut"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of2b_stabshauptmann"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Juggernaut!";};
+    case ("Juggernaut" in _name): {[_unit,"EuDef_Insignia_Juggernaut"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of3_major"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Juggernaut!";};
     case ("Fox" in _name): {[_unit,"EuDef_Insignia_Fox"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4c_korporal"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Fox!";};
-    case ("CrasyConsti" in _name): {[_unit,"EuDef_Insignia_CrasyConsti"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or7_hauptfeldwebel"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, CrasyConsti!";};
-    case ("Plutokratie" in _name): {[_unit,"EuDef_Insignia_Plutokratie"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4c_korporal"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Plutokratie!";};
+    case ("CrasyConsti" in _name): {[_unit,"EuDef_Insignia_CrasyConsti"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or8_stabsfeldwebel"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, CrasyConsti!";};
+    case ("Plutokratie" in _name): {[_unit,"EuDef_Insignia_Plutokratie"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4d_stabskorporal"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Plutokratie!";};
     case ("Toyo" in _name): {[_unit,"EuDef_Insignia_Toyo"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of1a_leutnant"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Toyo!";};
-    case ("Desert" in _name): {[_unit,"EuDef_Insignia_Desert"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or2_gefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Desert!";};
     case ("Sam King" in _name): {[_unit,"EuDef_Insignia_SamKing"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["us_army", "w3_warrant_officer_3"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Sam!";};
     case ("Benedikt" in _name): {[_unit,"EuDef_Insignia_Benedikt"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or7_hauptfeldwebel"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Benedikt!";};
-    case ("DieScholle" in _name): {[_unit,"EuDef_Insignia_DieScholle"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4a_stabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, DieScholle!";};
+    case ("DieScholle" in _name): {[_unit,"EuDef_Insignia_DieScholle"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4b_oberstabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, DieScholle!";};
     case ("Zitobe" in _name): {[_unit,"EuDef_Insignia_Zitobe"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or3a_obergefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Zitobe!";};
-    case ("Ernschmosh" in _name): {[_unit,"EuDef_Insignia_Ernstmosh"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or6a_feldwebel"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Ernstmosh!";};
-    case ("Floaty" in _name): {[_unit,"EuDef_Insignia_Floaty"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or6b_oberfeldwebel"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Floaty!";};
-    case ("Frosch" in _name): {[_unit,"EuDef_Insignia_Frosch"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or3b_hauptgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Frosch!";};
+    case ("Frosch" in _name): {[_unit,"EuDef_Insignia_Frosch"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4a_stabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Frosch!";};
     case ("Grurai" in _name): {[_unit,"EuDef_Insignia_Grurai"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4a_stabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Grurai!";};
-    case ("Gurke" in _name): {[_unit,"EuDef_Insignia_Gurke"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or3b_hauptgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Gurke!";};
-    case ("Luna" in _name): {[_unit,"EuDef_Insignia_Luna"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4b_oberstabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Luna!";};
-    case ("Sero" in _name): {[_unit,"EuDef_Insignia_Sero"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or4b_oberstabsgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Sero!";};
-    case ("Okami" in _name): {[_unit,"EuDef_Insignia_Okami"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["us_army", "w1_warrant_officer_1"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Okami! ;D";};
+    case ("Okami" in _name): {[_unit,"EuDef_Insignia_Okami"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of1b_oberleutnant"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Okami! ;D";};
+    case ("Fichte" in _name): {[_unit,"EuDef_Insignia_Fichte"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or3b_hauptgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Fichte!";};
+    case ("Scharfspelz" in _name): {[_unit,"EuDef_Insignia_Scharfzpelz"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or3b_hauptgefreiter"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Scharfspelz!";};
     //Jäger
     case ("Jg." in _name): {[_unit,"EuDef_Insignia_Jaeger"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "or1_soldat"]] call etr_ranks_functions_fnc_setIcon; systemChat "Du bist Soldat!";};
     //Gefreite
