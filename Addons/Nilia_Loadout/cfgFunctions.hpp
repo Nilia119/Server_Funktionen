@@ -25,6 +25,14 @@ class CfgFunctions {
             class SetRank {};
         };
 
+        class Nilia_Loadouts_Allgemein_Server_Functions
+        {
+            file="\Nilia_Loadout\Loadout\Allgemein";
+
+            class Loadout_Allgemein_HeliPilot {};
+            class Loadout_Allgemein_JetPilot {};
+        };
+
         class Nilia_Loadouts_Fleck_Server_Functions
         {
             //Path where script files can be found for all functions defined within this category
@@ -39,14 +47,11 @@ class CfgFunctions {
             class Loadout_Fleck_HMG {};
             class Loadout_Fleck_HMGHilf {};
             class Loadout_Fleck_KpFhr {};
-            class Loadout_Fleck_LMG {};
             class Loadout_Fleck_PA {};
             class Loadout_Fleck_PAHilf {};
             class Loadout_Fleck_Pio {};
-            class Loadout_Fleck_San {};
             class Loadout_Fleck_SanKAT {};
             class Loadout_Fleck_Schutze {};
-            class Loadout_Fleck_SchutzeEH {};
             class Loadout_Fleck_SchutzeEHKAT {};
             class Loadout_Fleck_Sniper {};
             class Loadout_Fleck_Spotter {};
@@ -67,14 +72,11 @@ class CfgFunctions {
             class Loadout_Tropen_HMG {};
             class Loadout_Tropen_HMGHilf {};
             class Loadout_Tropen_KpFhr {};
-            class Loadout_Tropen_LMG {};
             class Loadout_Tropen_PA {};
             class Loadout_Tropen_PAHilf {};
             class Loadout_Tropen_Pio {};
-            class Loadout_Tropen_San {};
             class Loadout_Tropen_SanKAT {};
             class Loadout_Tropen_Schutze {};
-            class Loadout_Tropen_SchutzeEH {};
             class Loadout_Tropen_SchutzeEHKAT {};
             class Loadout_Tropen_Sniper {};
             class Loadout_Tropen_Spotter {};
