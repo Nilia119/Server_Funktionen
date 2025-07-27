@@ -13,11 +13,11 @@
 //		Strings
 //
 //	Example:
-//      [_unit, "Fleck"] call Nilia_fnc_KpFhr;   oder:
-//		[_unit] call Nilia_fnc_KpFhr;    oder:
+//      [this, "Fleck"] call Nilia_fnc_KpFhr;   oder:
+//		[this] call Nilia_fnc_KpFhr;    oder:
 //
 //      Wenn über Init Gecalled:
-//      onPreloadFinished {[_unit, "Fleck"]call Nilia_fnc_KpFhr; onPreloadFinished ""};
+//      onPreloadFinished {[this, "Fleck"]call Nilia_fnc_KpFhr; onPreloadFinished ""};
 //
 
 if (!hasInterface) exitWith {};
