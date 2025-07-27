@@ -18,7 +18,7 @@ _unit setVariable ["Nilia_Klasse", "Standard"];
 systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
 
 //hint
-systemChat "Flecktarn Ausrüstung: LMG-Schütze geladen!";
+systemChat "Ausrüstung (Fleck): LMG-Schütze geladen!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";

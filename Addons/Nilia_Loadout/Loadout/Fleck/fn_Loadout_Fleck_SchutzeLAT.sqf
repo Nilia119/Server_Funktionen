@@ -4,3 +4,7 @@
 _unit setVariable ["Nilia_Klasse", "LAT"];
 systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
 
+//hint
+systemChat "Ausrüstung (Fleck): Schütze-LAT geladen!";
+[_unit] call Nilia_fnc_SetRank;
+

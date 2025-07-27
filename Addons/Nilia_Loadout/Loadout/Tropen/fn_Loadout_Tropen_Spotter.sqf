@@ -18,7 +18,7 @@ _unit setVariable ["Nilia_Klasse", "DMR"];
 systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
 
 //hint
-systemChat "Tropentarn Ausrüstung: Beobachter geladen, sprachen konfiguriert und Rechte (Arzt) gesetzt!";
+systemChat "Ausrüstung (Tropen): Beobachter geladen, sprachen konfiguriert und Rechte (Arzt) gesetzt!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";

@@ -3,3 +3,7 @@
 [_unit] call Nilia_fnc_Arsenal_setGlobalRang;
 _unit setVariable ["Nilia_Klasse", "Standard"];
 systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
+
+//hint
+systemChat "Ausrüstung (Fleck): Munitionsträger geladen!";
+[_unit] call Nilia_fnc_SetRank;

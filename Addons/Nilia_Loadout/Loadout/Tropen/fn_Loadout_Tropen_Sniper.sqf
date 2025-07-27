@@ -18,7 +18,7 @@ _unit setVariable ["Nilia_Klasse", "Sniper"];
 systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
 
 //hint
-systemChat "Tropentarn Ausrüstung: Scharfschütze geladen, sprachen konfiguriert und Rechte (Sani) gesetzt!";
+systemChat "Ausrüstung (Tropen): Scharfschütze geladen, sprachen konfiguriert und Rechte (Sani) gesetzt!";
 [_unit] call Nilia_fnc_SetRank;
 
 //"Exported from Arsenal by [OberstLt.] Nilia";
