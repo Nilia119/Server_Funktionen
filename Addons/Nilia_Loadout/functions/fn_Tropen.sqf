@@ -30,6 +30,7 @@ _obj addAction ["Loadout: PA Hilfs Schütze", Nilia_fnc_Loadout_Tropen_PAHilf];
 _obj addAction ["Loadout: Pionier", Nilia_fnc_Loadout_Tropen_Pio];
 _obj addAction ["Loadout: Sanitäter", Nilia_fnc_Loadout_Tropen_San];
 _obj addAction ["Loadout: Schütze", Nilia_fnc_Loadout_Tropen_Schutze];
+_obj addAction ["Loadout: Schütze-LAT", Nilia_fnc_Loadout_Tropen_SchutzeLAT];
 _obj addAction ["Loadout: Schütze-EH", Nilia_fnc_Loadout_Tropen_SchutzeEH];
 _obj addAction ["Loadout: Munitionsträger", Nilia_fnc_Loadout_Tropen_MunT];
 _obj addAction ["Loadout: Stv. GrpFhr.", Nilia_fnc_Loadout_Tropen_StvGrpFhr];
