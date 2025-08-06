@@ -11,7 +11,7 @@
 //		BOOLEAN
 //
 //	Example:
-//		[] call Nilia_fnc_Arsenal_Basis
+//		[] call Nilia_fnc_Arsenal_Basis;
 //		[this] call Nilia_fnc_Arsenal_Basis;
 //
 //Arsenal stand 17.10.2024
@@ -36,15 +36,6 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
 
 ], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally
 
-// Aktion für das Spieler Arsenal:
-
-params ["_object"];
-
-if (isNull _object) exitWith {};
-
-_action = ["Nilia_Player_Arsenal", "Öffne dein Eigenes Arsenal", "", {player call Nilia_fnc_Arsenal_Calculate;}, {true}] call ace_interact_menu_fnc_createAction;
-
-[_object, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 
 /*
 hint "Arsenal wurde Geladen";

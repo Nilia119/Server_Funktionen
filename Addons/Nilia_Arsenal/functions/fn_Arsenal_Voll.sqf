@@ -11,8 +11,8 @@
 //		BOOLEAN
 //
 //	Example:
-//		[] call Nilia_fnc_Arsenal;
-//		[this] call Nilia_fnc_Arsenal;
+//		[] call Nilia_fnc_Arsenal_Voll;
+//		[this] call Nilia_fnc_Arsenal_Voll;
 //
 //Arsenal stand 27.10.2024
 
@@ -27,6 +27,9 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
         #include "Content\Vests.hpp",
         #include "Content\Backpacks.hpp",
         #include "Content\Helmets.hpp",
+        #include "Content\Weapons.hpp",
+        #include "Content\Sidearms.hpp",
+        #include "Content\Launcher.hpp",
         #include "Content\Attachments.hpp",
         #include "Content\NVG.hpp",
         #include "Content\Ammo.hpp",
