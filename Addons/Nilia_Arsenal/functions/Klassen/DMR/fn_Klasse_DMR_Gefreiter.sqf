@@ -18,6 +18,6 @@
 //		#include "Klassen\Standard\Gefreiter.hpp"
 //
 [
-    "arifle_SPAR_03_blk_F","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F",
+    "arifle_SPAR_03_blk_F","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","BWA3_G28",
     "hlc_rifle_XM8_MWSF_DMAR","HLC_Rifle_XM8_MWSF_DMAR_Green","HLC_Rifle_XM8_MWSF_DMAR_OD","HLC_Rifle_XM8_MWSF_DMAR_Tan"
 ]

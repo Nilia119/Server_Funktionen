@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_RU5562"
+    "hlc_rifle_RU5562","CUP_smg_vityaz"
 ]
