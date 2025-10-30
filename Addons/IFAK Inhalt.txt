@@ -3,6 +3,6 @@ IFAK 1
 2
 [['ACE_packingBandage', 10], ['ACE_quikclot', 10], ['ACE_elasticBandage', 5]]
 3
-[['kat_Painkiller', 1], ['ACE_morphine', 2], ['kat_Caffeine', 2]]
+[['kat_Painkiller', 1], ['ACE_morphine', 2], ['kat_Caffeine', 2],['ACE_IR_Strobe_Item',1],['ACE_CableTie',4]]
 4
 [['kat_chestSeal', 2], ['kat_larynx', 2]]

@@ -23,7 +23,7 @@ private _klassen = [
 ["Standard", "Standard"],
 ["Kompakt1", "Kompakt1"],
 ["Kompakt2", "Kompakt2"],
-["Grenadier", "Grenadier"],
+["ULG", "ULG"],
 ["MG", "MG"],
 ["PA", "PA"],
 ["LAT", "LAT"],

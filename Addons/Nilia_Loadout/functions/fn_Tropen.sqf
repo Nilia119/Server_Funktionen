@@ -18,7 +18,8 @@
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };
 
-_obj addAction ["Setze Emblem", Nilia_fnc_SetRank];
+_obj addAction ["<t color='#0000ff'>Setze Emblem", Nilia_fnc_SetRank];
+_obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout: Breacher", Nilia_fnc_Loadout_Tropen_Breacher];
 _obj addAction ["Loadout: DMR-Schütze", Nilia_fnc_Loadout_Tropen_DMR];
 _obj addAction ["Loadout: Gruppenführer", Nilia_fnc_Loadout_Tropen_GrpFhr];
@@ -38,10 +39,12 @@ _obj addAction ["Loadout: Stv. GrpFhr.", Nilia_fnc_Loadout_Tropen_StvGrpFhr];
 _obj addAction ["Loadout: Truppführer", Nilia_fnc_Loadout_Tropen_TrpFhr];
 _obj addAction ["Loadout: Flugabwehr Schütze", Nilia_fnc_Loadout_Tropen_AA];
 _obj addAction ["Loadout: AA-Hilf Schütze", Nilia_fnc_Loadout_Tropen_AAHilf];
+_obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout: Kompanieführung", Nilia_fnc_Loadout_Tropen_KpFhr];
 _obj addAction ["Loadout: Zugführer", Nilia_fnc_Loadout_Tropen_ZgFhr];
 _obj addAction ["Loadout: Beobachter", Nilia_fnc_Loadout_Tropen_Spotter];
 _obj addAction ["Loadout: Scharfschütze", Nilia_fnc_Loadout_Tropen_Sniper];
+_obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout: Jet Pilot", Nilia_fnc_Loadout_Allgemein_JetPilot];
 _obj addAction ["Loadout: Helikopter Pilot", Nilia_fnc_Loadout_Allgemein_HeliPilot];
 _obj addAction ["Loadout: Fahrzeugbesatzung", Nilia_fnc_Loadout_Tropen_Schutze];

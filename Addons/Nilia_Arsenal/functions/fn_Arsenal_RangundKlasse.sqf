@@ -37,7 +37,7 @@ switch (_klasse) do {
     case "LAT":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_LAT };
     case "Sniper":   { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Sniper };
     case "DMR":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_DMR };
-    case "ULG":{ [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_ULG };
+    case "ULG":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_ULG };
     case "PA":       { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_PA };
 
 default { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Standard };

@@ -24,7 +24,7 @@ private _name = name _unit;
 //Remove Insignia prior to Adding
 //[_unit,""] call BIS_fnc_setUnitInsignia;
 [_unit, ""] remoteExec ["bis_fnc_setUnitInsignia", 0];
-
+// TODO!
 switch (true) do {
     //Spieler mit eigenen Emblemen
     case ("Nilia" in _name): {[_unit,"EuDef_Insignia_Nilia"] remoteExec ["bis_fnc_setUnitInsignia", 0, true]; [_unit, ["germany", "of4_oberstleunant"]] call etr_ranks_functions_fnc_setIcon; systemChat "Hey, Nilia!";};
