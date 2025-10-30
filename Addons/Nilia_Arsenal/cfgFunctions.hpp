@@ -18,6 +18,7 @@ class CfgFunctions {
             class Arsenal_Basis {};
             class Arsenal_Voll {};
             class Arsenal_New {};
+			class Arsenal_Okami {};
             class VehicleInv {};
 
             class Arsenal_RK {};
