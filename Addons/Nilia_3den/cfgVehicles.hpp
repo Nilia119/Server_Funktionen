@@ -58,7 +58,7 @@ class CfgVehicles
         scopeCurator = 2;
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Arsenal_Basis;";
+            init = "_this call Nilia_fnc_Arsenal_Nilia;";
         };
     };
 
@@ -84,7 +84,7 @@ class CfgVehicles
         vehicleClass = "EuDef";
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Fleck;";
+            init = "_this call Nilia_fnc_Fleck; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
 
@@ -99,7 +99,7 @@ class CfgVehicles
         vehicleClass = "EuDef";
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Tropen;";
+            init = "_this call Nilia_fnc_Tropen; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
 
@@ -114,7 +114,21 @@ class CfgVehicles
         vehicleClass = "EuDef";
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Arsenal_RK_Debug;";
+            init = "_this call Nilia_fnc_Arsenal_RK_Debug; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+        };
+    };
+
+    class Nilia_EuDef_Fahne_Debug_Klasse : EUFOR_Flag_EU {
+        author = "Nilia";
+        displayName = "Klasse Debug-Fahne";
+        editorCategory = "Nilia_EuDef";
+        editorSubcategory = "Nilia_Eudef_Debug";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "EuDef";
+        class EventHandlers
+        {
+            init = "_this call Nilia_fnc_Arsenal_Debug_Klasse; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
 };

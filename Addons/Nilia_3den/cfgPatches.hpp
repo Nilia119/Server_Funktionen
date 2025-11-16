@@ -2,6 +2,7 @@ class cfgPatches {
 
     class Nilia_3den_Server_Functions
     {
+        name = "EuDef Scripte - 3den + Zeus";
         units[] = {
                 "Nilia_EuDef_Arsenal_Crate_Base",
                 "Nilia_EuDef_Arsenal_Crate",
@@ -11,6 +12,7 @@ class cfgPatches {
                 "Nilia_EuDef_Okami_Arsenal_Crate",
                 "Nilia_EuDef_Fahne_Fleck",
                 "Nilia_EuDef_Fahne_Tropen",
+                "Nilia_EuDef_Fahne_Debug_Klasse",
                 "Nilia_EuDef_Fahne_Debug"
                 };
         weapons[]={};
