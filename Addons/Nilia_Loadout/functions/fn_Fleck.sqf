@@ -35,7 +35,6 @@ _obj addAction ["Loadout: Schütze", Nilia_fnc_Loadout_Fleck_Schutze];
 _obj addAction ["Loadout: Schütze-LAT", Nilia_fnc_Loadout_Fleck_SchutzeLAT];
 _obj addAction ["Loadout: Schütze-EH", Nilia_fnc_Loadout_Fleck_SchutzeEH];
 _obj addAction ["Loadout: Munitionsträger", Nilia_fnc_Loadout_Fleck_MunT];
-_obj addAction ["Loadout: LMG-Schütze", Nilia_fnc_Loadout_Fleck_LMG];
 _obj addAction ["Loadout: Stv. GrpFhr.", Nilia_fnc_Loadout_Fleck_StvGrpFhr];
 _obj addAction ["Loadout: Truppführer", Nilia_fnc_Loadout_Fleck_TrpFhr];
 _obj addAction ["Loadout: Flugabwehr Schütze", Nilia_fnc_Loadout_Fleck_AA];

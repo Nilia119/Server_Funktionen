@@ -49,7 +49,6 @@ class CfgFunctions {
             class Loadout_Fleck_HMG {};
             class Loadout_Fleck_HMGHilf {};
             class Loadout_Fleck_KpFhr {};
-            class Loadout_Fleck_LMG {};
             class Loadout_Fleck_MunT {};
             class Loadout_Fleck_PA {};
             class Loadout_Fleck_PAHilf {};
@@ -80,7 +79,6 @@ class CfgFunctions {
             class Loadout_Tropen_HMG {};
             class Loadout_Tropen_HMGHilf {};
             class Loadout_Tropen_KpFhr {};
-            class Loadout_Tropen_LMG {};
             class Loadout_Tropen_MunT {};
             class Loadout_Tropen_PA {};
             class Loadout_Tropen_PAHilf {};
