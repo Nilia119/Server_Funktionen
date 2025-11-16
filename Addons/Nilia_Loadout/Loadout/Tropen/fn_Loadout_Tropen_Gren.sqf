@@ -15,7 +15,8 @@ _unit setVariable ["ACE_medical_medicClass", 0];    //Medic 0=0, 1=Sani, 2=Arzt
 // Fünge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
 [_unit] call Nilia_fnc_Arsenal_setGlobalRang;
 _unit setVariable ["Nilia_Klasse", "ULG"];
-systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
+_unit setVariable ["Nilia_Waffenklasse", "ULG"]; // TODO: Klasse (Grenadier) erstellen und in allen farben korrekt setzten, Entfernungsmesser!
+systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable "Nilia_Klasse", _unit getVariable "Nilia_Waffenklasse"];
 
 //hint
 systemChat "Ausrüstung (Tropen): Grenadier geladen und Sprachen erfolgreich konfiguriert!";

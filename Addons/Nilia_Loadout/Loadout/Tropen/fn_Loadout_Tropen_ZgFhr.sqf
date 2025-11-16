@@ -16,8 +16,9 @@ _unit setVariable ["ACE_medical_medicClass", 2];    //Medic 0=0, 1=Sani, 2=Arzt
 // Setzte Globale Klassen
 // Fünge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
 [_unit] call Nilia_fnc_Arsenal_setGlobalRang;
-_unit setVariable ["Nilia_Klasse", "Kompakt1"];
-systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
+_unit setVariable ["Nilia_Klasse", "Kompakt1"];     // TODO: Eigene Klasse erstellen!
+_unit setVariable ["Nilia_Waffenklasse", "Kompakt1"];
+systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable "Nilia_Klasse", _unit getVariable "Nilia_Waffenklasse"];
 
 //hint
 systemChat "Ausrüstung (Tropen): Zugführer geladen, sprachen konfiguriert und Rechte (Sani) gesetzt!";
