@@ -26,16 +26,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht G
         #include "Content\Ammo.hpp",
         #include "Content\Grenades.hpp",
         #include "Content\Items.hpp",
+        #include "Content\LimitedItems.hpp",
         #include "Content\BaseItems.hpp"
 
 ], true ] call ace_arsenal_fnc_initBox; //true to add arsenal globally
-
-// Aktion für das Spieler Arsenal:
-
-params ["_object"];
-
-if (isNull _object) exitWith {};
-
-_action = ["Nilia_Player_Arsenal", "<t color='#0040ff'>Öffne dein Eigenes Arsenal", "", {player call Nilia_fnc_Arsenal_Calculate;}, {true}] call ace_interact_menu_fnc_createAction;
-
-[_object, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
