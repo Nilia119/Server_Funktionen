@@ -1,5 +1,3 @@
-
-
 class Nilia_Arsenal_Rang_Keine
 {
     //Path where script files can be found for all functions defined within this category

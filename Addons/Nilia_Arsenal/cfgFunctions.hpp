@@ -40,7 +40,9 @@ class CfgFunctions {
             class Arsenal_Klasse_Breacher {};
             class Arsenal_Klasse_DMR {};
             class Arsenal_Klasse_EH {};
+            class Arsenal_Klasse_GrpFhr {};
             class Arsenal_Klasse_Hilf {};
+            class Arsenal_Klasse_KpFhr {};
             class Arsenal_Klasse_MG {};
             class Arsenal_Klasse_Muni {};
             class Arsenal_Klasse_ULG {};
@@ -49,8 +51,11 @@ class CfgFunctions {
             class Arsenal_Klasse_Pio {};
             class Arsenal_Klasse_San {};
             class Arsenal_Klasse_Sniper {};
+            class Arsenal_Klasse_StvGrpFhr {};
+            class Arsenal_Klasse_TrpFhr {};
             class Arsenal_Klasse_Kompakt1 {};
             class Arsenal_Klasse_Kompakt2 {};
+            class Arsenal_Klasse_ZgFhr {};
 
         };
         #include "\Nilia_Arsenal\functions\klassen\Keine\Keine.hpp"

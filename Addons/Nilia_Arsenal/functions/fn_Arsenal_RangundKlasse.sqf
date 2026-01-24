@@ -43,9 +43,13 @@ switch (_klasse) do {
     case "Sani":     { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_San };
     case "EH":       { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_EH };
     case "AA":       { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_AA };
+    case "GrpFhr":   { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_GrpFhr };
     case "Muni":     { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Muni };
+    case "TrpFhr":   { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_TrpFhr };
+    case "StvGrpFhr": { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_StvGrpFhr };
     case "Pio":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Pio };
     case "Breacher": { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Breacher };
+    case "KpFhr": { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_KpFhr };
     case "Hilfsschütze":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Hilf };
 
 default { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Standard };
