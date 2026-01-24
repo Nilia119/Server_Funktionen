@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\Hauptgefreiter.hpp"
 //
 [
+        "CUP_launch_BF3","CUP_launch_PzF3",
         "BWA3_PzF3","BWA3_Bunkerfaust"
 ]

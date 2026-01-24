@@ -27,37 +27,46 @@ private _none = _NoneKeine + _NoneStandard + _NoneLAT;
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterLAT = [] call Nilia_fnc_Klasse_LAT_Gefreiter;
 private _GefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Gefreiter;
-private _Gefreiter = _GefreiterKeine + _GefreiterLAT + _GefreiterStandard + _none;
+private _GefreiterAssault = [] call Nilia_fnc_Klasse_Attire_Assault;
+private _Gefreiter = _GefreiterKeine + _GefreiterLAT + _GefreiterStandard + _GefreiterAssault + _none;
 // Obergefreiter
 private _ObergefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Obergefreiter;
 private _ObergefreiterLAT = [] call Nilia_fnc_Klasse_LAT_Obergefreiter;
 private _ObergefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Obergefreiter;
-private _Obergefreiter = _ObergefreiterKeine + _ObergefreiterLAT + _ObergefreiterStandard + _Gefreiter;
+private _ObergefreiterFieldPack = [] call Nilia_fnc_Klasse_Attire_FieldPack;
+private _Obergefreiter = _ObergefreiterKeine + _ObergefreiterLAT + _ObergefreiterStandard + _ObergefreiterFieldPack + _Gefreiter;
 // Hauptgefreiter
 private _HauptgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Hauptgefreiter;
 private _HauptgefreiterLAT = [] call Nilia_fnc_Klasse_LAT_Hauptgefreiter;
 private _HauptgefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Hauptgefreiter;
-private _Hauptgefreiter = _HauptgefreiterKeine + _HauptgefreiterLAT + _HauptgefreiterStandard + _Obergefreiter;
+private _HauptgefreiterCiv = [] call Nilia_fnc_Klasse_Attire_Civ;
+private _HauptgefreiterTacticalPack = [] call Nilia_fnc_Klasse_Attire_TacticalPack;
+private _Hauptgefreiter = _HauptgefreiterKeine + _HauptgefreiterLAT + _HauptgefreiterStandard + _HauptgefreiterCiv + _HauptgefreiterTacticalPack + _Obergefreiter;
 // Stabsgefreiter
 private _StabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Stabsgefreiter;
 private _StabsgefreiterLAT = [] call Nilia_fnc_Klasse_LAT_Stabsgefreiter;
 private _StabsgefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Stabsgefreiter;
-private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterLAT + _StabsgefreiterStandard + _Hauptgefreiter;
+private _StabsgefreiterViperL = [] call Nilia_fnc_Klasse_Attire_ViperL;
+private _StabsgefreiterKitbag = [] call Nilia_fnc_Klasse_Attire_Kitbag;
+private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterLAT + _StabsgefreiterStandard + _StabsgefreiterViperL + _StabsgefreiterKitbag + _Hauptgefreiter;
 // Oberstabsgefreiter
 private _OberstabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Oberstabsgefreiter;
 private _OberstabsgefreiterLAT = [] call Nilia_fnc_Klasse_LAT_Oberstabsgefreiter;
 private _OberstabsgefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Oberstabsgefreiter;
-private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterLAT + _OberstabsgefreiterStandard + _Stabsgefreiter;
+private _OberstabsgefreiterViper = [] call Nilia_fnc_Klasse_Attire_Viper;
+private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterLAT + _OberstabsgefreiterStandard + _OberstabsgefreiterViper + _Stabsgefreiter;
 // Korporal
 private _KorporalKeine = [] call Nilia_fnc_Klasse_Keine_Korporal;
 private _KorporalLAT = [] call Nilia_fnc_Klasse_LAT_Korporal;
 private _KorporalStandard = [] call Nilia_fnc_Klasse_Standard_Korporal;
-private _Korporal = _KorporalKeine + _KorporalLAT + _KorporalStandard + _Oberstabsgefreiter;
+private _KorporalTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
+private _Korporal = _KorporalKeine + _KorporalLAT + _KorporalStandard + _KorporalTortilia + _Oberstabsgefreiter;
 // Stabskorporal
 private _StabskorporalKeine = [] call Nilia_fnc_Klasse_Keine_Stabskorporal;
 private _StabskorporalLAT = [] call Nilia_fnc_Klasse_LAT_Stabskorporal;
 private _StabskorporalStandard = [] call Nilia_fnc_Klasse_Standard_Stabskorporal;
-private _Stabskorporal = _StabskorporalKeine + _StabskorporalLAT + _StabskorporalStandard + _Korporal;
+private _StabskorporalUAV = [] call Nilia_fnc_Klasse_Attire_UAV;
+private _Stabskorporal = _StabskorporalKeine + _StabskorporalLAT + _StabskorporalStandard + _StabskorporalUAV + _Korporal;
 
 private _items = [];
 
