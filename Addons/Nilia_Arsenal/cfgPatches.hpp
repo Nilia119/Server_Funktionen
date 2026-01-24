@@ -2,6 +2,7 @@ class cfgPatches {
 
     class Nilia_Arsenal_Server_Functions
     {
+        name = "EuDef Scripte - Arsenal";
         units[] = {};
         weapons[]={};
         requiredVersion=0;

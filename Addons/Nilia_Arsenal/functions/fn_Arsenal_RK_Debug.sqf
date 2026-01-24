@@ -27,6 +27,7 @@ private _klassen = [
 ["MG", "MG"],
 ["PA", "PA"],
 ["LAT", "LAT"],
+["AA", "AA"],
 ["DMR", "DMR"],
 ["Sniper", "Sniper"]
 ];
