@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_saiga12k"
+    "hlc_rifle_saiga12k","hlc_rifle_G36CTac"
 ]

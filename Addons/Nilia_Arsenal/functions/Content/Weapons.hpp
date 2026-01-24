@@ -39,8 +39,8 @@
 
 //  NIARMS
 //      G36/G3
-"hlc_rifle_G36VAG36","hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","hlc_rifle_G36V","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi",
-"hlc_rifle_g3sg1ris","HLC_Rifle_g3ka4_GL","hlc_rifle_g3a3vris","hlc_rifle_g3a3vris","hlc_rifle_g3ka4","hlc_rifle_G36MLIC",
+"hlc_rifle_G36VAG36","hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","hlc_rifle_G36V","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","hlc_rifle_G36CMLIC",
+"hlc_rifle_g3sg1ris","HLC_Rifle_g3ka4_GL","hlc_rifle_g3a3vris","hlc_rifle_g3a3vris","hlc_rifle_g3ka4","hlc_rifle_G36MLIC","hlc_rifle_G36C","hlc_rifle_G36CV","hlc_rifle_G36CTac",
 //      SIG STG
 "hlc_rifle_SG551LB_TAC","hlc_rifle_SG551LB_TAC_GL","hlc_rifle_STG58F","hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_SG551SB_TAC","hlc_rifle_SG551SB_TAC_GL",
 //      ACR
