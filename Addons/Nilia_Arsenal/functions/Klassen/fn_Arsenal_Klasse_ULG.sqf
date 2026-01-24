@@ -20,8 +20,10 @@ params [["_unit", objNull, [objNull]], ["_rang", 0, [0]]];
 
 // None
 private _NoneKeine = [] call Nilia_fnc_Klasse_Keine_None;
+private _NoneAttireAssault = [] call Nilia_fnc_Klasse_Attire_Assault;
 private _NoneULG = [] call Nilia_fnc_Klasse_ULG_None;
-private _none = _NoneKeine + _NoneULG;
+private _NoneRF = [] call Nilia_fnc_Klasse_Items_StvGrpFhr;
+private _none = _NoneKeine + _NoneAttireAssault + _NoneULG + _NoneRF;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterULG = [] call Nilia_fnc_Klasse_ULG_Gefreiter;
@@ -29,23 +31,30 @@ private _Gefreiter = _GefreiterKeine + _GefreiterULG + _none;
 // Obergefreiter
 private _ObergefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Obergefreiter;
 private _ObergefreiterULG = [] call Nilia_fnc_Klasse_ULG_Obergefreiter;
-private _Obergefreiter = _ObergefreiterKeine + _ObergefreiterULG + _Gefreiter;
+private _ObergefreiterAttireFieldPack = [] call Nilia_fnc_Klasse_Attire_FieldPack;
+private _Obergefreiter = _ObergefreiterKeine + _ObergefreiterAttireFieldPack + _ObergefreiterULG + _Gefreiter;
 // Hauptgefreiter
 private _HauptgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Hauptgefreiter;
 private _HauptgefreiterULG = [] call Nilia_fnc_Klasse_ULG_Hauptgefreiter;
-private _Hauptgefreiter = _HauptgefreiterKeine + _HauptgefreiterULG + _Obergefreiter;
+private _HauptgefreiterAttireCiv = [] call Nilia_fnc_Klasse_Attire_Civ;
+private _HauptgefreiterAttireTacticalPack = [] call Nilia_fnc_Klasse_Attire_TacticalPack;
+private _Hauptgefreiter = _HauptgefreiterKeine + _HauptgefreiterAttireCiv + _HauptgefreiterAttireTacticalPack + _HauptgefreiterULG + _Obergefreiter;
 // Stabsgefreiter
 private _StabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Stabsgefreiter;
 private _StabsgefreiterULG = [] call Nilia_fnc_Klasse_ULG_Stabsgefreiter;
-private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterULG + _Hauptgefreiter;
+private _StabsgefreiterViperL = [] call Nilia_fnc_Klasse_Attire_ViperL;
+private _StabsgefreiterKitbag = [] call Nilia_fnc_Klasse_Attire_Kitbag;
+private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterViperL + _StabsgefreiterKitbag + _StabsgefreiterULG + _Hauptgefreiter;
 // Oberstabsgefreiter
 private _OberstabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Oberstabsgefreiter;
 private _OberstabsgefreiterULG = [] call Nilia_fnc_Klasse_ULG_Oberstabsgefreiter;
-private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterULG + _Stabsgefreiter;
+private _OberstabsgefreiterViper = [] call Nilia_fnc_Klasse_Attire_Viper;
+private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterViper + _OberstabsgefreiterULG + _Stabsgefreiter;
 // Korporal
 private _KorporalKeine = [] call Nilia_fnc_Klasse_Keine_Korporal;
 private _KorporalULG = [] call Nilia_fnc_Klasse_ULG_Korporal;
-private _Korporal = _KorporalKeine + _KorporalULG + _Oberstabsgefreiter;
+private _KorporalTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
+private _Korporal = _KorporalKeine + _KorporalTortilia + _KorporalULG + _Oberstabsgefreiter;
 // Stabskorporal
 private _StabskorporalKeine = [] call Nilia_fnc_Klasse_Keine_Stabskorporal;
 private _StabskorporalULG = [] call Nilia_fnc_Klasse_ULG_Stabskorporal;
