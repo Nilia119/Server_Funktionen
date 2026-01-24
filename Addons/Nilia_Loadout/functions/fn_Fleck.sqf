@@ -14,12 +14,15 @@
 //		[] call Nilia_fnc_Fleck
 //		[this] call Nilia_fnc_Fleck;
 //
-
+//      TODO: Add Radius Heal to Flagge | Via Params flagge so ändern, dass nur ein Script benötigt wird: ["Fleck"|"Tropen"|"Multi",this] call Nilia_fnc_Loadout;
 
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };
 
+[_obj, "Fleck"] call Nilia_fnc_Loadout;
+/*
 _obj addAction ["<t color='#0000ff'>Setze Emblem", Nilia_fnc_SetRank];
+_obj addAction ["<t color='#0000ff'>Vollständig Heilen", { params ["_target", "_caller"]; [_caller, _caller] call ace_medical_treatment_fnc_fullHeal; systemChat "Du wurdest vollständig geheilt!";}];
 _obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout: Breacher", Nilia_fnc_Loadout_Fleck_Breacher];
 _obj addAction ["Loadout: DMR-Schütze", Nilia_fnc_Loadout_Fleck_DMR];
@@ -48,6 +51,13 @@ _obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_S
 _obj addAction ["Loadout: Jet Pilot", Nilia_fnc_Loadout_Allgemein_JetPilot];
 _obj addAction ["Loadout: Helikopter Pilot", Nilia_fnc_Loadout_Allgemein_HeliPilot];
 _obj addAction ["Loadout: Fahrzeugbesatzung", Nilia_fnc_Loadout_Fleck_Schutze];
+
+_obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
+_obj addAction ["Loadout: Schütze NEU Fleck", Nilia_fnc_Loadout_Schutze, "Fleck"];
+_obj addAction ["Loadout: Schütze NEU Tropen", Nilia_fnc_Loadout_Schutze, "Tropen"];
+_obj addAction ["Loadout: Schütze NEU Multi", Nilia_fnc_Loadout_Schutze, "Multi"];
+_obj addAction ["Loadout: Schütze NEU Schnee", Nilia_fnc_Loadout_Schutze, "Schnee"];
+_obj addAction ["Loadout: Schütze NEU Default (tropen)", Nilia_fnc_Loadout_Schutze];
 
 /*
 hint "Flecktarn Ausrüstung wurde Geladen";

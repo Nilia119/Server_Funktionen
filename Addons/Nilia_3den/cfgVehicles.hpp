@@ -84,7 +84,7 @@ class CfgVehicles
         vehicleClass = "EuDef";
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Fleck; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+            init = "[_this select 0, 'Fleck'] call Nilia_fnc_Loadout; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
 
@@ -99,7 +99,37 @@ class CfgVehicles
         vehicleClass = "EuDef";
         class EventHandlers
         {
-            init = "_this call Nilia_fnc_Tropen; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+            init = "[_this select 0, 'Tropen'] call Nilia_fnc_Loadout; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+        };
+    };
+
+    class Nilia_EuDef_Fahne_Schnee : EUFOR_Flag_EU_H
+    {
+        author = "Nilia";
+        displayName = "Schneetarn Ausrüstungen";
+        editorCategory = "Nilia_EuDef";
+        editorSubcategory = "Nilia_Eudef_Flags";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "EuDef";
+        class EventHandlers
+        {
+            init = "[_this select 0, 'Schnee'] call Nilia_fnc_Loadout; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+        };
+    };
+
+    class Nilia_EuDef_Fahne_Multi : EUFOR_Flag_EU
+    {
+        author = "Nilia";
+        displayName = "Multitarn Ausrüstungen";
+        editorCategory = "Nilia_EuDef";
+        editorSubcategory = "Nilia_Eudef_Flags";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "EuDef";
+        class EventHandlers
+        {
+            init = "[_this select 0, 'Multi'] call Nilia_fnc_Loadout; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
 

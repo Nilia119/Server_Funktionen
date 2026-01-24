@@ -18,7 +18,10 @@
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht geladen werden" };
 
+[_obj, "Tropen"] call Nilia_fnc_Loadout;
+/*
 _obj addAction ["<t color='#0000ff'>Setze Emblem", Nilia_fnc_SetRank];
+_obj addAction ["<t color='#0000ff'>Vollständig Heilen", { params ["_target", "_caller"]; [_caller, _caller] call ace_medical_treatment_fnc_fullHeal; systemChat "Du wurdest vollständig geheilt!";}];
 _obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout: Breacher", Nilia_fnc_Loadout_Tropen_Breacher];
 _obj addAction ["Loadout: DMR-Schütze", Nilia_fnc_Loadout_Tropen_DMR];
