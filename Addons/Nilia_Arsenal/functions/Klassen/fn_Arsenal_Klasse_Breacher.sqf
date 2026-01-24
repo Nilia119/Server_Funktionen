@@ -1,0 +1,83 @@
+//
+//	Author: [EuDef] Nilia
+//
+//	Description:
+//		Script Assigns items to arsenal based on Rank for Class Kompakt2
+//
+//
+//	Parameter(s):
+//                  0: Rank of Player
+//
+//	Returns:
+//		Array/Text
+//
+//	Example:
+//		[] call Nilia_fnc_Arsenal_Klasse_Kompakt2
+//		[0] call Nilia_fnc_Arsenal_Klasse_Kompakt2
+
+params [["_unit", objNull, [objNull]], ["_rang", 0, [0]]];
+
+
+// None
+private _NoneKeine = [] call Nilia_fnc_Klasse_Keine_None;
+private _NoneKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_None;
+private _NoneItemsBreacher = [] call Nilia_fnc_Klasse_Items_Breacher;
+private _NoneItemsEH = [] call Nilia_fnc_Klasse_Items_EH;
+private _none = _NoneKeine + _NoneKompakt2 + _NoneItemsBreacher + _NoneItemsEH;
+// Gefreiter
+private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
+private _GefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Gefreiter;
+private _GefreiterAssault = [] call Nilia_fnc_Klasse_Attire_Assault;
+private _Gefreiter = _GefreiterKeine + _GefreiterKompakt2 + _GefreiterAssault + _none;
+// Obergefreiter
+private _ObergefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Obergefreiter;
+private _ObergefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Obergefreiter;
+private _ObergefreiterFieldPack = [] call Nilia_fnc_Klasse_Attire_FieldPack;
+private _Obergefreiter = _ObergefreiterKeine + _ObergefreiterKompakt2 + _ObergefreiterFieldPack + _Gefreiter;
+// Hauptgefreiter
+private _HauptgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Hauptgefreiter;
+private _HauptgefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Hauptgefreiter;
+private _HauptgefreiterCiv = [] call Nilia_fnc_Klasse_Attire_Civ;
+private _HauptgefreiterTacticalPack = [] call Nilia_fnc_Klasse_Attire_TacticalPack;
+private _Hauptgefreiter = _HauptgefreiterKeine + _HauptgefreiterKompakt2 + _HauptgefreiterCiv + _HauptgefreiterTacticalPack + _Obergefreiter;
+// Stabsgefreiter
+private _StabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Stabsgefreiter;
+private _StabsgefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Stabsgefreiter;
+private _StabsgefreiterViperL = [] call Nilia_fnc_Klasse_Attire_ViperL;
+private _StabsgefreiterTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
+private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterKompakt2 + _StabsgefreiterViperL + _StabsgefreiterTortilia + _Hauptgefreiter;
+// Oberstabsgefreiter
+private _OberstabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Oberstabsgefreiter;
+private _OberstabsgefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Oberstabsgefreiter;
+private _OberstabsgefreiterViper = [] call Nilia_fnc_Klasse_Attire_Viper;
+private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterKompakt2 + _OberstabsgefreiterViper + _Stabsgefreiter;
+// Korporal
+private _KorporalKeine = [] call Nilia_fnc_Klasse_Keine_Korporal;
+private _KorporalKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Korporal;
+private _Korporal = _KorporalKeine + _KorporalKompakt2 + _Oberstabsgefreiter;
+// Stabskorporal
+private _StabskorporalKeine = [] call Nilia_fnc_Klasse_Keine_Stabskorporal;
+private _StabskorporalKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Stabskorporal;
+private _StabskorporalUAV = [] call Nilia_fnc_Klasse_Attire_UAV;
+private _Stabskorporal = _StabskorporalKeine + _StabskorporalKompakt2 + _StabskorporalUAV + _Korporal;
+
+private _items = [];
+
+switch (true) do {
+    case (_rang == 0): { _items = _none; };
+    case (_rang == 1): { _items = _Gefreiter; };
+    case (_rang == 2): { _items = _Obergefreiter; };
+    case (_rang == 3): { _items = _Hauptgefreiter; };
+    case (_rang == 4): { _items = _Stabsgefreiter; };
+    case (_rang == 5): { _items = _Oberstabsgefreiter; };
+    case (_rang == 6): { _items = _Korporal; };
+    case (_rang >= 7): { _items = _Stabskorporal; };
+    default { _items = _none; };
+};
+
+//Debug
+//systemChat format ["DEBUG: Unit = %1, Rang = %2", _unit, _rang];
+//systemChat format ["Items (%1): %2", _rang, _items];
+
+
+_unit setVariable ["Nilia_RangKlassenItems", _items];

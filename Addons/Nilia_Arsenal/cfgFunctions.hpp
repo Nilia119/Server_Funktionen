@@ -36,6 +36,8 @@ class CfgFunctions {
             file="\Nilia_Arsenal\functions\Klassen";
 
             class Arsenal_Klasse_Standard {};
+            class Arsenal_Klasse_AA {};
+            class Arsenal_Klasse_Breacher {};
             class Arsenal_Klasse_DMR {};
             class Arsenal_Klasse_Hilf {};
             class Arsenal_Klasse_MG {};
@@ -43,6 +45,7 @@ class CfgFunctions {
             class Arsenal_Klasse_ULG {};
             class Arsenal_Klasse_LAT {};
             class Arsenal_Klasse_PA {};
+            class Arsenal_Klasse_Pio {};
             class Arsenal_Klasse_Sniper {};
             class Arsenal_Klasse_Kompakt1 {};
             class Arsenal_Klasse_Kompakt2 {};
@@ -58,6 +61,8 @@ class CfgFunctions {
         #include "\Nilia_Arsenal\functions\klassen\PA\PA.hpp"
         #include "\Nilia_Arsenal\functions\klassen\Kompakt1\Kompakt1.hpp"
         #include "\Nilia_Arsenal\functions\klassen\Kompakt2\Kompakt2.hpp"
+        #include "\Nilia_Arsenal\functions\klassen\Items\Items.hpp"
+        #include "\Nilia_Arsenal\functions\klassen\Attire\Attire.hpp"
 
     };
 };

@@ -2,3 +2,143 @@ params ["_target", "_caller", "_actionId", "_farbe"];
 private _unit = player;
 if (!local _unit) exitWith {};
 _unit setUnitLoadout (configFile >> "EmptyLoadout");
+
+// Set ACRE Babble Language
+["en"] call acre_api_fnc_babelSetSpokenLanguages;
+["en"] call acre_api_fnc_babelSetSpeakingLanguage;
+
+// Set Medic and Engineer Level
+_unit setVariable ["ACE_isEOD", true];              //Sprengstoff
+_unit setVariable ["ACE_isEngineer", 1, true];      //Pionier 0=0, 1=EOD, 2=Pionier "true" muss sein :O
+_unit setVariable ["ACE_medical_medicClass", 1];    //Medic 0=0, 1=Sani, 2=Arzt
+
+// Setzte Globale Klassen
+// TODO: Füge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
+[_unit] call Nilia_fnc_Arsenal_setGlobalRang;
+_unit setVariable ["Nilia_Klasse", "Breacher"];
+_unit setVariable ["Nilia_Waffenklasse", "Kompakt2"];
+systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable "Nilia_Klasse", _unit getVariable "Nilia_Waffenklasse"];
+
+// Farbspezifische Items hinzufügen:
+switch (true) do {
+    default {
+        _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+        _unit addVest "EUFOR_Vest_Carrier_1_Fleck";
+        _unit addHeadgear "EUFOR_Helmets_HelmetIA_Fleck";
+        _unit addBackpack "EUFOR_Backpacks_Kitbag_Fleck";
+        _farbe = "Flecktarn";
+    };
+    case ("Tropen" in _farbe): {
+        _unit forceAddUniform "W_EUFOR_Uniform_Tropen_Digital";
+        _unit addVest "EUFOR_Vest_Carrier_1_Tropen_Digital";
+        _unit addHeadgear "EUFOR_Helmets_HelmetIA_TropenD";
+        _unit addBackpack "EUFOR_Backpacks_Kitbag_TropenD";
+        _farbe = "Tropentarn";
+    };
+    case ("Schnee" in _farbe): {
+        _unit forceAddUniform "W_EUFOR_Uniform_Schnee";
+        _unit addVest "EUFOR_Vest_Carrier_1_Schnee";
+        _unit addHeadgear "EUFOR_Helmets_HelmetIA_Schnee";
+        _unit addBackpack "EUFOR_Backpacks_Kitbag_Schnee";
+        _farbe = "Schneetarn";
+    };
+    case ("Multi" in _farbe): {
+        _unit forceAddUniform "W_EUFOR_Uniform_Multi";
+        _unit addVest "EUFOR_Vest_Carrier_1_Multi";
+        _unit addHeadgear "EUFOR_Helmets_HelmetIA_Multi";
+        _unit addBackpack "EUFOR_Backpacks_Kitbag_Multi";
+        _farbe = "Multitarn";
+    };
+};
+
+//hint
+systemChat format ["Ausrüstung (%1): Breacher wird geladen und Rechte (EH/EOD) wurden gesetzt!", _farbe];
+[_unit] call Nilia_fnc_SetRank;
+
+// "Add weapons";
+_unit addWeapon "hlc_smg_mp510_grip";
+_unit addPrimaryWeaponItem "ACE_muzzle_mzls_smg_01";
+_unit addPrimaryWeaponItem "ACE_DBAL_A3_Green";
+_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+_unit addPrimaryWeaponItem "hlc_30Rnd_10mm_B_MP5";
+_unit addPrimaryWeaponItem "hlc_grip_PMVFG_Black";
+_unit addWeapon "hlc_pistol_P226R_357Combat";
+_unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
+
+// "Add binoculars";
+_unit addWeapon "Binocular";
+
+// "Add items to containers";
+_unit addItemToUniform "kat_IFAK";
+for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {_unit addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_epinephrine";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
+_unit addItemToUniform "ACE_MapTools";
+_unit addItemToUniform "ACE_Flashlight_XL50";
+_unit addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 4 do {_unit addItemToUniform "ACE_tourniquet";};
+_unit addItemToUniform "kat_larynx";
+_unit addItemToUniform "ACE_morphine";
+_unit addItemToUniform "ACE_EntrenchingTool";
+_unit addItemToUniform "PapersPlease_PassportMilitary";
+_unit addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_splint";};
+_unit addItemToUniform "greenmag_item_speedloader";
+_unit addItemToUniform "ACE_Clacker";
+_unit addItemToUniform "ACE_EHP";
+for "_i" from 1 to 2 do {_unit addItemToUniform "hlc_12Rnd_357SIG_B_P226";};
+for "_i" from 1 to 3 do {_unit addItemToVest "ACE_WaterBottle";};
+_unit addItemToVest "kat_Pulseoximeter";
+_unit addItemToVest "kat_larynx";
+_unit addItemToVest "ACE_salineIV_250";
+_unit addItemToVest "ACE_salineIV";
+_unit addItemToVest "ACE_MRE_CreamTomatoSoup";
+_unit addItemToVest "ACE_MRE_MeatballsPasta";
+for "_i" from 1 to 2 do {_unit addItemToVest "ACRE_PRC152";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
+_unit addItemToVest "SmokeShellBlue";
+_unit addItemToVest "B_IR_Grenade";
+_unit addItemToVest "kat_Painkiller";
+_unit addItemToVest "kat_Caffeine";
+for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 4 do {_unit addItemToVest "ACE_M84";};
+for "_i" from 1 to 9 do {_unit addItemToVest "hlc_30Rnd_10mm_B_MP5";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "tsp_lockpick";};
+for "_i" from 1 to 4 do {_unit addItemToBackpack "kat_IV_16";};
+for "_i" from 1 to 6 do {_unit addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_elasticBandage";};
+for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_chestSeal";};
+_unit addItemToBackpack "ACE_wirecutter";
+for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 4 do {_unit addItemToBackpack "kat_IO_FAST";};
+_unit addItemToBackpack "ACE_salineIV";
+_unit addItemToBackpack "ACE_salineIV_250";
+for "_i" from 1 to 6 do {_unit addItemToBackpack "kat_larynx";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Pulseoximeter";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_splint";};
+for "_i" from 1 to 8 do {_unit addItemToBackpack "ACE_tourniquet";};
+_unit addItemToBackpack "kat_AFAK";
+_unit addItemToBackpack "rhs_weap_Izh18";
+for "_i" from 1 to 2 do {_unit addItemToBackpack "tsp_breach_block_mag";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "tsp_breach_popper_auto_mag";};
+for "_i" from 1 to 12 do {_unit addItemToBackpack "rhsgref_1Rnd_Slug";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "kat_Carbonate";};
+_unit addItemToBackpack "kat_Painkiller";
+_unit addGoggles "rhs_googles_clear";
+
+// "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemMicroDAGR";
+
+
+//Destroy Variables
+_unit = nil;
+_farbe = nil;

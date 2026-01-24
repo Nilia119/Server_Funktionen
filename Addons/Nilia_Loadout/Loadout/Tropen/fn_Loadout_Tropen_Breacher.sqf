@@ -26,7 +26,7 @@ systemChat "Ausrüstung (Tropen): Breacher wurde geladen!";
 //comment "Exported from Arsenal by [OberstLt.] Nilia";
 
 //comment "Add weapons";
-_unit addWeapon "hlc_smg_mp510_tac";
+_unit addWeapon "hlc_mp510_tac";
 _unit addPrimaryWeaponItem "ACE_muzzle_mzls_smg_01";
 _unit addPrimaryWeaponItem "ACE_DBAL_A3_Green";
 _unit addPrimaryWeaponItem "rhsusf_acc_compm4";
