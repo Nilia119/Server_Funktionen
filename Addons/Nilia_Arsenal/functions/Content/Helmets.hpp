@@ -17,6 +17,16 @@
 //		#include "Content\Helmets.hpp"
 //
 
+//  Zu entfernen:
+"H_Barett_EuDeF",
+//  EUFOR
+"EUFOR_Helmets_Beret_EuDef",
+"EUFOR_Helmets_HelmetB_Fleck","EUFOR_Helmets_HelmetB_Multi","EUFOR_Helmets_HelmetB_Schnee","EUFOR_Helmets_HelmetB_TropenD",
+"EUFOR_Helmets_HelmetIA_Fleck","EUFOR_Helmets_HelmetIA_Multi","EUFOR_Helmets_HelmetIA_Schnee","EUFOR_Helmets_HelmetIA_TropenD",
+"EUFOR_Helmets_Boonie_Fleck","EUFOR_Helmets_Boonie_Multi","EUFOR_Helmets_Boonie_Schnee","EUFOR_Helmets_Boonie_TropenD",
+"EUFOR_Helmets_MilCap_Fleck","EUFOR_Helmets_MilCap_Multi","EUFOR_Helmets_MilCap_Schnee","EUFOR_Helmets_MilCap_TropenD",
+// EUFOR Bandana
+"EUFOR_Helmets_Bandana_Fleck","EUFOR_Helmets_Bandana_Multi","EUFOR_Helmets_Bandana_Schnee","EUFOR_Helmets_Bandana_Tropen",
 //  Brillen
 "CUP_PMC_Facewrap_Skull","G_bandanna_beast","G_bandanna_tan","CUP_G_PMC_Facewrap_Black_Glasses_Dark","CUP_G_PMC_Facewrap_Tan_Glasses_Dark","PBW_Brille_braun","PBW_Brille_gelb",
 "PBW_Brille_schwarz","PBW_RevisionF_klar","PBW_RevisionF_Dunkel","PBW_RevisionT_Klar","PBW_RevisionT_Dunkel","rhs_googles_clear","rhs_googles_orange","rhs_googles_black",
@@ -33,6 +43,4 @@
 //  RHS Helme
 "rhsusf_opscore_fg_pelt_cam",
 //  CUP Helme
-"CUP_H_Ger_Cap_Tan2",
-//  EUFOR Helme
-"H_Barett_EuDeF"
+"CUP_H_Ger_Cap_Tan2"

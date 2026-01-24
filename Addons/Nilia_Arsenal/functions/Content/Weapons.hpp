@@ -18,6 +18,12 @@
 //
 
 //  ARMA 3 Waffen
+//      Drohnen
+"GX_DEPLOYABLE_B_HMG_01_A_F","GX_DEPLOYABLE_B_GMG_01_A_F", // GMG/HMG
+"GX_DEPLOYABLE_HONEYBADGER_UGV_AT_BLACK","GX_DEPLOYABLE_HONEYBADGER_UGV_AT_DESERT","GX_DEPLOYABLE_HONEYBADGER_UGV_AT_GREEN", // AT-Mine
+"GX_DEPLOYABLE_B_W_STATIC_DESIGNATOR_01_F","GX_DEPLOYABLE_B_STATIC_DESIGNATOR_01_F", // Laserdesignator
+"GX_DEPLOYABLE_B_IDAP_UAV_06_ANTIMINE_F", // IDAP Drohne
+"GX_DEPLOYABLE_B_UAV_01_F","GX_DEPLOYABLE_B_UAV_06_F","GX_DEPLOYABLE_B_UAV_06_MEDICAL_F",
 //      STG
 "arifle_SPAR_03_blk_F","arifle_MX_Black_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","arifle_MXC_khk_F","arifle_MXC_F",
 "arifle_MXC_Black_F","arifle_MX_SW_Black_F","arifle_AK12_GL_F","arifle_TRG21_GL_F","arifle_TRG21_F","srifle_DMR_02_F","arifle_AK12_F","arifle_AK12U_lush_F","arifle_AK12U_arid_F",
@@ -81,6 +87,8 @@
 "rhs_weap_fim92","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_winter","rhsusf_weap_MP7A2_desert",
 "rhs_weap_rpg7","rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105","rhs_weap_Izh18","rhs_weap_m4a1_blockII_bk","rhs_weap_m1garand_sa43","rhs_weap_Izh18","rhs_weap_M590_5RD",
 "rhs_weap_pkp","rhs_weap_m32",
+//  JCA
+"JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F","JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
 //  BWMOD
 "BWA3_MG4","BWA3_MG5","BWA3_G28",
 //  ACE
