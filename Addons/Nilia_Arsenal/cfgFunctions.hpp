@@ -32,8 +32,12 @@ class CfgFunctions {
             class Arsenal_setGlobalRang {};
 
         };
+        class Nilia_Arsenal_Server_Functions_Klassen {
+            file="\Nilia_Arsenal\functions\Klassen";
+
             class Arsenal_Klasse_Standard {};
             class Arsenal_Klasse_DMR {};
+            class Arsenal_Klasse_Hilf {};
             class Arsenal_Klasse_MG {};
             class Arsenal_Klasse_ULG {};
             class Arsenal_Klasse_LAT {};
@@ -41,10 +45,6 @@ class CfgFunctions {
             class Arsenal_Klasse_Sniper {};
             class Arsenal_Klasse_Kompakt1 {};
             class Arsenal_Klasse_Kompakt2 {};
-            class Arsenal_Playeritems {};
-            class Arsenal_RangundKlasse {};
-            class Arsenal_RK_Debug {};
-            class Arsenal_setGlobalRang {};
 
         };
         #include "\Nilia_Arsenal\functions\klassen\Keine\Keine.hpp"
