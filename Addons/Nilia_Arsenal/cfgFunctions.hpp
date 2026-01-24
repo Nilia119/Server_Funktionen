@@ -39,6 +39,7 @@ class CfgFunctions {
             class Arsenal_Klasse_AA {};
             class Arsenal_Klasse_Breacher {};
             class Arsenal_Klasse_DMR {};
+            class Arsenal_Klasse_EH {};
             class Arsenal_Klasse_Hilf {};
             class Arsenal_Klasse_MG {};
             class Arsenal_Klasse_Muni {};
@@ -46,6 +47,7 @@ class CfgFunctions {
             class Arsenal_Klasse_LAT {};
             class Arsenal_Klasse_PA {};
             class Arsenal_Klasse_Pio {};
+            class Arsenal_Klasse_San {};
             class Arsenal_Klasse_Sniper {};
             class Arsenal_Klasse_Kompakt1 {};
             class Arsenal_Klasse_Kompakt2 {};
