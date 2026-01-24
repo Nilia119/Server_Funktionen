@@ -18,6 +18,6 @@
 //		#include "Klassen\Standard\Korporal.hpp"
 //
 [
-    "arifle_MXC_Black_F","arifle_MXC_khk_F","arifle_MXC_F",
+    "arifle_MXC_Black_F","arifle_MXC_khk_F","arifle_MXC_F","CUP_smg_bizon",
     "arifle_AK12U_F","arifle_AK12U_lush_F","arifle_AK12U_arid_F"
 ]

@@ -76,7 +76,7 @@
 //  CUP
 "CUP_sgun_M1014_Entry_vfg","CUP_arifle_L85A2_NG","CUP_Famas_F1_Rail","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2",
 "CUP_arifle_CZ805_A1_blk","CUP_arifle_CZ805_A1_coyote","CUP_Famas_F1_Rail_Arid","CUP_Famas_F1_Rail_Wood","CUP_sgun_AA12","CUP_hgun_BallisticShield_Armed_M9",
-"CUP_arifle_CZ805_A2_blk","CUP_arifle_CZ805_A2_coyote","CUP_glaunch_6G30",
+"CUP_arifle_CZ805_A2_blk","CUP_arifle_CZ805_A2_coyote","CUP_glaunch_6G30","CUP_smg_bizon","CUP_smg_vityaz_vfg","CUP_smg_vityaz_vfg_front_rail","CUP_smg_vityaz_vfg_top_rail",
 //  RHS
 "rhs_weap_fim92","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_winter","rhsusf_weap_MP7A2_desert",
 "rhs_weap_rpg7","rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105","rhs_weap_Izh18","rhs_weap_m4a1_blockII_bk","rhs_weap_m1garand_sa43","rhs_weap_Izh18","rhs_weap_M590_5RD",
