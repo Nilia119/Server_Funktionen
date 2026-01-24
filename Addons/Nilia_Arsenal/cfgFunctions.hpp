@@ -25,6 +25,13 @@ class CfgFunctions {
             class Arsenal_RK {};
             class Arsenal_Calculate {};
             class Arsenal_Basis_Compiled {};
+            class Arsenal_Playeritems {};
+            class Arsenal_RangundKlasse {};
+            class Arsenal_Debug_Klasse {};
+            class Arsenal_RK_Debug {};
+            class Arsenal_setGlobalRang {};
+
+        };
             class Arsenal_Klasse_Standard {};
             class Arsenal_Klasse_DMR {};
             class Arsenal_Klasse_MG {};

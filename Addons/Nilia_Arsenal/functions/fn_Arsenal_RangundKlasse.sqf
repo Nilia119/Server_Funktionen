@@ -18,16 +18,17 @@
 params [["_unit", objNull, [objNull]]];
 private _klasse = _unit getVariable ["Nilia_Klasse", "Standard"];
 private _rang = _unit getVariable ["Nilia_Rang", 0];
+private _waffenklasse = _unit getVariable ["Nilia_Waffenklasse", "=Klasse"];
 //_unit setVariable ["Nilia_RangKlassenItemsTemp", ["itemMap"]];
 
 //Debug
 //systemChat format ["DEBUG2: Klasse = %1, Rang = %2", _klasse, _rang];
 
 if ((_klasse isEqualTo "")) then {
-    _klasse = "Standard"; _rang = 0; systemChat "Bitte Standardausrüstung an Fahne laden, da Arsenal sonst generisch!";
+    _klasse = "Standard"; _rang = 0; systemChat "Bitte Standardausrüstung an der Fahne laden, da das Arsenal sonst generisch ist!";
 };
 
-systemChat format ["DEBUG3: Unit: %1, Rang: %2, Klasse: %3", _unit, _rang, _klasse];
+systemChat format ["Zusammenfassung: Unit: %1, Rang: %2, Klasse: %3, Waffenklasse: %4", _unit, _rang, _klasse, _waffenklasse];
 
 //private _items =
 switch (_klasse) do {

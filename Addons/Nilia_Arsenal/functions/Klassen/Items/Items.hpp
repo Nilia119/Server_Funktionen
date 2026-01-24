@@ -9,5 +9,21 @@ class Nilia_Arsenal_Rang_Klassenspezifisch
     //  KLASSEN SPEZIFISCH
 
     class Klasse_Items_AA {};
+    class Klasse_Items_Breacher {};
+    class Klasse_Items_San {};
+    class Klasse_Items_DMR {};
+    class Klasse_Items_Pio {};
+    class Klasse_Items_Sniper {};
+    class Klasse_Items_StvGrpFhr {};
+    class Klasse_Items_ZgFhr {};
+
+    //  ITEMS FÜR MEHRERE KLASSEN
+
+    class Klasse_Items_cTABs {};
+    class Klasse_Items_cTABs1 {};
+    class Klasse_Items_EH {};
+    class Klasse_Items_Entfernungsmesser {};
+    class Klasse_Items_LaserDesignator {};
+    class Klasse_Items_SanItems {};
 
 };

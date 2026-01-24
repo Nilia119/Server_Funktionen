@@ -19,6 +19,11 @@
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };
 
+clearWeaponCargoGlobal _obj;
+clearMagazineCargoGlobal _obj;
+clearItemCargoGlobal _obj;
+clearBackpackCargoGlobal _obj;
+
 
 [ _obj,
 [
@@ -42,7 +47,7 @@ params ["_object"];
 
 if (isNull _object) exitWith {};
 
-_action = ["Nilia_Player_Arsenal", "<t color='#0040ff'>Öffne dein Eigenes Arsenal", "", {player call Nilia_fnc_Arsenal_Calculate;}, {true}] call ace_interact_menu_fnc_createAction;
+_action = ["Nilia_Player_Arsenal", "<t color='#417EFF'>Öffne dein Eigenes Arsenal", "", {player call Nilia_fnc_Arsenal_Calculate;}, {true}] call ace_interact_menu_fnc_createAction;
 
 [_object, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 
