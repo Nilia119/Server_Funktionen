@@ -1,11 +1,25 @@
 class CfgPatches {
     class Nilia_Eqipment_Server_Functions {
         name = "EuDef Scripte - Equipment Changes";
-        units[] = {};
+        units[] = {
+                    "EUFOR_Backpack_Fleck_Tortilia_Arzt",
+                    "EUFOR_Backpack_Fleck_Tortilia",
+                    "EUFOR_Backpack_Fleck_Compact",
+                    "EUFOR_Backpack_Fleck_Compact_Rk",
+                    "EUFOR_Backpack_Tropen_Tortilia",
+                    "EUFOR_Backpack_Tropen_Tortilia_Arzt",
+                    "EUFOR_Backpack_San_Tortilia",
+                    "EUFOR_Backpacks_RT1523G_Base",
+                    "EUFOR_Backpacks_RT1523G_Fleck"
+
+        };
         requiredAddons[] = {
             "A3_Characters_F",
             "PBW_German_Vests_Config",
-            "bwa3_vests"
+            "EUFOR_Helmets",
+            "EUFOR_Backpacks",
+            "bwa3_vests",
+            "bwa3_backpacks"
         };
         author = "Nilia";
         authorUrl = "https://www.eudef.eu";
@@ -19,6 +33,8 @@ class CfgPatches {
                     "pbw_splitter_sani",
                     "pbw_splitter_schtz",
                     "pbw_splitter_zivil",
+
+                    "H_Barett_EuDeF",
 
                     "BWA3_Vest_Fleck",
                     "BWA3_Vest_Tropen",

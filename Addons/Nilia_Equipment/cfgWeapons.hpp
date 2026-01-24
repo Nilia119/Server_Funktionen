@@ -1,11 +1,24 @@
 class ItemCore;
 class InventoryItem_Base_F;
 class VestItem;
+class EUFOR_Helmets_Beret_EuDef;
 
 class Vest_Camo_Base: ItemCore
     {
      class ItemInfo;
     };
+
+//  EUFOR
+
+class H_Barett_EuDeF: EUFOR_Helmets_Beret_EuDef
+{
+    scope=1;
+    scopeCurator = 1;
+    scopeArsenal = 1;
+    displayName = "ICH BIN EIN EUDEF BARRETT; ÄNDERE MICH!!!";
+};
+
+
 
 //  PBW
 
@@ -79,7 +92,7 @@ class PBW_splitterschutz_base: Vest_Camo_Base
 
 class pbw_splitter_grpfhr: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_GrpFhr_Fleck_name";
     model="german_vests\pbw_splitter_grpfhr.p3d";
@@ -90,7 +103,7 @@ class pbw_splitter_grpfhr: PBW_splitterschutz_base
 };
 class pbw_splitter_mg: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_MGSchuetze_Fleck_name";
     model="german_vests\pbw_splitter_mg.p3d";
@@ -101,7 +114,7 @@ class pbw_splitter_mg: PBW_splitterschutz_base
 };
 class pbw_splitter_mg_h: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_MGHilf_Fleck_name";
     model="german_vests\pbw_splitter_mg_h.p3d";
@@ -112,7 +125,7 @@ class pbw_splitter_mg_h: PBW_splitterschutz_base
 };
 class pbw_splitter_sani: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_Sanitaeter_Fleck_name";
     model="german_vests\pbw_splitter_sani.p3d";
@@ -123,7 +136,7 @@ class pbw_splitter_sani: PBW_splitterschutz_base
 };
 class pbw_splitter_schtz: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_Schuetze_Fleck_name";
     model="german_vests\pbw_splitter_schtz.p3d";
@@ -134,7 +147,7 @@ class pbw_splitter_schtz: PBW_splitterschutz_base
 };
 class pbw_splitter_zivil: PBW_splitterschutz_base
 {
-    scope=2;
+    scope=1;
     author="PBW-Team";
     displayName="$STR_Splitter_Zivil_Fleck_name";
     picture="\german_vests\UI\pbw_splitter_zivil.paa";
@@ -155,7 +168,7 @@ class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr
 class BWA3_Vest_Fleck: V_PlateCarrier2_rgr
 {
     author="$STR_BWA3_Author";
-    scope=2;
+    scope=1;
     displayName="$STR_BWA3_VestFleckName";
     picture="\bwa3_vests\ui\bwa3_vest_fleck_x_ca.paa";
     model="\bwa3_vests\bwa3_vest.p3d";
