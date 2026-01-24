@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\None.hpp"
 //
 [
-        "hlc_m249_pip3","BWA3_MG4"
+        "hlc_m249_pip3","LMG_Mk200_F"
 ]

@@ -39,7 +39,7 @@
 "hlc_rifle_awcovert_BL","hlc_rifle_awmagnum_BL","hlc_rifle_awMagnum_BL_ghillie","hlc_rifle_awcovert_FDE","rhs_weap_m24sws","rhs_weap_m24sws_d","rhs_weap_m24sws_wd","rhs_weap_XM2010",
 "rhs_weap_XM2010_wd","rhs_weap_XM2010_sa","rhs_weap_XM2010_d","srifle_GM6_ghex_F","srifle_GM6_camo_F","rhs_weap_M107","rhs_weap_M107_d","rhs_weap_M107_w",
 //      MG
-"MMG_01_tan_F","MMG_02_sand_F","MMG_02_black_F","MMG_02_camo_F","MMG_01_hex_F",
+"MMG_01_tan_F","MMG_02_sand_F","MMG_02_black_F","MMG_02_camo_F","MMG_01_hex_F","LMG_Mk200_black_F","LMG_Mk200_F","LMG_Zafir_F",
 //      SONSTIGES
 "launch_MRAWS_green_F","launch_MRAWS_olive_F","launch_MRAWS_sand_F",
 
@@ -90,7 +90,5 @@
 "rhs_weap_pkp","rhs_weap_m32",
 //  JCA
 "JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F","JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
-//  BWMOD
-"BWA3_MG4","BWA3_MG5","BWA3_G28",
 //  ACE
 "ACE_VMH3","ACE_launch_NLAW_ready_F","NLAW_F"
