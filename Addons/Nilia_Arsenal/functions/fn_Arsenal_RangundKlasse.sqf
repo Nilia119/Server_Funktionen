@@ -50,6 +50,7 @@ switch (_klasse) do {
     case "Pio":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Pio };
     case "Breacher": { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Breacher };
     case "KpFhr": { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_KpFhr };
+    case "Spotter":  { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Spotter };
     case "Hilfsschütze":      { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Hilf };
 
 default { [_unit, _rang] call Nilia_fnc_Arsenal_Klasse_Standard };

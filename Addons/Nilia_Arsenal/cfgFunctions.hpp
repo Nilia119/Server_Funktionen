@@ -51,6 +51,7 @@ class CfgFunctions {
             class Arsenal_Klasse_Pio {};
             class Arsenal_Klasse_San {};
             class Arsenal_Klasse_Sniper {};
+            class Arsenal_Klasse_Spotter {};
             class Arsenal_Klasse_StvGrpFhr {};
             class Arsenal_Klasse_TrpFhr {};
             class Arsenal_Klasse_Kompakt1 {};
