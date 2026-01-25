@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Obergefreiter.hpp"
 //
 [
-        "rhs_weap_m72a7"
+  "JCA_launch_M72_sand_primed_F","JCA_launch_M72_black_primed_F","JCA_launch_M72_olive_primed_F","rhs_weap_m72a7"
 ]

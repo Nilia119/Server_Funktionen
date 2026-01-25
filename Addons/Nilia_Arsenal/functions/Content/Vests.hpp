@@ -20,13 +20,6 @@
 
 //  ArmA 3 Westen
 "V_Rangemaster_belt","V_PlateCarrier1_cbr","V_PlateCarrier1_khk",
-//  BW-MOD Westen
-"BWA3_Vest_Leader_Tropen","BWA3_Vest_Grenadier_Tropen","BWA3_Vest_Medic_Tropen",
-"BWA3_Vest_Rifleman_Tropen","BWA3_Vest_MachineGunner_Tropen","BWA3_Vest_Marksman_Tropen",
-"BWA3_Vest_Fleck","BWA3_Vest_Grenadier_Fleck","BWA3_Vest_Leader_Fleck",
-"BWA3_Vest_Marksman_Fleck","BWA3_Vest_MachineGunner_Fleck","BWA3_Vest_Medic_Fleck",
-"BWA3_Vest_Rifleman_Fleck","BWA3_Vest_Tropen","BWA3_Vest_JPC_Rifleman_Fleck",
-"BWA3_Vest_JPC_Leader_Tropen","BWA3_Vest_JPC_Rifleman_Tropen","BWA3_Vest_JPC_Leader_Fleck",
 //  CUP Westen
 "CUP_V_B_GER_Armatus_BB_Fleck","CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop",
 "CUP_V_B_GER_Armatus_BB_Trop",

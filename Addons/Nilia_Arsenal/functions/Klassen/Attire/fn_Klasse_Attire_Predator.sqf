@@ -3,8 +3,8 @@
 //
 //	Description:
 //		This File Contains an Array to add to an Whitelisted ACE-Arsenal
-//      Klasse: DMR
-//      Rang: Stabsgefreiter
+//
+//      Rang: Korp.
 //
 //	Important:
 //      The Last Item cannot have a Comma! All other MUST have commas after each Item!
@@ -15,8 +15,9 @@
 //		CONTENT
 //
 //	Example:
-//		#include "Klassen\Standard\Stabsgefreiter.hpp"
+//		#include "Klassen\Attire\XXXXXXXXXXX.hpp"
 //
 [
-        "CUP_launch_APILAS","rhs_weap_panzerfaust60"
+  "EUFOR_Backpacks_Predator_Fleck","EUFOR_Backpacks_Predator_Multi","EUFOR_Backpacks_Predator_Schnee","EUFOR_Backpacks_Predator_Tropen",
+  "EUFOR_Backpacks_Predator_TropenD"
 ]
