@@ -34,7 +34,4 @@
 "EUFOR_Vest_TacVest_Fleck","EUFOR_Vest_TacVest_Schnee","EUFOR_Vest_TacVest_Multi","EUFOR_Vest_TacVest_Tropen_Digital",
 "EUFOR_Vest_Carrier_1_Fleck","EUFOR_Vest_Carrier_1_Schnee","EUFOR_Vest_Carrier_1_Multi","EUFOR_Vest_Carrier_1_Tropen_Digital",
 "EUFOR_Vest_Carrier_2_Fleck","EUFOR_Vest_Carrier_2_Schnee","EUFOR_Vest_Carrier_2_Multi","EUFOR_Vest_Carrier_2_Tropen_Digital",
-"EUFOR_Vest_Carrier_3_Fleck","EUFOR_Vest_Carrier_3_Schnee","EUFOR_Vest_Carrier_3_Multi","EUFOR_Vest_Carrier_3_Tropen_Digital",
-//  PBW Westen
-"pbw_splitter_zivil","pbw_splitter_schtz","pbw_splitter_sani",
-"pbw_splitter_mg","pbw_splitter_mg_h","pbw_splitter_grpfhr"
+"EUFOR_Vest_Carrier_3_Fleck","EUFOR_Vest_Carrier_3_Schnee","EUFOR_Vest_Carrier_3_Multi","EUFOR_Vest_Carrier_3_Tropen_Digital"
