@@ -161,4 +161,17 @@ class CfgVehicles
             init = "_this call Nilia_fnc_Arsenal_Debug_Klasse; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
         };
     };
+
+	class Nilia_EuDef_Debug_VehicleInv : Nilia_EuDef_Arsenal_Crate_Base {
+		displayName = "Fahrzeug Inventar Kiste";
+		editorCategory = "Nilia_EuDef";
+		editorSubcategory = "Nilia_Eudef_Debug";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "EuDef";
+		class EventHandlers
+		{
+			init = "_this call Nilia_fnc_VehicleInv;";
+		};
+	};
 };

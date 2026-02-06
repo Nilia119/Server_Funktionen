@@ -15,7 +15,8 @@ class cfgPatches {
                 "Nilia_EuDef_Fahne_Schnee",
                 "Nilia_EuDef_Fahne_Multi",
                 "Nilia_EuDef_Fahne_Debug_Klasse",
-                "Nilia_EuDef_Fahne_Debug"
+                "Nilia_EuDef_Fahne_Debug",
+				"Nilia_EuDef_Debug_VehicleInv"
                 };
         weapons[]={};
         requiredVersion=0;
