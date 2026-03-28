@@ -20,7 +20,7 @@
 //  Visiere
 //  DMR
     "hlc_optic_ATACR","NForce_Atcr_RMR_Top_SkeetIR_Down","optic_Nightstalker","optic_NVS","rhsusf_acc_ACOG_MDO","a3ti_reapir_pip","optic_AMS_khk","optic_AMS",
-    "hlc_optic_ATACR_Offset","optic_AMS_snd",
+    "hlc_optic_ATACR_Offset","optic_AMS_snd","rhs_acc_pso1m2","rhs_acc_tgpv","rhs_acc_pso1m21_svd","rhs_acc_tgpv2",
 //  Scharfschütze
     "rhsusf_acc_M8541_low","rhsusf_acc_M8541_low_d","optic_LRPS","rhsusf_acc_M8541_low_wd","MSS_Mark5_25_BLK_GM_NO_NO_NV",
     "MSS_Mark5_25_BLK_GM_NO_LRF_TI","MSS_Mark5_25_BLK_GM_NO_LRF_NV","MSS_Mark5_25_BLK_GM_NO_LRF_NO","JCA_optic_HPPO_RAD_sand","JCA_optic_HPPO_sand","JCA_optic_HPPO_RAD_olive",

@@ -19,5 +19,6 @@
 //
 [
     "srifle_EBR_F",
-    "hlc_rifle_M14dmr_Rail"
+    "hlc_rifle_M14dmr_Rail",
+	"rhs_weap_svdp","rhs_weap_svdp_wd","rhs_weap_svds"
 ]

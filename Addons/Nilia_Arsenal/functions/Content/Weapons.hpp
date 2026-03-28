@@ -87,7 +87,7 @@
 //  RHS
 "rhs_weap_fim92","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_winter","rhsusf_weap_MP7A2_desert",
 "rhs_weap_rpg7","rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105","rhs_weap_Izh18","rhs_weap_m4a1_blockII_bk","rhs_weap_m1garand_sa43","rhs_weap_Izh18","rhs_weap_M590_5RD",
-"rhs_weap_pkp","rhs_weap_m32",
+"rhs_weap_pkp","rhs_weap_m32","rhs_weap_svdp","rhs_weap_svdp_wd","rhs_weap_svds","rhs_weap_svds_npz","rhs_weap_svdp_wd_npz","rhs_weap_svdp_npz",
 //  JCA
 "JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F","JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
 //  ACE
