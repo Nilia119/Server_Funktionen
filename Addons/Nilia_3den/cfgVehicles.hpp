@@ -133,6 +133,21 @@ class CfgVehicles
         };
     };
 
+	class Nilia_EuDef_Fahne_Emblem_Icon : EUFOR_Flag_EU
+	{
+		author = "Nilia";
+		displayName = "Emblem/Icon Fahne";
+		editorCategory = "Nilia_EuDef";
+		editorSubcategory = "Nilia_Eudef_Flags";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "EuDef";
+		class EventHandlers
+		{
+			init = "_this call Nilia_fnc_Emblem_Icon; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+		};
+	};
+
     // === Debug Fahnen ===
     class Nilia_EuDef_Fahne_Debug : EUFOR_Flag_EU {
         author = "Nilia";

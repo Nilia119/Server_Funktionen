@@ -14,6 +14,7 @@ class cfgPatches {
                 "Nilia_EuDef_Fahne_Tropen",
                 "Nilia_EuDef_Fahne_Schnee",
                 "Nilia_EuDef_Fahne_Multi",
+				"Nilia_EuDef_Fahne_Emblem_Icon",
                 "Nilia_EuDef_Fahne_Debug_Klasse",
                 "Nilia_EuDef_Fahne_Debug",
 				"Nilia_EuDef_Debug_VehicleInv"
