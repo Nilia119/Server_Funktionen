@@ -28,4 +28,5 @@
 "EUFOR_Backpacks_LegStrapBag_Fleck","EUFOR_Backpacks_LegStrapBag_Multi","EUFOR_Backpacks_LegStrapBag_Schnee","EUFOR_Backpacks_LegStrapBag_TropenD",
 "EUFOR_Backpacks_LegStrapBag_Tropen",
 
-"B_Rangemaster_belt","B_Rangemaster_belt_khaki","B_Rangemaster_belt_coyote","B_Rangemaster_belt_black","B_Rangemaster_belt_tropic","B_Rangemaster_belt_woodland"
+"ACE_TacticalLadder_Pack","B_Rangemaster_belt","B_Rangemaster_belt_khaki","B_Rangemaster_belt_coyote","B_Rangemaster_belt_black","B_Rangemaster_belt_tropic",
+"B_Rangemaster_belt_woodland"
