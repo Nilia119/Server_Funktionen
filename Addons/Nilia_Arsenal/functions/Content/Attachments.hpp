@@ -43,6 +43,8 @@
 "hlc_muzzle_A2_FlashHider","hlc_muzzle_SF3P_762R","muzzle_snds_338_black","muzzle_snds_338_green","hlc_muzzle_snds_a6AUG","rhsusf_acc_m24_muzzlehider_black",
 "rhsusf_acc_m24_muzzlehider_d","rhsusf_acc_m24_muzzlehider_wd","rhsusf_acc_m24_silencer_black","rhsusf_acc_m24_silencer_d","rhsusf_acc_m24_silencer_wd","rhsusf_acc_M2010S",
 "rhsusf_acc_M2010S_d","rhsusf_acc_M2010S_sa","rhsusf_acc_M2010S_wd","hlc_muzzle_MAG58_Brake","muzzle_snds_H_MG_blk_F","muzzle_snds_H_MG_khk_F","muzzle_snds_H_MG",
+"JCA_muzzle_snds_556_advanced_black","JCA_muzzle_snds_556_advanced_olive","JCA_muzzle_snds_556_advanced_sand","JCA_muzzle_snds_556_Enhanced_black",
+"JCA_muzzle_snds_556_Enhanced_olive","JCA_muzzle_snds_556_Enhanced_sand",
 //  Aufsätze
 "bipod_01_F_blk","bipod_02_F_tan","bwa3_acc_varioray_laser_black","bipod_01_F_khk","acc_pointer_IR","rhs_acc_tgpa","ACE_acc_pointer_green","rhs_acc_2dpZenit","rhsusaf_acc_premier",
 "bipod_01_F_snd","bipod_01_F_mtp","rhsusf_acc_anpeq15side_bk","HLC_bipod_UTGShooters","rhs_acc_perst1ik","hlc_grip_pmvfg",
