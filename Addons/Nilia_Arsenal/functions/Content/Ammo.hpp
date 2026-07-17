@@ -129,4 +129,12 @@
 "rhs_mag_30Rnd_556x45_Mk318_PMAG","rhs_mag_30Rnd_556x45_Mk262_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red","rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",
 "rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855_PMAG","rhs_mag_30Rnd_556x45_M855_PMAG_Tan","rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan",
 "rhs_mag_30Rnd_556x45_M855_PMAG_Tan_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red","rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan","rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",
-"CUP_30Rnd_9x19AP_Vityaz","CUP_5Rnd_B_Saiga12_Slug","hlc_10rnd_12g_buck_S12","hlc_10rnd_12g_slug_S12"
+"CUP_30Rnd_9x19AP_Vityaz","CUP_5Rnd_B_Saiga12_Slug","hlc_10rnd_12g_buck_S12","hlc_10rnd_12g_slug_S12","40xtra_5Rnd_12g_buckshotSpike","40xtra_5Rnd_12g_buckshotbb",
+"40xtra_5Rnd_12g_buckshotflec","40xtra_5Rnd_12g_buckshothe","40xtra_5Rnd_12g_buckshotlg","40xtra_5Rnd_12g_buckshotlgm","40xtra_5Rnd_12g_buckshotlg_softload",
+"40xtra_5Rnd_12g_buckshotmg","40xtra_5Rnd_12g_buckshotmgm","40xtra_5Rnd_12g_buckshotmg_softload","40xtra_5Rnd_12g_buckshotmix","40xtra_5Rnd_12g_buckshotmixm",
+"40xtra_5Rnd_12g_buckshotmix_softload","40xtra_5Rnd_12g_buckshotrs","40xtra_5Rnd_12g_buckshotsg","40xtra_5Rnd_12g_buckshotsgm","40xtra_5Rnd_12g_buckshotsg_softload",
+"40xtra_5Rnd_12g_buckshotslug","40xtra_5Rnd_12g_buckshotSS","40xtra_5Rnd_12g_buckshottriball","rhsusf_5Rnd_00Buck","rhsusf_5Rnd_FRAG","rhsusf_5Rnd_HE","rhsusf_5Rnd_Slug",
+"rhsgref_1Rnd_00Buck","40xtra_1Rnd_12g_buckshotflec","40xtra_1Rnd_12g_buckshotSpike","40xtra_1Rnd_12g_buckshottriball","40xtra_1Rnd_12g_buckshotslug",
+"40xtra_1Rnd_12g_buckshotsg_softload","40xtra_1Rnd_12g_buckshotsg","40xtra_1Rnd_12g_buckshotsgm","40xtra_1Rnd_12g_buckshotrs","40xtra_1Rnd_12g_buckshotmix_softload",
+"40xtra_1Rnd_12g_buckshotmixm","40xtra_1Rnd_12g_buckshotmg_softload","40xtra_1Rnd_12g_buckshotmix","40xtra_1Rnd_12g_buckshotmgm","40xtra_1Rnd_12g_buckshotmg",
+"40xtra_1Rnd_12g_buckshotlg_softload","40xtra_1Rnd_12g_buckshotlgm","40xtra_1Rnd_12g_buckshotlg","40xtra_1Rnd_12g_buckshotbb"
