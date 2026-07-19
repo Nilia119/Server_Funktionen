@@ -16,6 +16,10 @@ class CfgVehicles
         scopeCurator = 0; // Sichtbar in Zeus
         vehicleClass = "EuDef";
         class EventHandlers {};
+	    class TransportWeapons {};
+	    class TransportMagazines {};
+	    class TransportItems {};
+	    class TransportBackpacks {};
     };
 
     class Nilia_EuDef_Arsenal_Crate : Nilia_EuDef_Arsenal_Crate_Base
