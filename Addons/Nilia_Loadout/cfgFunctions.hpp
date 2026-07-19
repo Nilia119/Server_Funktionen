@@ -25,7 +25,8 @@ class CfgFunctions {
         {
             file="\Nilia_Loadout\Rank";
 
-            class SetRank {};
+	        class SetETR {};
+			class SetRank {};
         };
 
         class Nilia_Loadouts_Allgemein_Server_Functions
