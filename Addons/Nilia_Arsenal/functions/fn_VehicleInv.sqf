@@ -22,6 +22,12 @@
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Inventar Konnte nicht Geladen werden" };
 
+if (_obj getVariable ["Nilia_Cargo_Loaded", false]) exitWith {diag_log format ["NILIA CARGO: Befüllung von %1 abgebrochen, da bereits geladen.", _obj];};
+
+if !(isServer) exitWith {};
+
+_obj setVariable ["Nilia_Cargo_Loaded", true, true];
+
 clearWeaponCargoGlobal _obj;
 clearMagazineCargoGlobal _obj;
 clearItemCargoGlobal _obj;
