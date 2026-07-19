@@ -16,7 +16,9 @@ class CfgFunctions {
             class Fleck {};
             class Tropen {};
             class Loadout {};
-	        class Emblem_Icon {};
+	        class Loadout_Emblem_Icon {};
+			class Loadout_Sprache {};
+	        class Loadout_Rechte {};
         };
 
         class Nilia_Rank_Server_Functions

@@ -155,7 +155,37 @@ class CfgVehicles
 		vehicleClass = "EuDef";
 		class EventHandlers
 		{
-			init = "_this call Nilia_fnc_Emblem_Icon; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+			init = "_this call Nilia_fnc_Loadout_Emblem_Icon; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+		};
+	};
+
+	class Nilia_EuDef_Fahne_Language : EUFOR_Flag_EU
+	{
+		author = "Nilia";
+		displayName = "ACRE Sprachen Fahne";
+		editorCategory = "Nilia_EuDef";
+		editorSubcategory = "Nilia_Eudef_Flags";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "EuDef";
+		class EventHandlers
+		{
+			init = "_this call Nilia_fnc_Loadout_Sprache; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
+		};
+	};
+
+	class Nilia_EuDef_Fahne_Rechte : EUFOR_Flag_EU
+	{
+		author = "Nilia";
+		displayName = "ACE Rechte Fahne";
+		editorCategory = "Nilia_EuDef";
+		editorSubcategory = "Nilia_Eudef_Flags";
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "EuDef";
+		class EventHandlers
+		{
+			init = "_this call Nilia_fnc_Loadout_Rechte; (_this select 0) setFlagTexture 'EUFOR_Objects\flags\Europa.paa';";
 		};
 	};
 
