@@ -10,6 +10,7 @@ class cfgPatches {
                 "Nilia_EuDef_Basis_Arsenal_Crate",
                 "Nilia_EuDef_Nilia_Arsenal_Crate",
                 "Nilia_EuDef_Okami_Arsenal_Crate",
+				"Nilia_EuDef_Basis_Items_Arsenal_Crate",
                 "Nilia_EuDef_Fahne_Fleck",
                 "Nilia_EuDef_Fahne_Tropen",
                 "Nilia_EuDef_Fahne_Schnee",

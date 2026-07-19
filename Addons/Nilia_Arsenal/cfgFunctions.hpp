@@ -16,6 +16,7 @@ class CfgFunctions {
             //Name of file minus fn_ prefix. So fn_Arsenal.sqf
             class Arsenal {};
             class Arsenal_Basis {};
+	        class Arsenal_Basis_Items {};
             class Arsenal_Voll {};
             class Arsenal_New {};
             class Arsenal_Nilia {};

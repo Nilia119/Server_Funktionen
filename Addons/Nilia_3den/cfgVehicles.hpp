@@ -73,6 +73,17 @@ class CfgVehicles
         };
     };
 
+	class Nilia_EuDef_Basis_Items_Arsenal_Crate : Nilia_EuDef_Arsenal_Crate_Base
+	{
+		displayName = "Arsenal (Nur Items, sollte immer platziert sein!)";
+		scope = 2;
+		scopeCurator = 2;
+		class EventHandlers
+		{
+			init = "_this call Nilia_fnc_Arsenal_Basis_Items;";
+		};
+	};
+
     // === Fahnen ===
     class Nilia_EuDef_Fahne_Fleck : EUFOR_Flag_EU {
         author = "Nilia";
