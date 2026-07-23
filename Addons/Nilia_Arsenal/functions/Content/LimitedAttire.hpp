@@ -67,6 +67,8 @@
 //      GrpFhr
 "EUFOR_Backpacks_Radiobag_Fleck","EUFOR_Backpacks_Radiobag_Multi","EUFOR_Backpacks_Radiobag_Schnee","EUFOR_Backpacks_Radiobag_Tropen","EUFOR_Backpacks_Radiobag_TropenD",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_big_bwmod_tropen","EUFOR_Backpacks_RT1523G_Fleck",
+"EUFOR_Backpacks_PredatorRadio_Fleck","EUFOR_Backpacks_PredatorRadio_Multi","EUFOR_Backpacks_PredatorRadio_Schnee","EUFOR_Backpacks_PredatorRadio_Tropen",
+"EUFOR_Backpacks_PredatorRadio_TropenD",
 //      ZgFhr
 "EUFOR_Backpacks_Radiobag_Fleck_PL","EUFOR_Backpacks_Radiobag_Multi_PL","EUFOR_Backpacks_Radiobag_Schnee_PL","EUFOR_Backpacks_Radiobag_Tropen_PL",
 "EUFOR_Backpacks_Radiobag_TropenD_PL",
