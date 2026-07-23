@@ -15,6 +15,7 @@ class CfgVehicles
         scope = 0; // Sichtbar im Editor
         scopeCurator = 0; // Sichtbar in Zeus
         vehicleClass = "EuDef";
+	    hiddenSelectionsTextures[]= {"Nilia_3den\data\EUFOR_Objects_SupplyDrop_EuDef_co.paa"};
         class EventHandlers {};
 	    class TransportWeapons {};
 	    class TransportMagazines {};
@@ -27,7 +28,8 @@ class CfgVehicles
         displayName = "Arsenal";
         scope = 2;
         scopeCurator = 2;
-        class EventHandlers
+	    hiddenSelectionsTextures[]= {"Nilia_3den\data\EUFOR_Objects_SupplyDrop_EuDef2_co.paa"};
+		class EventHandlers
         {
             init = "_this call Nilia_fnc_Arsenal;";
         };
