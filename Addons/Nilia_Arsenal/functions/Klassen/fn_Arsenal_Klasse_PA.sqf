@@ -23,7 +23,8 @@ private _NoneKeine = [] call Nilia_fnc_Klasse_Keine_None;
 private _NonePA = [] call Nilia_fnc_Klasse_PA_None;
 private _NoneKompakt1 = [] call Nilia_fnc_Klasse_Kompakt1_None;
 private _NoneTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
-private _none = _NoneKeine + _NonePA + _NoneKompakt1 + _NoneTortilia;
+private _NonePredator = [] call Nilia_fnc_Klasse_Attire_Predator;
+private _none = _NoneKeine + _NonePA + _NoneKompakt1 + _NoneTortilia + _NonePredator;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterPA = [] call Nilia_fnc_Klasse_PA_Gefreiter;

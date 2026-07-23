@@ -45,7 +45,8 @@ private _StabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Stabsgefreiter;
 private _StabsgefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Stabsgefreiter;
 private _StabsgefreiterViperL = [] call Nilia_fnc_Klasse_Attire_ViperL;
 private _StabsgefreiterTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
-private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterKompakt2 + _StabsgefreiterViperL + _StabsgefreiterTortilia + _Hauptgefreiter;
+private _StabsgefreiterPredator = [] call Nilia_fnc_Klasse_Attire_Predator;
+private _Stabsgefreiter = _StabsgefreiterKeine + _StabsgefreiterKompakt2 + _StabsgefreiterViperL + _StabsgefreiterTortilia + _StabsgefreiterPredator + _Hauptgefreiter;
 // Oberstabsgefreiter
 private _OberstabsgefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Oberstabsgefreiter;
 private _OberstabsgefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Oberstabsgefreiter;

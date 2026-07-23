@@ -53,7 +53,8 @@ private _Oberstabsgefreiter = _OberstabsgefreiterKeine + _OberstabsgefreiterMG +
 private _KorporalKeine = [] call Nilia_fnc_Klasse_Keine_Korporal;
 private _KorporalMG = [] call Nilia_fnc_Klasse_MG_Korporal;
 private _KorporalTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
-private _Korporal = _KorporalKeine + _KorporalMG + _KorporalTortilia + _Oberstabsgefreiter;
+private _KorporalPredator = [] call Nilia_fnc_Klasse_Attire_Predator;
+private _Korporal = _KorporalKeine + _KorporalMG + _KorporalTortilia + _KorporalPredator + _Oberstabsgefreiter;
 // Stabskorporal
 private _StabskorporalKeine = [] call Nilia_fnc_Klasse_Keine_Stabskorporal;
 private _StabskorporalMG = [] call Nilia_fnc_Klasse_MG_Stabskorporal;

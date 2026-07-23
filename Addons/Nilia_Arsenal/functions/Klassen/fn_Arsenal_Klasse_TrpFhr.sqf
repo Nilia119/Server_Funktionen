@@ -23,12 +23,13 @@ private _NoneKeine = [] call Nilia_fnc_Klasse_Keine_None;
 private _NoneULG = [] call Nilia_fnc_Klasse_ULG_None;
 private _NoneUAV = [] call Nilia_fnc_Klasse_Attire_UAV;
 private _NoneTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
+private _NonePredator = [] call Nilia_fnc_Klasse_Attire_Predator;
 private _NoneRadio = [] call Nilia_fnc_Klasse_Attire_GrpFhr;
 private _NonecTABs = [] call Nilia_fnc_Klasse_Items_cTABs;
 private _NonecTABs1 = [] call Nilia_fnc_Klasse_Items_cTABs1;
 private _NoneLaser = [] call Nilia_fnc_Klasse_Items_LaserDesignator;
 private _NoneRF = [] call Nilia_fnc_Klasse_Items_StvGrpFhr;
-private _none = _NoneKeine + _NoneUAV + _NoneTortilia + _NoneRadio + _NonecTABs + _NonecTABs1 + _NoneLaser + _NoneRF + _NoneULG;
+private _none = _NoneKeine + _NoneUAV + _NoneTortilia + _NonePredator + _NoneRadio + _NonecTABs + _NonecTABs1 + _NoneLaser + _NoneRF + _NoneULG;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterULG = [] call Nilia_fnc_Klasse_ULG_Gefreiter;

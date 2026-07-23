@@ -24,8 +24,9 @@ private _NoneKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_None;
 private _NoneItemsPio = [] call Nilia_fnc_Klasse_Items_Pio;
 private _NoneItemsBreacher = [] call Nilia_fnc_Klasse_Items_Breacher;
 private _NoneTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
+private _NonePredator = [] call Nilia_fnc_Klasse_Attire_Predator;
 private _NoneUAV = [] call Nilia_fnc_Klasse_Attire_UAV;
-private _none = _NoneKeine + _NoneKompakt2 + _NoneItemsPio + _NoneItemsBreacher + _NoneTortilia + _NoneUAV;
+private _none = _NoneKeine + _NoneKompakt2 + _NoneItemsPio + _NoneItemsBreacher + _NoneTortilia + _NonePredator + _NoneUAV;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterKompakt2 = [] call Nilia_fnc_Klasse_Kompakt2_Gefreiter;

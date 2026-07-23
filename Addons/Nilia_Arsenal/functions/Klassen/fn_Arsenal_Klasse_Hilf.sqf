@@ -23,7 +23,8 @@ private _NoneKeine = [] call Nilia_fnc_Klasse_Keine_None;
 private _NoneStandard = [] call Nilia_fnc_Klasse_Standard_None;
 private _NoneItemsEMess = [] call Nilia_fnc_Klasse_Items_Entfernungsmesser;
 private _NoneTortilia = [] call Nilia_fnc_Klasse_Attire_Tortilia;
-private _none = _NoneKeine + _NoneStandard + _NoneItemsEMess + _NoneTortilia;
+private _NonePredator = [] call Nilia_fnc_Klasse_Attire_Predator;
+private _none = _NoneKeine + _NoneStandard + _NoneItemsEMess + _NonePredator + _NoneTortilia;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterStandard = [] call Nilia_fnc_Klasse_Standard_Gefreiter;

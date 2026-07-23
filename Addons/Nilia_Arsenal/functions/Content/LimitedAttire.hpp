@@ -64,6 +64,7 @@
 "EUFOR_Backpacks_ViperHarness_Fleck","EUFOR_Backpacks_ViperHarness_Multi","EUFOR_Backpacks_ViperHarness_Schnee","EUFOR_Backpacks_ViperHarness_Tropen","EUFOR_Backpacks_ViperHarness_TropenD",
 "EUFOR_Backpacks_Tortilia_Fleck","EUFOR_Backpacks_Tortilia_Multi","EUFOR_Backpacks_Tortilia_Schnee","EUFOR_Backpacks_Tortilia_Tropen","EUFOR_Backpacks_Tortilia_TropenD",
 "EUFOR_Backpacks_UAV_Fleck","EUFOR_Backpacks_UAV_Multi","EUFOR_Backpacks_UAV_Schnee","EUFOR_Backpacks_UAV_Tropen","EUFOR_Backpacks_UAV_TropenD",
+"EUFOR_Backpacks_Predator_Fleck","EUFOR_Backpacks_Predator_Multi","EUFOR_Backpacks_Predator_Schnee","EUFOR_Backpacks_Predator_Tropen","EUFOR_Backpacks_Predator_TropenD",
 //      GrpFhr
 "EUFOR_Backpacks_Radiobag_Fleck","EUFOR_Backpacks_Radiobag_Multi","EUFOR_Backpacks_Radiobag_Schnee","EUFOR_Backpacks_Radiobag_Tropen","EUFOR_Backpacks_Radiobag_TropenD",
 "ACREFR_rt1523g_big_bwmod","ACREFR_rt1523g_big_bwmod_tropen","EUFOR_Backpacks_RT1523G_Fleck",

@@ -26,6 +26,7 @@ class Nilia_Arsenal_Rang_Attire
     class Klasse_Attire_Kitbag {};
     class Klasse_Attire_Kitbag_Medic {};
     class Klasse_Attire_Kitbag_Medic_Camo {};
+    class Klasse_Attire_Predator {};
     class Klasse_Attire_TacticalPack {};
     class Klasse_Attire_Tortilia {};
     class Klasse_Attire_Tortilia_Medic {};
