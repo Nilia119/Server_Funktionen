@@ -25,7 +25,12 @@
 "W_EUFOR_Uniform_Tarn_Multi_Sleeves","W_EUFOR_Uniform_Tarn_Multi_Shirt","W_EUFOR_Uniform_Tarn_Fleck","W_EUFOR_Uniform_Tarn_Fleck_Sleeves",
 "W_EUFOR_Uniform_Tarn_Fleck_Shirt",     // EUFOR Tarnuniformen
 "W_EUFOR_Uniform_Tropen_Shirt","W_EUFOR_Uniform_Tropen","W_EUFOR_Uniform_Tropen_Sleeves","EUFOR_Vest_TacVest_Tropen","EUFOR_Vest_Carrier_1_Tropen","EUFOR_Vest_Carrier_2_Tropen",
-"EUFOR_Vest_Carrier_3_Tropen", // EUFOR Tropentarn
+"EUFOR_Vest_Carrier_3_Tropen","EUFOR_Uniforms_Uniform_I_Tropen","EUFOR_Uniforms_Uniform_I_Sleeves_Tropen","EUFOR_Uniforms_Uniform_Sweater_Tropen", // EUFOR Tropentarn
+"EUFOR_Uniforms_Uniform_I_Fleck","EUFOR_Uniforms_Uniform_I_TropenD","EUFOR_Uniforms_Uniform_I_Multi","EUFOR_Uniforms_Uniform_I_Schnee",   // EUFOR Kampfanzug
+"EUFOR_Uniforms_Uniform_I_Sleeves_Fleck","EUFOR_Uniforms_Uniform_I_Sleeves_TropenD","EUFOR_Uniforms_Uniform_I_Sleeves_Multi","EUFOR_Uniforms_Uniform_I_Sleeves_Schnee",   // EUFOR Kampfanzug
+"EUFOR_Uniforms_Sweater_Fleck","EUFOR_Uniforms_Uniform_Sweater_TropenD","EUFOR_Uniforms_Uniform_Sweater_Multi","EUFOR_Uniforms_Uniform_Sweater_Schnee",   // EUFOR Kampfanzug Pulli
+"EUFOR_Uniforms_CBRN_Fleck","EUFOR_Uniforms_CBRN_Multi","EUFOR_Uniforms_CBRN_Schnee","EUFOR_Uniforms_CBRN_TropenD","EUFOR_Uniforms_CBRN_Tropen","EUFOR_Uniforms_CBRN_Black",
+"EUFOR_Uniforms_CBRN_Blue","EUFOR_Uniforms_CBRN_Olive","EUFOR_Uniforms_CBRN_Pol",   // EUFOR Contact CBRN
 "EUFOR_Vest_Carrier_GL_Fleck","EUFOR_Vest_Carrier_GL_Fleck1","EUFOR_Vest_Carrier_GL_Schnee","EUFOR_Vest_Carrier_GL_Multi","EUFOR_Vest_Carrier_GL_Tropen",
 "EUFOR_Vest_Carrier_GL_Tropen_Digital","EUFOR_Vest_TacVest_Fleck1","EUFOR_Vest_Carrier_1_Fleck1","EUFOR_Vest_Carrier_2_Fleck1","EUFOR_Vest_Carrier_3_Fleck1",
 "EUFOR_Vest_Carrier_Spec_Fleck","EUFOR_Vest_Carrier_Spec_Fleck1","EUFOR_Vest_Carrier_Spec_Schnee","EUFOR_Vest_Carrier_Spec_Multi","EUFOR_Vest_Carrier_Spec_Tropen_Digital",

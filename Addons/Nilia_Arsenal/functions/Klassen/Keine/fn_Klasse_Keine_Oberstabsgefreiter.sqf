@@ -23,7 +23,8 @@
     "EUFOR_Vest_Carrier_GL_Fleck","EUFOR_Vest_Carrier_GL_Fleck1","EUFOR_Vest_Carrier_GL_Schnee","EUFOR_Vest_Carrier_GL_Multi","EUFOR_Vest_Carrier_GL_Tropen",
     "EUFOR_Vest_Carrier_GL_Tropen_Digital",
     "EUFOR_Helmets_Boonie_Spec_Fleck","EUFOR_Helmets_Boonie_Spec_Multi","EUFOR_Helmets_Boonie_Spec_Schnee","EUFOR_Helmets_Boonie_Spec_Tropen","EUFOR_Helmets_Boonie_Spec_TropenD",
-    "CUP_hgun_SWM327MP",
+    "CUP_hgun_SWM327MP","EUFOR_Uniforms_Uniform_Sweater_Tropen",
+	"EUFOR_Uniforms_Sweater_Fleck","EUFOR_Uniforms_Uniform_Sweater_TropenD","EUFOR_Uniforms_Uniform_Sweater_Multi","EUFOR_Uniforms_Uniform_Sweater_Schnee",
     "hlc_50Rnd_762x51_T_G3","hlc_50Rnd_762x51_TDim_G3","hlc_50rnd_762x51_M_G3","hlc_50rnd_762x51_MDIM_G3","hlc_50Rnd_762x51_B_G3", // G3 50rnd.
     "hlc_50Rnd_762x51_T_M14","hlc_50Rnd_762x51_TDIM_M14","hlc_50Rnd_762x51_M_M14","hlc_50Rnd_762x51_MDIM_M14","hlc_50Rnd_762x51_B_M14", // M14 50rnd.
     "hlc_50Rnd_762x51_B_fal","hlc_50rnd_762x51_MDIM_FAL","hlc_50rnd_762x51_M_FAL","hlc_50Rnd_762x51_TDim_fal","hlc_50Rnd_762x51_T_fal", // FAL 50rnd.
