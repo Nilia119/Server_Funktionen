@@ -34,6 +34,7 @@
 "hlc_optic_HensoldtZO_Hi","hlc_optic_HensoldtZO_lo_Docter","hlc_optic_HensoldtZO_Lo","rhsusf_acc_ACOG_RMR_3d","CUP_optic_AC11704_Black","CUP_optic_AC11704_Coyote",
 "CUP_optic_AC11704_Jungle","CUP_optic_AC11704_OD","CUP_optic_AC11704_Tan","CUP_optic_MicroT1_low","CUP_optic_MicroT1_low_coyote","CUP_optic_MicroT1_low_OD","optic_ico_01_black_f",
 "CUP_optic_AIMM_MICROT1_BLK","CUP_optic_AIMM_MICROT1_TAN","CUP_optic_AIMM_MICROT1_OD","CUP_optic_VortexRazor_UH1_Black","CUP_optic_MRad","optic_ico_01_f","optic_ico_01_sand_f",
+"CUP_optic_Elcan_SpecterDR_RMR_black","CUP_optic_Elcan_SpecterDR_RMR_coyote_PIP","CUP_optic_Elcan_SpecterDR_RMR_od","CUP_optic_Elcan_SpecterDR_RMR_pip",
 //  Mündungsaufsätze
 "hlc_muzzle_SF3P_556","hlc_muzzle_TiRant9","muzzle_snds_93mmg","muzzle_snds_B","hlc_muzzle_Gunfighter_comp","ACE_muzzle_mzls_93mmg","muzzle_snds_93mmg_tan","hlc_muzzle_KX3_comp",
 "hlc_muzzle_300blk_KAC","hlc_muzzle_SF3P_762","rhsusf_acc_SF3P556","hlc_muzzle_556NATO_KAC","ACE_muzzle_mzls_smg_02","ACE_muzzle_mzls_B","ACE_muzzle_mzls_H","ACE_muzzle_mzls_L",
