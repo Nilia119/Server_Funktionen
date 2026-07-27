@@ -24,5 +24,6 @@
 "rhs_mag_mk3a2","ACE_HandFlare_Green","ACE_HandFlare_Yellow","rhs_mag_m18_yellow","ACE_M84","ACE_Chemlight_Orange","tsp_flashbang_m84","ACE_Chemlight_White","ACE_Chemlight_HiRed",
 "rhs_mag_m18_purple","rhs_mag_m18_red","rhs_mag_m67","tsp_flashbang_cts2","tsp_flashbang_cts","rhs_mag_m18_green","ACE_Chemlight_HiYellow","ACE_Chemlight_HiBlue",
 "ACE_Chemlight_HiGreen","ACE_Chemlight_UltraHiOrange","ACE_Chemlight_IR","ACE_IR_Strobe_Item","Chemlight_yellow","Chemlight_green","Chemlight_red","SmokeShellBlue",
-"SmokeShellYellow","SmokeShellGreen","SmokeShellOrange","SmokeShellRed","SmokeShellPurple","HandGrenade","SmokeShell","MiniGrenade",
+"SmokeShellYellow","SmokeShellGreen","SmokeShellOrange","SmokeShellRed","SmokeShellPurple","HandGrenade","SmokeShell","MiniGrenade","SKY_JCA_HandFlare_Blue","JCA_HandFlare_Green",
+"SKY_JCA_HandFlare_Purple","JCA_HandFlare_Red","SKY_JCA_HandFlare_White","SKY_JCA_HandFlare_Yellow",
 "rhs_charge_sb3kg_mag"
