@@ -25,7 +25,8 @@ private _NoneItemsSan = [] call Nilia_fnc_Klasse_Items_SanItems;
 private _NoneItemsSanKlasse = [] call Nilia_fnc_Klasse_Items_San;
 private _NoneItemscTABs = [] call Nilia_fnc_Klasse_Items_cTABs;
 private _NoneTortiliaM = [] call Nilia_fnc_Klasse_Attire_Tortilia_Medic;
-private _none = _NoneKeine + _NoneKompakt1 + _NoneItemsSan + _NoneItemsSanKlasse + _NoneItemscTABs + _NoneTortiliaM;
+private _NoneItemsEH = [] call Nilia_fnc_Klasse_Items_EH;
+private _none = _NoneKeine + _NoneKompakt1 + _NoneItemsSan + _NoneItemsSanKlasse + _NoneItemscTABs + _NoneTortiliaM + _NoneItemsEH;
 // Gefreiter
 private _GefreiterKeine = [] call Nilia_fnc_Klasse_Keine_Gefreiter;
 private _GefreiterKompakt1 = [] call Nilia_fnc_Klasse_Kompakt1_Gefreiter;
