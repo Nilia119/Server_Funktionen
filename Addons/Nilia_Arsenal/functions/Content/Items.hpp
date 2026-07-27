@@ -20,7 +20,7 @@
 "ACE_CableTie","ACE_Sandbag_empty","ACE_DAGR","ACE_ATragMX","ACE_MRE_BeefStew","ACE_MRE_SteakVegetables","ACE_Canteen",
 "kka3_ace_extension_TapeSign_F","ACE_Humanitarian_Ration","ACE_Flashlight_KSF1","kka3_ace_extension_Campfire_burning_F","ACE_Clacker",
 "kka3_ace_extension_Land_BagFence_Long_F","ACE_EntrenchingTool","ACE_Kestrel4500","ACE_HuntIR_M203","ItemMap",
-"ItemCompass","ItemWatch","Laserbatteries",
+"ItemCompass","ItemWatch","Laserbatteries","GX_UAVBattery",
 "IEDUrbanBig_Remote_Mag","IEDLandBig_Remote_Mag","immersion_pops_poppack","ACE_Chemlight_Shield",
 "ACE_UAVBattery","ACE_wirecutter","Binocular","kka3_ace_extension_Land_DrillAku_F","ACE_Fortify",
 "M40_Gas_mask_nbc_green_k3_d","M40_Gas_mask_nbc_green_k4_d","M40_Gas_mask_nbc_green_k2_d","M40_Gas_mask_nbc_green_k1_d","kka3_ace_extension_Land_Camping_Light_off_F",
@@ -33,8 +33,9 @@
 "ace_marker_flags_blue","ace_marker_flags_yellow","ace_marker_flags_green","ace_marker_flags_purple","ace_marker_flags_orange","ace_marker_flags_red","ace_marker_flags_black",
 "ace_marker_flags_white","MRH_FoldedSatcomAntenna","immersion_cigs_cigar0","tsp_frameCharge_mag","tsp_lockpick","EUFOR_MedPanel","KAT_STS","PapersPlease_PermitWeapons",
 "tsp_paperclip","ChemicalDetector_01_black_F","ChemicalDetector_01_olive_F","ChemicalDetector_01_tan_F","ACE_microDAGR","ItemMicroDAGRMisc",
-"PapersPlease_PassportMilitary",
+"PapersPlease_PassportMilitary","ACE_ChalkBlue","ACE_ChalkYellow","ACE_ChalkGreen","ACE_ChalkRed","ACE_ChalkBlack","ACE_ChalkWhite","diwsit_main_Land_ChairPlastic_F",
+"diwsit_main_Land_ArmChair_01_F","diwsit_main_Land_CampingChair_V1_F","diwsit_main_Land_CampingChair_V2_white_F","diwsit_main_Land_CampingChair_V2_F",
 "WBK_HandFlashlight_Strong","WBK_HeadLampItem_Long","WBK_HeadLampItem_Double","WBK_LampItem_Black","WBK_LampItem_Blue","WBK_LampItem_Green","WBK_LampItem_Red",
 "WBK_ShoulderLampItem_Strong","G_Armband_NVG_dblu_F","G_Armband_NVG_grn_F","G_Armband_NVG_hivis2_F","G_Armband_NVG_hivis_F","G_Armband_NVG_ligblu_F","G_Armband_NVG_NATO_F",
 "G_Armband_NVG_navblu_F","G_Armband_NVG_PRESS_F","G_Armband_NVG_red_F","G_Armband_NVG_yel_F","G_Armband_NVG_blk_F",
-"advrepair_SpareParts","CBRN_DuctTape","CBRN_gasmaskFilter","ACE_GXTEST","CBRN_sealant"
+"advrepair_SpareParts","CBRN_DuctTape","CBRN_gasmaskFilter","CBRN_sealant"
