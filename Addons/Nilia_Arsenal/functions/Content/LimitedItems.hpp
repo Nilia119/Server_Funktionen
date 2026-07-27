@@ -20,6 +20,7 @@
 "kat_accuvac","kat_X_AED","kat_coag_sense","kat_fentanyl","kat_ultrasound","ACE_surgicalKit","kat_reboa","kat_vacuum","kat_Pervitin","kat_oxygenTank_300","kat_MFAK","ACE_bodyBag_blue",
 "ACE_SpottingScope","ACE_Tripod","Rangefinder", // DMR/Sniper
 "Laserdesignator_01_khk_F","Laserdesignator_03","Laserdesignator","ACE_Vector","LaserdesignatorGPS_01", // Laser Designator
+"plates_interaction_plate","SM_SignalMirror", // StvGrpFhr
 "ToolKit","advrepair_ToolkitLight","ACE_M26_Clacker","ACE_Cellphone","B_UavTerminal","rhs_mine_ozm72_c_mag","WNZ_EMPGrenade","rhs_charge_tnt_x2_mag",
 "rhs_grenade_sthgr43_SSfrag_mag","TrainingMine_Mag","rhs_mine_ozm72_b_mag","rhs_mine_ozm72_a_mag","APERSMineDispenser_Mag","CUP_Mine_M","ACE_DeadManSwitch",
 "IEDLandSmall_Remote_Mag","IEDUrbanSmall_Remote_Mag","DemoCharge_Remote_Mag","ATMine_Range_Mag","SatchelCharge_Remote_Mag","ClaymoreDirectionalMine_Remote_Mag",

@@ -18,5 +18,6 @@
 //		#include "Klassen\Items\XXXXXXXXXXX.hpp"
 //      TODO: Aus geteilten Arsenal entfernen! Erledigt
 [
-    "Rangefinder","ACE_HuntIR_monitor"
+	"plates_interaction_plate","SM_SignalMirror",
+	"Rangefinder","ACE_HuntIR_monitor"
 ]
