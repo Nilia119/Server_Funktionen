@@ -27,5 +27,5 @@
     "EUFOR_Helmets_Balaclava_G_Schnee","EUFOR_Helmets_Balaclava_Tropen","EUFOR_Helmets_Balaclava_G_Tropen", // EUFOR Balaclava
     "EUFOR_Helmets_HelmetB_TI_Fleck","EUFOR_Helmets_HelmetB_TI_Multi","EUFOR_Helmets_HelmetB_TI_Schnee","EUFOR_Helmets_HelmetB_TI_TropenD",
     "EUFOR_Helmets_HBK_Headset_Fleck","EUFOR_Helmets_HBK_Headset_Multi","EUFOR_Helmets_HBK_Headset_Schnee","EUFOR_Helmets_HBK_Headset_TropenD",
-    "rhsusf_weap_m9"
+    "rhsusf_weap_m9","crow_x26_yellow"
 ]

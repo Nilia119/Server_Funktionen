@@ -21,6 +21,8 @@
 "hgun_esd_01_F",
 //  NIARMS
 "hlc_pistol_P226R_357Combat","hlc_pistol_Mk25TR",
+//  TASER
+"crow_x26_blk_yellow","crow_x26","crow_x26_green","crow_x26_yellow",
 //  RHS
 "rhsusf_weap_MP7A2_folded","rhsusf_weap_MP7A2_folded_desert","rhsusf_weap_MP7A2_folded","rhs_weap_rsp30_green","rhsusf_weap_MP7A2_folded_aor1","rhsusf_weap_MP7A2_folded_winter",
 "rhsusf_weap_m9","rhsusf_weap_m1911a1",

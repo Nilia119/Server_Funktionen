@@ -22,5 +22,6 @@
     "EUFOR_Helmets_PASGT_Fleck","EUFOR_Helmets_PASGT_Multi","EUFOR_Helmets_PASGT_Schnee","EUFOR_Helmets_PASGT_Tropen",
     "EUFOR_Helmets_HelmetB_Light_Fleck","EUFOR_Helmets_HelmetB_Light_Multi","EUFOR_Helmets_HelmetB_Light_Schnee","EUFOR_Helmets_HelmetB_Light_TropenD",
     "EUFOR_Helmets_HelmetB_Spec_Fleck","EUFOR_Helmets_HelmetB_Spec_Multi","EUFOR_Helmets_HelmetB_Spec_Schnee","EUFOR_Helmets_HelmetB_Spec_TropenD",
-    "hlc_pistol_Mk25"
+	"EUFOR_Uniforms_Uniform_I_Fleck","EUFOR_Uniforms_Uniform_I_TropenD","EUFOR_Uniforms_Uniform_I_Multi","EUFOR_Uniforms_Uniform_I_Schnee",
+    "hlc_pistol_Mk25","crow_x26_blk_yellow"
 ]
