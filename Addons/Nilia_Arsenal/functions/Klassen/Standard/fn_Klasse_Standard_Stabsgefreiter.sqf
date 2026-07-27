@@ -20,7 +20,9 @@
 
 [
     "arifle_MSBS65_UBS_F","arifle_MSBS65_UBS_sand_F","arifle_MSBS65_UBS_black_F","arifle_MSBS65_UBS_camo_F",
-    "rhs_weap_ak105_npz","rhs_weap_ak105_zenitco01_b33",
+    "JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
+    "rhs_weap_ak105_npz","rhs_weap_ak105_zenitco01_b33","rhs_weap_ak104","rhs_weap_ak104_zenitco01",
+    "hlc_wp_SCARH_STD","hlc_wp_SCARH_STD_Blk","hlc_wp_SCARH_STD_camo",
     "hlc_rifle_augsr_t","hlc_rifle_augsr_b","hlc_rifle_augsr",
     "arifle_TRG21_F",
     "arifle_Mk20C_plain_F",

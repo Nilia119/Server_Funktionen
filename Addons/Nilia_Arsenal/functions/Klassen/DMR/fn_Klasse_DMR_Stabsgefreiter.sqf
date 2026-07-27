@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_STG58F"
+    "hlc_rifle_STG58F","rhs_weap_svds_npz","rhs_weap_svdp_wd_npz","rhs_weap_svdp_npz"
 ]

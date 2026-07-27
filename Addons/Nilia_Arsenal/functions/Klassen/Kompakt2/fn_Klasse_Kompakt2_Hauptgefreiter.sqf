@@ -18,5 +18,7 @@
 //		#include "Klassen\Standard\Hauptgefreiter.hpp"
 //
 [
+    "JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
+    "hlc_rifle_G36C","hlc_rifle_G36CV",
     "CUP_sgun_M1014_Entry_vfg"
 ]

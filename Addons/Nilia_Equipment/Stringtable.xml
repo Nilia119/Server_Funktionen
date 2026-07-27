@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="EUFOR">
+    <Package name="Backpacks">
+            <Key ID="STR_EUFOR_Backpacks_RT1523G_Fleck">
+                <Original>EUFOR Radio RT-1523G (Flecktarn)</Original>
+                <English>EUFOR Radio RT-1523G (Flecktarn)</English>
+                <German>EUFOR Funkrucksack RT-1523G Flecktarn</German>
+            </Key>
+    </Package>
+</Project>

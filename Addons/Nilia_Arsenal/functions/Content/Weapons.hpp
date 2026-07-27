@@ -18,6 +18,12 @@
 //
 
 //  ARMA 3 Waffen
+//      Drohnen
+"GX_DEPLOYABLE_MAGAZINE_HMG_01","GX_DEPLOYABLE_MAGAZINE_GMG_01", // GMG/HMG
+"GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_BLACK","GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_DESERT","GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_GREEN", // AT-Mine
+"GX_DEPLOYABLE_MAGAZINE_STATIC_DESIGNATOR_DESERT","GX_DEPLOYABLE_MAGAZINE_STATIC_DESIGNATOR_WOODLAND", // Laserdesignator
+"GX_DEPLOYABLE_MAGAZINE_UAV_06_ANTIMINE", // IDAP Drohne
+"GX_DEPLOYABLE_MAGAZINE_UAV_01","GX_DEPLOYABLE_MAGAZINE_UAV_06","GX_DEPLOYABLE_MAGAZINE_UAV_06_MEDICAL","GX_DEPLOYABLE_MAGAZINE_RQ11B_UAV",
 //      STG
 "arifle_SPAR_03_blk_F","arifle_MX_Black_F","arifle_MXM_Black_F","arifle_MX_GL_Black_F","arifle_SPAR_03_snd_F","arifle_SPAR_03_khk_F","arifle_MXC_khk_F","arifle_MXC_F",
 "arifle_MXC_Black_F","arifle_MX_SW_Black_F","arifle_AK12_GL_F","arifle_TRG21_GL_F","arifle_TRG21_F","srifle_DMR_02_F","arifle_AK12_F","arifle_AK12U_lush_F","arifle_AK12U_arid_F",
@@ -33,14 +39,14 @@
 "hlc_rifle_awcovert_BL","hlc_rifle_awmagnum_BL","hlc_rifle_awMagnum_BL_ghillie","hlc_rifle_awcovert_FDE","rhs_weap_m24sws","rhs_weap_m24sws_d","rhs_weap_m24sws_wd","rhs_weap_XM2010",
 "rhs_weap_XM2010_wd","rhs_weap_XM2010_sa","rhs_weap_XM2010_d","srifle_GM6_ghex_F","srifle_GM6_camo_F","rhs_weap_M107","rhs_weap_M107_d","rhs_weap_M107_w",
 //      MG
-"MMG_01_tan_F","MMG_02_sand_F","MMG_02_black_F","MMG_02_camo_F","MMG_01_hex_F",
+"MMG_01_tan_F","MMG_02_sand_F","MMG_02_black_F","MMG_02_camo_F","MMG_01_hex_F","LMG_Mk200_black_F","LMG_Mk200_F","LMG_Zafir_F",
 //      SONSTIGES
 "launch_MRAWS_green_F","launch_MRAWS_olive_F","launch_MRAWS_sand_F",
 
 //  NIARMS
 //      G36/G3
-"hlc_rifle_G36VAG36","hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","hlc_rifle_G36V","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi",
-"hlc_rifle_g3sg1ris","HLC_Rifle_g3ka4_GL","hlc_rifle_g3a3vris","hlc_rifle_g3a3vris","hlc_rifle_g3ka4","hlc_rifle_G36MLIC",
+"hlc_rifle_G36VAG36","hlc_rifle_G36KE1","hlc_rifle_G36E1AG36","hlc_rifle_G36E1","hlc_rifle_G36V","hlc_rifle_G36C","hlc_rifle_G36E1AG36_Romi","hlc_rifle_G36CMLIC",
+"hlc_rifle_g3sg1ris","HLC_Rifle_g3ka4_GL","hlc_rifle_g3a3vris","hlc_rifle_g3a3vris","hlc_rifle_g3ka4","hlc_rifle_G36MLIC","hlc_rifle_G36C","hlc_rifle_G36CV","hlc_rifle_G36CTac",
 //      SIG STG
 "hlc_rifle_SG551LB_TAC","hlc_rifle_SG551LB_TAC_GL","hlc_rifle_STG58F","hlc_rifle_SG551SB_TAC","hlc_rifle_SAMR","hlc_rifle_SG551SB_TAC","hlc_rifle_SG551SB_TAC_GL",
 //      ACR
@@ -70,18 +76,25 @@
 //      AUG
 "hlc_rifle_auga2para_t","hlc_rifle_auga2para_b","hlc_rifle_auga2para","hlc_rifle_auga2lsw","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_auga3_b","hlc_rifle_auga3_bl",
 "hlc_rifle_augsr_b","hlc_rifle_augsr","hlc_rifle_auga3_bl_grip","hlc_rifle_auga3_grip",
+//      MP5
+"hlc_smg_mp5a2","hlc_smg_mp5a2_tac","hlc_smg_mp5A2_Sfire","hlc_smg_mp5sd5","hlc_smg_mp5a3_tac","hlc_smg_mp5a3","hlc_smg_mp5a4_tac","hlc_smg_mp5a4","hlc_smg_MP5N",
+"hlc_smg_mp5N_tac","hlc_smg_mp5k_PDW","hlc_smg_mp5sd6","hlc_smg_9mmar",
 //      SONSTIGE
 "hlc_rifle_M14dmr_Rail","hlc_rifle_awmagnum_FDE","hlc_rifle_awcovert","hlc_rifle_awmagnum","hlc_rifle_awMagnum_OD_ghillie","hlc_rifle_awmagnum_FDE_ghillie","hlc_rifle_falosw_grip",
-"hlc_rifle_osw_GL","hlc_rifle_aks74u","hlc_rifle_ACR68_Carb_green","hlc_rifle_ACR68_Carb_tan","hlc_rifle_saiga12k","rhs_weap_M320_P","rhs_weap_M320",
+"hlc_rifle_osw_GL","hlc_rifle_aks74u","hlc_rifle_ACR68_Carb_green","hlc_rifle_ACR68_Carb_tan","hlc_rifle_saiga12k","rhs_weap_M320_P","rhs_weap_M320","hlc_Pistol_M11A1D",
 //  CUP
 "CUP_sgun_M1014_Entry_vfg","CUP_arifle_L85A2_NG","CUP_Famas_F1_Rail","CUP_arifle_L85A2_GL","CUP_arifle_L85A2_G","CUP_arifle_CZ805_A1","CUP_arifle_CZ805_GL","CUP_arifle_CZ805_A2",
 "CUP_arifle_CZ805_A1_blk","CUP_arifle_CZ805_A1_coyote","CUP_Famas_F1_Rail_Arid","CUP_Famas_F1_Rail_Wood","CUP_sgun_AA12","CUP_hgun_BallisticShield_Armed_M9",
-"CUP_arifle_CZ805_A2_blk","CUP_arifle_CZ805_A2_coyote","CUP_glaunch_6G30",
+"CUP_arifle_CZ805_A2_blk","CUP_arifle_CZ805_A2_coyote","CUP_glaunch_6G30","CUP_smg_bizon","CUP_smg_vityaz_vfg","CUP_smg_vityaz_vfg_front_rail","CUP_smg_vityaz_vfg_top_rail",
+"CUP_arifle_HK417_20","CUP_hgun_FlareGun",
 //  RHS
 "rhs_weap_fim92","rhs_weap_m72a7","rhs_m72a7_mag","rhs_weap_M136","rhs_m136_mag","rhsusf_weap_MP7A2","rhsusf_weap_MP7A2_aor1","rhsusf_weap_MP7A2_winter","rhsusf_weap_MP7A2_desert",
 "rhs_weap_rpg7","rhs_weap_svdp","rhs_weap_m240B","rhs_weap_ak105","rhs_weap_Izh18","rhs_weap_m4a1_blockII_bk","rhs_weap_m1garand_sa43","rhs_weap_Izh18","rhs_weap_M590_5RD",
-"rhs_weap_pkp","rhs_weap_m32",
-//  BWMOD
-"BWA3_MG4","BWA3_MG5","BWA3_G28",
+"rhs_weap_pkp","rhs_weap_m32","rhs_weap_svdp","rhs_weap_svdp_wd","rhs_weap_svds","rhs_weap_svds_npz","rhs_weap_svdp_wd_npz","rhs_weap_svdp_npz","rhs_weap_ak104",
+"rhs_weap_ak104_zenitco01","rhs_weap_ak104_npz","rhs_weap_ak104_zenitco01_b33",
+//  JCA
+"JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F","JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
+    "JCA_srifle_M107_black_F","JCA_srifle_M107_olive_F","JCA_srifle_M107_sand_F",
+    "JCA_launch_M72_sand_primed_F","JCA_launch_M72_black_primed_F","JCA_launch_M72_olive_primed_F",
 //  ACE
 "ACE_VMH3","ACE_launch_NLAW_ready_F","NLAW_F"

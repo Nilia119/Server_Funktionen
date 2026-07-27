@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\Oberstabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_auga2para_t","hlc_rifle_auga2para_b","hlc_rifle_auga2para"
+  "hlc_rifle_auga2para_t","hlc_rifle_auga2para_b","hlc_rifle_auga2para","hlc_rifle_G36CMLIC",
+  "hlc_rifle_416D10","hlc_rifle_416D10_tan","hlc_rifle_416D10_wdl"
 ]

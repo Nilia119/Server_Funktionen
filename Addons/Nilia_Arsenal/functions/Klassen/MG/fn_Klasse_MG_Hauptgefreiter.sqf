@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Hauptgefreiter.hpp"
 //
 [
-        "hlc_lmg_M60E4","BWA3_MG5"
+        "hlc_lmg_M60E4","LMG_Zafir_F"
 ]

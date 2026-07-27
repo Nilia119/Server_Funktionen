@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-        "BWA3_RGW90"
+        "CUP_launch_APILAS","rhs_weap_panzerfaust60"
 ]

@@ -18,6 +18,11 @@
 params[ [ "_obj", objNull, [ objNull ] ] ];
 if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Arsenal Konnte nicht Geladen werden" };
 
+clearWeaponCargoGlobal _obj;
+clearMagazineCargoGlobal _obj;
+clearItemCargoGlobal _obj;
+clearBackpackCargoGlobal _obj;
+
 
 [ _obj,
 [

@@ -24,6 +24,7 @@
     "hlc_rifle_416D10","hlc_rifle_416D10_st6","hlc_rifle_416D10_ptato","hlc_rifle_416D10_RAHG","hlc_rifle_416D10_geissele","hlc_rifle_416D10_tan",
     "hlc_rifle_416D10_wdl","hlc_rifle_416D145_CAG",
     "hlc_rifle_416D165","hlc_rifle_416D165_tan","hlc_rifle_416D165_wdl","hlc_rifle_416N",
+    "JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F",
     "hlc_rifle_416D20","hlc_rifle_416D20_tan","hlc_rifle_416D20_wdl"
 
 ]

@@ -18,5 +18,5 @@
 //		#include "Klassen\Keine\None.hpp"
 //
 [
-        "hlc_pistol_P226R_357Combat"
-]
+  "CUP_hgun_FlareGun","hlc_pistol_P226R_357Combat"
+];

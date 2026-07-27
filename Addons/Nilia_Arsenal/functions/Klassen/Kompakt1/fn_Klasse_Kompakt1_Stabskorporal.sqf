@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Stabskorporal.hpp"
 //
 [
-    "arifle_TRG20_F"
+	"hlc_smg_9mmar","arifle_TRG20_F"
 ]

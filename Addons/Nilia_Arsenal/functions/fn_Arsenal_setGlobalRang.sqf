@@ -21,7 +21,11 @@ private _name = name _unit;
 private _rangnr = 0;
 
 switch (true) do {
-//Jäger
+// Sonderfälle aka Pluto ^^
+//case ("Plutokratie" in _name): {systemChat "Hi Pluto!"; _rangnr = 7;};  //SteamID: 76561198242677538
+//case ("Benedikt" in _name): {systemChat "Hi Benedikt!"; _rangnr = 5;};  //SteamID: MISSING
+case ("DieScholle" in _name): {systemChat "Hi Scholle!"; _rangnr = 6;};
+// Jäger
 case ("Jg." in _name): {systemChat "Du bist Jäger!"; _rangnr = 0;};
 //Gefreite
 case ("OStGefr." in _name): {systemChat "Du bist Oberstabsgefreiter!"; _rangnr = 5;};

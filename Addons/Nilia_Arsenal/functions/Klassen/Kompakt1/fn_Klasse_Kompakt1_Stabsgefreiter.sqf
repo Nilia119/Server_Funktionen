@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_RU5562"
+	"hlc_smg_mp5a2","hlc_smg_mp5a2_tac","hlc_smg_mp5A2_Sfire","hlc_smg_mp5sd5",
+	"hlc_rifle_RU5562","CUP_smg_vityaz"
 ]

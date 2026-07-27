@@ -18,5 +18,5 @@
 //		#include "Klassen\Standard\Obergefreiter.hpp"
 //
 [
-        "hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g","hlc_lmg_MG3KWS"
+        "hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g","LMG_Mk200_black_F","hlc_lmg_MG3KWS"
 ]

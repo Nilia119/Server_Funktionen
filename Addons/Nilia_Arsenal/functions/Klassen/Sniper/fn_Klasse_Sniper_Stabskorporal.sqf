@@ -18,5 +18,7 @@
 //		#include "Klassen\Standard\Stabskorporal.hpp"
 //
 [
-        "srifle_GM6_ghex_F","srifle_GM6_camo_F","rhs_weap_M107","rhs_weap_M107_d","rhs_weap_M107_w"
+  "srifle_GM6_ghex_F","srifle_GM6_camo_F",
+  "rhs_weap_M107","rhs_weap_M107_d","rhs_weap_M107_w",
+  "JCA_srifle_M107_black_F","JCA_srifle_M107_olive_F","JCA_srifle_M107_sand_F"
 ]

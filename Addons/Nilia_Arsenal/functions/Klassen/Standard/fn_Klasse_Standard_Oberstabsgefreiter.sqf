@@ -23,5 +23,6 @@
     "hlc_grip_PMVFG",
     "hlc_rifle_bcmjack",
     "arifle_Katiba_F",
+	"rhs_weap_ak104_npz","rhs_weap_ak104_zenitco01_b33",
     "hlc_rifle_g3ka4"
 ]

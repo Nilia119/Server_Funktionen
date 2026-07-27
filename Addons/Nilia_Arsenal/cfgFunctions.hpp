@@ -16,25 +16,48 @@ class CfgFunctions {
             //Name of file minus fn_ prefix. So fn_Arsenal.sqf
             class Arsenal {};
             class Arsenal_Basis {};
+	        class Arsenal_Basis_Items {};
+            class Arsenal_Voll {};
             class Arsenal_New {};
+            class Arsenal_Nilia {};
+			class Arsenal_Okami {};
             class VehicleInv {};
 
             class Arsenal_RK {};
             class Arsenal_Calculate {};
             class Arsenal_Basis_Compiled {};
+            class Arsenal_Playeritems {};
+            class Arsenal_RangundKlasse {};
+            class Arsenal_Debug_Klasse {};
+            class Arsenal_RK_Debug {};
+            class Arsenal_setGlobalRang {};
+
+        };
+        class Nilia_Arsenal_Server_Functions_Klassen {
+            file="\Nilia_Arsenal\functions\Klassen";
+
             class Arsenal_Klasse_Standard {};
+            class Arsenal_Klasse_AA {};
+            class Arsenal_Klasse_Breacher {};
             class Arsenal_Klasse_DMR {};
+            class Arsenal_Klasse_EH {};
+            class Arsenal_Klasse_GrpFhr {};
+            class Arsenal_Klasse_Hilf {};
+            class Arsenal_Klasse_KpFhr {};
             class Arsenal_Klasse_MG {};
+            class Arsenal_Klasse_Muni {};
             class Arsenal_Klasse_ULG {};
             class Arsenal_Klasse_LAT {};
             class Arsenal_Klasse_PA {};
+            class Arsenal_Klasse_Pio {};
+            class Arsenal_Klasse_San {};
             class Arsenal_Klasse_Sniper {};
+            class Arsenal_Klasse_Spotter {};
+            class Arsenal_Klasse_StvGrpFhr {};
+            class Arsenal_Klasse_TrpFhr {};
             class Arsenal_Klasse_Kompakt1 {};
             class Arsenal_Klasse_Kompakt2 {};
-            class Arsenal_Playeritems {};
-            class Arsenal_RangundKlasse {};
-            class Arsenal_RK_Debug {};
-            class Arsenal_setGlobalRang {};
+            class Arsenal_Klasse_ZgFhr {};
 
         };
         #include "\Nilia_Arsenal\functions\klassen\Keine\Keine.hpp"
@@ -47,6 +70,8 @@ class CfgFunctions {
         #include "\Nilia_Arsenal\functions\klassen\PA\PA.hpp"
         #include "\Nilia_Arsenal\functions\klassen\Kompakt1\Kompakt1.hpp"
         #include "\Nilia_Arsenal\functions\klassen\Kompakt2\Kompakt2.hpp"
+        #include "\Nilia_Arsenal\functions\klassen\Items\Items.hpp"
+        #include "\Nilia_Arsenal\functions\klassen\Attire\Attire.hpp"
 
     };
 };

@@ -20,15 +20,27 @@
 params ["_obj"];
 
 private _klassen = [
-["Standard", "Standard"],
-["Kompakt1", "Kompakt1"],
-["Kompakt2", "Kompakt2"],
-["Grenadier", "Grenadier"],
-["MG", "MG"],
-["PA", "PA"],
-["LAT", "LAT"],
+["Standard (Waffenklasse)", "Standard"],
+["Kompakt1 (Waffenklasse)", "Kompakt1"],
+["Kompakt2 (Waffenklasse)", "Kompakt2"],
+["ULG (Waffenklasse)", "ULG"],
+["MG (Waffenklasse)", "MG"],
+["PA (Waffenklasse)", "PA"],
+["LAT (Waffenklasse)", "LAT"],
+["AA", "AA"],
 ["DMR", "DMR"],
-["Sniper", "Sniper"]
+["EH", "EH"],
+["Hilfsschütze", "Hilf"],
+["Sani", "Sani"],
+["Sniper", "Sniper"],
+["Schütze-EH", "EH"],
+["Munitionsträger", "Muni"],
+["Breacher", "Breacher"],
+["Beobachter", "Spotter"],
+["Pionier", "Pio"],
+["Truppführer", "TrpFhr"],
+["Gruppenführer", "GrpFhr"],
+["Kompanieführer", "KpFhr"]
 ];
 
 // Klassen-Auswahl
@@ -41,6 +53,7 @@ _obj addAction [
                 {
                         params ["_target", "_caller", "_actionId", "_klassenWert"];
                 _caller setVariable ["Nilia_Klasse", _klassenWert];
+                _caller setVariable ["Nilia_Waffenklasse", "Keine Berechnung möglich, da über Debug Fahne gesetzt!"];
                 private _msg = format ["%1 hat seine Klasse zu %2 geändert.", name _caller, _klassenWert];
                 [_msg] remoteExec ["systemChat", 0]; // Nachricht für alle sichtbar
                 },
@@ -55,7 +68,8 @@ _obj addAction [
                         params ["_target", "_caller"];
                 _caller setVariable ["Nilia_Klasse", nil];
                 _caller setVariable ["Nilia_Rang", nil];
-                systemChat "Du hast deine Klasse und Rang erfolgreich zurückgesetzt, bitte lade ein Standardloadout an der Fahne, damit alles wieder korrekt funktioniert!";
+                _caller setVariable ["Nilia_Waffenklasse", nil];
+                systemChat "Du hast deine Klasse, Rang und Waffenklasse erfolgreich zurückgesetzt. Bitte lade ein Standardloadout an der Fahne, damit alles wieder korrekt funktioniert!";
                 },
                 nil,
                 1.5,
@@ -67,6 +81,7 @@ _obj addAction [
 ];
 
 // Rang-Setzung (0 bis 7)
+//  TODO: Nachricht Global Posten
 for "_i" from 0 to 7 do {
 _obj addAction [
         format ["Setze Rang: %1", _i],

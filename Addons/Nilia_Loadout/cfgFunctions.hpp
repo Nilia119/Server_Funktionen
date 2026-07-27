@@ -1,5 +1,4 @@
 class CfgFunctions {
-
     //Project name
     class Nilia_Loadout_Functions
     {
@@ -16,13 +15,18 @@ class CfgFunctions {
             //Name of file minus fn_ prefix. So fn_Arsenal.sqf
             class Fleck {};
             class Tropen {};
+            class Loadout {};
+	        class Loadout_Emblem_Icon {};
+			class Loadout_Sprache {};
+	        class Loadout_Rechte {};
         };
 
         class Nilia_Rank_Server_Functions
         {
             file="\Nilia_Loadout\Rank";
 
-            class SetRank {};
+	        class SetETR {};
+			class SetRank {};
         };
 
         class Nilia_Loadouts_Allgemein_Server_Functions
@@ -31,6 +35,34 @@ class CfgFunctions {
 
             class Loadout_Allgemein_HeliPilot {};
             class Loadout_Allgemein_JetPilot {};
+        };
+
+        class Nilia_Loadouts_2_0
+        {
+            file="\Nilia_Loadout\Loadout\2";
+
+            class Loadout_AA {};
+            class Loadout_AAHilf {};
+            class Loadout_Breacher {};
+            class Loadout_DMR {};
+            class Loadout_Gren {};
+            class Loadout_GrpFhr {};
+            class Loadout_HMG {};
+            class Loadout_HMGHilf {};
+            class Loadout_KpFhr {};
+            class Loadout_MunT {};
+            class Loadout_PA {};
+            class Loadout_PAHilf {};
+            class Loadout_Pio {};
+            class Loadout_San {};
+            class Loadout_Schutze {};
+            class Loadout_SchutzeEH {};
+            class Loadout_SchutzeLAT {};
+            class Loadout_Sniper {};
+            class Loadout_Spotter {};
+            class Loadout_StvGrpFhr {};
+            class Loadout_TrpFhr {};
+            class Loadout_ZgFhr {};
         };
 
         class Nilia_Loadouts_Fleck_Server_Functions
@@ -49,7 +81,6 @@ class CfgFunctions {
             class Loadout_Fleck_HMG {};
             class Loadout_Fleck_HMGHilf {};
             class Loadout_Fleck_KpFhr {};
-            class Loadout_Fleck_LMG {};
             class Loadout_Fleck_MunT {};
             class Loadout_Fleck_PA {};
             class Loadout_Fleck_PAHilf {};
@@ -80,7 +111,6 @@ class CfgFunctions {
             class Loadout_Tropen_HMG {};
             class Loadout_Tropen_HMGHilf {};
             class Loadout_Tropen_KpFhr {};
-            class Loadout_Tropen_LMG {};
             class Loadout_Tropen_MunT {};
             class Loadout_Tropen_PA {};
             class Loadout_Tropen_PAHilf {};

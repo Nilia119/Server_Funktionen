@@ -2,6 +2,7 @@ class cfgPatches {
 
     class Nilia_Loadout_Server_Functions
     {
+        name = "EuDef Scripte - Ausrüstung";
         units[]={};
         weapons[]={};
         requiredVersion=0;

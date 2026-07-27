@@ -15,7 +15,8 @@ _unit setVariable ["ACE_medical_medicClass", 0];    //Medic 0=0, 1=Sani, 2=Arzt
 // Fünge eine wenn Funktion ein, die den Globalen Rang nur setzt, wenn er noch nicht gesetzt wurde.
 [_unit] call Nilia_fnc_Arsenal_setGlobalRang;
 _unit setVariable ["Nilia_Klasse", "Standard"];
-systemChat format ["Deine Klasse: %1", _unit getVariable "Nilia_Klasse"];
+_unit setVariable ["Nilia_Waffenklasse", "Standard"];
+systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable "Nilia_Klasse", _unit getVariable "Nilia_Waffenklasse"];
 
 //hint
 systemChat "Ausrüstung (Fleck): Schütze geladen!";
@@ -36,7 +37,6 @@ _unit addHandgunItem "hlc_12Rnd_357SIG_B_P226";
 // "Add containers";
 _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
 _unit addVest "pbw_splitter_schtz";
-_unit addBackpack "EUFOR_Backpack_Fleck_Compact";
 
 // "Add items to containers";
 _unit addItemToUniform "kat_IFAK";
@@ -51,32 +51,35 @@ _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_EarPlugs";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
-_unit addItemToUniform "ACE_splint";
 _unit addItemToUniform "kat_larynx";
 _unit addItemToUniform "ACE_morphine";
-for "_i" from 1 to 2 do {_unit addItemToUniform "ACRE_PRC152";};
+_unit addItemToUniform "ACE_EntrenchingTool";
+_unit addItemToUniform "PapersPlease_PassportMilitary";
+_unit addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_splint";};
+_unit addItemToUniform "greenmag_item_speedloader";
 for "_i" from 1 to 2 do {_unit addItemToUniform "hlc_12Rnd_357SIG_B_P226";};
 _unit addItemToUniform "hlc_30rnd_556x45_SOST_L5";
+for "_i" from 1 to 3 do {_unit addItemToVest "ACE_WaterBottle";};
+_unit addItemToVest "kat_Pulseoximeter";
+_unit addItemToVest "kat_larynx";
+_unit addItemToVest "ACE_salineIV_250";
+_unit addItemToVest "ACE_salineIV";
+_unit addItemToVest "ACE_MRE_ChickenTikkaMasala";
+_unit addItemToVest "ACE_MRE_CreamTomatoSoup";
+for "_i" from 1 to 2 do {_unit addItemToVest "ACRE_PRC152";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_m67";};
 _unit addItemToVest "SmokeShellBlue";
 _unit addItemToVest "B_IR_Grenade";
-for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
-for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 for "_i" from 1 to 3 do {_unit addItemToVest "hlc_30rnd_556x45_t_L5";};
-for "_i" from 1 to 5 do {_unit addItemToVest "hlc_30rnd_556x45_SOST_L5";};
-_unit addItemToBackpack "ACE_salineIV";
-_unit addItemToBackpack "ACE_salineIV_250";
-_unit addItemToBackpack "ACE_EntrenchingTool";
-_unit addItemToBackpack "kat_Pulseoximeter";
-_unit addItemToBackpack "kat_larynx";
-_unit addItemToBackpack "ACE_splint";
-_unit addItemToBackpack "hlc_30rnd_556x45_SOST_L5";
+for "_i" from 1 to 6 do {_unit addItemToVest "hlc_30rnd_556x45_SOST_L5";};
+_unit addItemToVest "kat_Painkiller";
+_unit addItemToVest "kat_Caffeine";
+for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Chemlight_HiWhite";};
 _unit addHeadgear "PBW_Helm1_fleck_H";
 _unit addGoggles "rhs_googles_clear";
-for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_WaterBottle";};
-_unit addItemToBackpack "ACE_MRE_CreamTomatoSoup";
-_unit addItemToBackpack "ACE_MRE_ChickenTikkaMasala";
 
 // "Add items";
 _unit linkItem "ItemMap";

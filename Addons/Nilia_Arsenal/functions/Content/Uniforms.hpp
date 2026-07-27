@@ -18,10 +18,12 @@
 //
 
 //  ArmA 3 Uniformen
-"U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard",
 "U_B_HeliPilotCoveralls","U_B_PilotCoveralls",
+//  EUFOR CBRN
+"EUFOR_Uniforms_CBRNL_Fleck","EUFOR_Uniforms_CBRNL_Multi","EUFOR_Uniforms_CBRNL_Schnee","EUFOR_Uniforms_CBRNL_TropenD","EUFOR_Uniforms_CBRNL_Tropen","EUFOR_Uniforms_CBRNL_Black",
+"EUFOR_Uniforms_CBRNL_Blue","EUFOR_Uniforms_CBRNL_Olive","EUFOR_Uniforms_CBRNL_Pol",
 //  EUFOR Uniformen
-"W_EUFOR_Uniform_Fleck1","W_EUFOR_Uniform_Fleck","W_EUFOR_Uniform_Fleck_Sleeves",
-"W_EUFOR_Uniform_Tropen","W_EUFOR_Uniform_Tropen_Digital","W_EUFOR_Uniform_Tropen_Sleeves",
-"W_EUFOR_Uniform_Fleck1_Sleeves","W_EUFOR_Uniform_Tropen_Digital_Sleeves","W_EUFOR_Uniform_Tropen_Shirt",
+"W_EUFOR_Uniform_Fleck1","W_EUFOR_Uniform_Fleck","W_EUFOR_Uniform_Fleck_Sleeves","W_EUFOR_Uniform_Fleck1_Sleeves","W_EUFOR_Uniform_Fleck_Shirt","W_EUFOR_Uniform_Fleck1_Shirt",
+"W_EUFOR_Uniform_Tropen_Digital","W_EUFOR_Uniform_Multi_Shirt","W_EUFOR_Uniform_Multi_Sleeves",
+"W_EUFOR_Uniform_Fleck1_Sleeves","W_EUFOR_Uniform_Tropen_Digital_Sleeves","W_EUFOR_Uniform_Schnee_Sleeves",
 "W_EUFOR_Uniform_Tropen_Digital_Shirt","W_EUFOR_Uniform_Schnee","W_EUFOR_Uniform_Multi"
