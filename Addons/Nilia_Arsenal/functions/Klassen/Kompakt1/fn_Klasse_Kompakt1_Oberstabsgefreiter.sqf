@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\Oberstabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_CQBR","CUP_smg_vityaz_vfg","CUP_smg_vityaz_vfg_front_rail","CUP_smg_vityaz_vfg_top_rail"
+	"hlc_smg_mp5a3_tac","hlc_smg_mp5a3","hlc_smg_mp5a4_tac","hlc_smg_mp5a4",
+	"hlc_rifle_CQBR","CUP_smg_vityaz_vfg","CUP_smg_vityaz_vfg_front_rail","CUP_smg_vityaz_vfg_top_rail"
 ]

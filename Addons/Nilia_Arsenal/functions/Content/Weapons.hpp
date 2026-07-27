@@ -76,6 +76,9 @@
 //      AUG
 "hlc_rifle_auga2para_t","hlc_rifle_auga2para_b","hlc_rifle_auga2para","hlc_rifle_auga2lsw","hlc_rifle_augsr_t","hlc_rifle_auga3","hlc_rifle_auga3_b","hlc_rifle_auga3_bl",
 "hlc_rifle_augsr_b","hlc_rifle_augsr","hlc_rifle_auga3_bl_grip","hlc_rifle_auga3_grip",
+//      MP5
+"hlc_smg_mp5a2","hlc_smg_mp5a2_tac","hlc_smg_mp5A2_Sfire","hlc_smg_mp5sd5","hlc_smg_mp5a3_tac","hlc_smg_mp5a3","hlc_smg_mp5a4_tac","hlc_smg_mp5a4","hlc_smg_MP5N",
+"hlc_smg_mp5N_tac","hlc_smg_mp5k_PDW","hlc_smg_mp5sd6","hlc_smg_9mmar",
 //      SONSTIGE
 "hlc_rifle_M14dmr_Rail","hlc_rifle_awmagnum_FDE","hlc_rifle_awcovert","hlc_rifle_awmagnum","hlc_rifle_awMagnum_OD_ghillie","hlc_rifle_awmagnum_FDE_ghillie","hlc_rifle_falosw_grip",
 "hlc_rifle_osw_GL","hlc_rifle_aks74u","hlc_rifle_ACR68_Carb_green","hlc_rifle_ACR68_Carb_tan","hlc_rifle_saiga12k","rhs_weap_M320_P","rhs_weap_M320","hlc_Pistol_M11A1D",
