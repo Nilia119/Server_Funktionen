@@ -20,11 +20,11 @@
 "kat_Armband_Red_Cross_Goggles","kat_Armband_Doctor_Goggles", // Medic Armbinden
 "U_B_FullGhillie_lsh","U_B_FullGhillie_sard","U_B_FullGhillie_ard","U_B_T_FullGhillie_tna_F", // Ghillies
 "rhs_facewear_6m2_1","rhs_facewear_6m2",  // RHS Kopfhörer
-"W_EUFOR_Uniform_Tarn_Schnee","W_EUFOR_Uniform_Tarn_Schnee_Sleeves","W_EUFOR_Uniform_Tarn_Tropen","W_EUFOR_Uniform_Tarn_Tropen_Sleeves","W_EUFOR_Uniform_Tarn_Tropen_Shirt",
-"W_EUFOR_Uniform_Tarn_Tropen_Digital","W_EUFOR_Uniform_Tarn_Tropen_Digital_Sleeves","W_EUFOR_Uniform_Tarn_Tropen_Digital_Shirt","W_EUFOR_Uniform_Tarn_Multi",
-"W_EUFOR_Uniform_Tarn_Multi_Sleeves","W_EUFOR_Uniform_Tarn_Multi_Shirt","W_EUFOR_Uniform_Tarn_Fleck","W_EUFOR_Uniform_Tarn_Fleck_Sleeves",
-"W_EUFOR_Uniform_Tarn_Fleck_Shirt",     // EUFOR Tarnuniformen
-"W_EUFOR_Uniform_Tropen_Shirt","W_EUFOR_Uniform_Tropen","W_EUFOR_Uniform_Tropen_Sleeves","EUFOR_Vest_TacVest_Tropen","EUFOR_Vest_Carrier_1_Tropen","EUFOR_Vest_Carrier_2_Tropen",
+"H_HelmetCrew_B",   //  ARMA Fahrzeugbesatzung Helm
+"EUFOR_Uniforms_Tarn_Schnee","EUFOR_Uniforms_Tarn_Schnee_Sleeves","EUFOR_Uniforms_Tarn_Tropen","EUFOR_Uniforms_Tarn_Tropen_Sleeves","EUFOR_Uniforms_Tarn_Tropen_Shirt",
+"EUFOR_Uniforms_Tarn_TropenD","EUFOR_Uniforms_Tarn_TropenD_Sleeves","EUFOR_Uniforms_Tarn_TropenD_Shirt","EUFOR_Uniforms_Tarn_Multi","EUFOR_Uniforms_Tarn_Multi_Sleeves",
+"EUFOR_Uniforms_Tarn_Multi_Shirt","EUFOR_Uniforms_Tarn_Fleck","EUFOR_Uniforms_Tarn_Fleck_Sleeves","EUFOR_Uniforms_Tarn_Fleck_Shirt",     // EUFOR Tarnuniformen
+"EUFOR_Uniforms_Tropen_Shirt","EUFOR_Uniforms_Tropen","EUFOR_Uniforms_Tropen_Sleeves","EUFOR_Vest_TacVest_Tropen","EUFOR_Vest_Carrier_1_Tropen","EUFOR_Vest_Carrier_2_Tropen",
 "EUFOR_Vest_Carrier_3_Tropen","EUFOR_Uniforms_Uniform_I_Tropen","EUFOR_Uniforms_Uniform_I_Sleeves_Tropen","EUFOR_Uniforms_Uniform_Sweater_Tropen", // EUFOR Tropentarn
 "EUFOR_Uniforms_Uniform_I_Fleck","EUFOR_Uniforms_Uniform_I_TropenD","EUFOR_Uniforms_Uniform_I_Multi","EUFOR_Uniforms_Uniform_I_Schnee",   // EUFOR Kampfanzug
 "EUFOR_Uniforms_Uniform_I_Sleeves_Fleck","EUFOR_Uniforms_Uniform_I_Sleeves_TropenD","EUFOR_Uniforms_Uniform_I_Sleeves_Multi","EUFOR_Uniforms_Uniform_I_Sleeves_Schnee",   // EUFOR Kampfanzug

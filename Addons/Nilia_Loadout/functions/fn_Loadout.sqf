@@ -24,7 +24,7 @@ if (isNull _obj || { !( alive _obj ) } ) exitWith { hint "Loadouts konnten nicht
 
 _obj addAction ["<t color='#0000ff'>Setze Emblem", Nilia_fnc_SetRank];
 _obj addAction ["<t color='#0000ff'>Vollständig Heilen", { params ["_target", "_caller"]; [_caller, _caller] call ace_medical_treatment_fnc_fullHeal; systemChat "Du wurdest vollständig geheilt!";}];
-_obj addAction ["<t color='#ff0000'>Hinweis Fahne 2.0</t>", { call Nilia_fnc_SetRank; systemChat "Das ist ein Hinweis, diese Fahne wurde mit Flagge 2.0 initialisiert! Dieser Hinweis verschwindet in Kürze!";}];
+_obj addAction ["<t color='#ff0000'>Fun-Fact dieses Updates</t>", { call Nilia_fnc_SetRank; systemChat "H2O und D2O (Deuterium: Wasserstoffatom mit einem zusätzlichen Neutron) haben unterschiedliche Farben und schmecken unterschiedlich. Deuterium macht etwa 0,015 % des natürlich vorkommenden Wasserstoffs aus. ^^";}];
 _obj addAction ["<t color='#ff0000'>------------------------------", Nilia_fnc_SetRank];
 _obj addAction ["Loadout2: Breacher", Nilia_fnc_Loadout_Breacher, _farbe];
 _obj addAction ["Loadout2: DMR-Schütze", Nilia_fnc_Loadout_DMR, _farbe];

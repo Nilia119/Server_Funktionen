@@ -22,28 +22,28 @@ systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable
 // Farbspezifische Items hinzufügen:
 switch (true) do {
     default {
-        _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+        _unit forceAddUniform "EUFOR_Uniforms_Fleck";
         _unit addVest "EUFOR_Vest_Carrier_3_Fleck";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_Fleck";
         _unit addBackpack "EUFOR_Backpacks_TacticalPack_Fleck";
         _farbe = "Flecktarn";
     };
     case ("Tropen" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tropen_Digital";
+        _unit forceAddUniform "EUFOR_Uniforms_TropenD";
         _unit addVest "EUFOR_Vest_Carrier_3_Tropen_Digital";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_TropenD";
         _unit addBackpack "EUFOR_Backpacks_TacticalPack_TropenD";
         _farbe = "Tropentarn";
     };
     case ("Schnee" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Schnee";
+        _unit forceAddUniform "EUFOR_Uniforms_Schnee";
         _unit addVest "EUFOR_Vest_Carrier_3_Schnee";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_Schnee";
         _unit addBackpack "EUFOR_Backpacks_TacticalPack_Schnee";
         _farbe = "Schneetarn";
     };
     case ("Multi" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Multi";
+        _unit forceAddUniform "EUFOR_Uniforms_Multi";
         _unit addVest "EUFOR_Vest_Carrier_3_Multi";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_Multi";
         _unit addBackpack "EUFOR_Backpacks_TacticalPack_Multi";

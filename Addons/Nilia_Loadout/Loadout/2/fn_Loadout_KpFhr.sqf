@@ -22,7 +22,7 @@ systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable
 // Farbspezifische Items hinzufügen:
 switch (true) do {
     default {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tarn_Fleck";
+        _unit forceAddUniform "EUFOR_Uniforms_Tarn_Fleck";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Fleck";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_TI_Fleck";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Fleck_PL";
@@ -30,7 +30,7 @@ switch (true) do {
         _farbe = "Flecktarn";
     };
     case ("Tropen" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tarn_Tropen_Digital";
+        _unit forceAddUniform "EUFOR_Uniforms_Tarn_TropenD";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Tropen_Digital";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_TI_TropenD";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_TropenD_PL";
@@ -38,7 +38,7 @@ switch (true) do {
         _farbe = "Tropentarn";
     };
     case ("Schnee" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tarn_Schnee";
+        _unit forceAddUniform "EUFOR_Uniforms_Tarn_Schnee";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Schnee";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_TI_Schnee";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Schnee_PL";
@@ -46,7 +46,7 @@ switch (true) do {
         _farbe = "Schneetarn";
     };
     case ("Multi" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tarn_Multi";
+        _unit forceAddUniform "EUFOR_Uniforms_Tarn_Multi";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Multi";
         _unit addHeadgear "EUFOR_Helmets_HelmetB_TI_Multi";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Multi_PL";

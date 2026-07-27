@@ -22,7 +22,7 @@ systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable
 // Farbspezifische Items hinzufügen:
 switch (true) do {
 default {
-_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit forceAddUniform "EUFOR_Uniforms_Fleck";
 _unit addVest "EUFOR_Vest_Carrier_2_Fleck";
 _unit addBackpack "EUFOR_Backpacks_Compact_Fleck";
 _unit addHeadgear "EUFOR_Helmets_Boonie_Spec_Fleck";
@@ -34,7 +34,7 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "hlc_20Rnd_762x51_TDim_SCARH";}
 _farbe = "Flecktarn";
 };
 case ("Tropen" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Tropen_Digital";
+_unit forceAddUniform "EUFOR_Uniforms_TropenD";
 _unit addVest "EUFOR_Vest_Carrier_2_Tropen_Digital";
 _unit addBackpack "EUFOR_Backpacks_Compact_TropenD";
 _unit addHeadgear "EUFOR_Helmets_Boonie_Spec_TropenD";
@@ -46,7 +46,7 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "hlc_20Rnd_762x51_TDim_SCARH_ta
 _farbe = "Tropentarn";
 };
 case ("Schnee" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Schnee";
+_unit forceAddUniform "EUFOR_Uniforms_Schnee";
 _unit addVest "EUFOR_Vest_Carrier_2_Schnee";
 _unit addBackpack "EUFOR_Backpacks_Compact_Schnee";
 _unit addHeadgear "EUFOR_Helmets_Boonie_Spec_Schnee";
@@ -58,7 +58,7 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "hlc_20Rnd_762x51_TDim_SCARH";}
 _farbe = "Schneetarn";
 };
 case ("Multi" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Multi";
+_unit forceAddUniform "EUFOR_Uniforms_Multi";
 _unit addVest "EUFOR_Vest_Carrier_2_Multi";
 _unit addBackpack "EUFOR_Backpacks_Compact_Multi";
 _unit addHeadgear "EUFOR_Helmets_Boonie_Spec_Multi";

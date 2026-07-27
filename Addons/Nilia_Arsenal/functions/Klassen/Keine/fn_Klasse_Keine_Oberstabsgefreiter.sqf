@@ -19,7 +19,7 @@
 //
 
 [
-    "W_EUFOR_Uniform_Tarn_Tropen","W_EUFOR_Uniform_Tarn_Tropen_Sleeves","W_EUFOR_Uniform_Tarn_Tropen_Shirt","EUFOR_Helmets_HelmetB_TI_Tropen",
+    "EUFOR_Uniforms_Tarn_Tropen","EUFOR_Uniforms_Tarn_Tropen_Sleeves","EUFOR_Uniforms_Tarn_Tropen_Shirt","EUFOR_Helmets_HelmetB_TI_Tropen",
     "EUFOR_Vest_Carrier_GL_Fleck","EUFOR_Vest_Carrier_GL_Fleck1","EUFOR_Vest_Carrier_GL_Schnee","EUFOR_Vest_Carrier_GL_Multi","EUFOR_Vest_Carrier_GL_Tropen",
     "EUFOR_Vest_Carrier_GL_Tropen_Digital",
     "EUFOR_Helmets_Boonie_Spec_Fleck","EUFOR_Helmets_Boonie_Spec_Multi","EUFOR_Helmets_Boonie_Spec_Schnee","EUFOR_Helmets_Boonie_Spec_Tropen","EUFOR_Helmets_Boonie_Spec_TropenD",

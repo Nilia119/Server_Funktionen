@@ -22,28 +22,28 @@ systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable
 // Farbspezifische Items hinzufügen:
 switch (true) do {
     default {
-        _unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+        _unit forceAddUniform "EUFOR_Uniforms_Fleck";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Fleck";
         _unit addHeadgear "EUFOR_Helmets_HBK_Ear_Fleck";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Fleck_PL";
         _farbe = "Flecktarn";
     };
     case ("Tropen" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Tropen_Digital";
+        _unit forceAddUniform "EUFOR_Uniforms_TropenD";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Tropen_Digital";
         _unit addHeadgear "EUFOR_Helmets_HBK_Ear_TropenD";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_TropenD_PL";
         _farbe = "Tropentarn";
     };
     case ("Schnee" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Schnee";
+        _unit forceAddUniform "EUFOR_Uniforms_Schnee";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Schnee";
         _unit addHeadgear "EUFOR_Helmets_HBK_Ear_Schnee";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Schnee_PL";
         _farbe = "Schneetarn";
     };
     case ("Multi" in _farbe): {
-        _unit forceAddUniform "W_EUFOR_Uniform_Multi";
+        _unit forceAddUniform "EUFOR_Uniforms_Multi";
         _unit addVest "EUFOR_Vest_KBT_Heavy_Multi";
         _unit addHeadgear "EUFOR_Helmets_HBK_Ear_Multi";
         _unit addBackpack "EUFOR_Backpacks_Radiobag_Multi_PL";

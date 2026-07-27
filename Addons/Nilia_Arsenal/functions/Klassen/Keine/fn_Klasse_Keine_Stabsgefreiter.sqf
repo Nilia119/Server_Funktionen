@@ -19,7 +19,7 @@
 //
 
 [
-    "W_EUFOR_Uniform_Tropen_Shirt","W_EUFOR_Uniform_Tropen","W_EUFOR_Uniform_Tropen_Sleeves",
+    "EUFOR_Uniforms_Tropen_Shirt","EUFOR_Uniforms_Tropen","EUFOR_Uniforms_Tropen_Sleeves",
     "EUFOR_Vest_Carrier_Spec_Fleck","EUFOR_Vest_Carrier_Spec_Fleck1","EUFOR_Vest_Carrier_Spec_Schnee","EUFOR_Vest_Carrier_Spec_Multi","EUFOR_Vest_Carrier_Spec_Tropen_Digital",
     "EUFOR_Vest_TacVest_Tropen","EUFOR_Vest_Carrier_1_Tropen","EUFOR_Vest_Carrier_2_Tropen","EUFOR_Vest_Carrier_3_Tropen","EUFOR_Vest_Carrier_Spec_Tropen","EUFOR_Vest_KBT_Tropen",
     "EUFOR_Vest_KBT_Light_Tropen","EUFOR_Vest_KBT_Heavy_Tropen","EUFOR_Uniforms_Uniform_I_Tropen","EUFOR_Uniforms_Uniform_I_Sleeves_Tropen",

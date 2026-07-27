@@ -22,7 +22,7 @@ systemChat format ["Deine Klasse: %1, Deine Waffenklasse: %2", _unit getVariable
 // Farbspezifische Items hinzufügen:
 switch (true) do {
 default {
-_unit forceAddUniform "W_EUFOR_Uniform_Fleck";
+_unit forceAddUniform "EUFOR_Uniforms_Fleck";
 _unit addVest "EUFOR_Vest_Carrier_3_Fleck";
 _unit addBackpack "EUFOR_Backpacks_PredatorRadio_Fleck";
 _unit addItemToBackpack "EUFOR_Helmets_MilCap_Fleck";
@@ -31,7 +31,7 @@ _unit addWeapon "hlc_rifle_416D145_wdl_grip";
 _farbe = "Flecktarn";
 };
 case ("Tropen" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Tropen_Digital";
+_unit forceAddUniform "EUFOR_Uniforms_TropenD";
 _unit addVest "EUFOR_Vest_Carrier_3_Tropen_Digital";
 _unit addBackpack "EUFOR_Backpacks_PredatorRadio_TropenD";
 _unit addItemToBackpack "EUFOR_Helmets_MilCap_TropenD";
@@ -40,7 +40,7 @@ _unit addWeapon "hlc_rifle_416D145_tan_grip";
 _farbe = "Tropentarn";
 };
 case ("Schnee" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Schnee";
+_unit forceAddUniform "EUFOR_Uniforms_Schnee";
 _unit addVest "EUFOR_Vest_Carrier_3_Schnee";
 _unit addBackpack "EUFOR_Backpacks_PredatorRadio_Schnee";
 _unit addItemToBackpack "EUFOR_Helmets_MilCap_Schnee";
@@ -49,7 +49,7 @@ _unit addWeapon "hlc_rifle_416D145_grip";
 _farbe = "Schneetarn";
 };
 case ("Multi" in _farbe): {
-_unit forceAddUniform "W_EUFOR_Uniform_Multi";
+_unit forceAddUniform "EUFOR_Uniforms_Multi";
 _unit addVest "EUFOR_Vest_Carrier_3_Multi";
 _unit addBackpack "EUFOR_Backpacks_PredatorRadio_Multi";
 _unit addItemToBackpack "EUFOR_Helmets_MilCap_Multi";
