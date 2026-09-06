@@ -37,6 +37,7 @@
     "100Rnd_65x39_caseless_mag_Tracer_Blue","100Rnd_65x39_caseless_khaki_mag","100Rnd_65x39_caseless_khaki_mag_tracer","100Rnd_65x39_caseless_mag_Tracer",
     "100Rnd_65x39_caseless_black_mag_tracer","100Rnd_65x39_caseless_mag","100Rnd_65x39_caseless_black_mag","ace_100rnd_65x39_mx_yellow","ace_100rnd_65x39_mx_green",
     "ace_100rnd_65x39_mx_tracer_yellow","ace_100rnd_65x39_mx_tracer_green","ace_100rnd_65x39_caseless_mag_tracer_dim", // MX 100
+	"50Rnd_680x51TVCM_Drum_F","50Rnd_680x51TVCM_Drum_Tracer_F", // RM277
     "JAS_GPNVG18_blk_TI","JAS_GPNVG18_Tan_TI",   // NVGs
     "CUP_optic_SB_11_4x20_PM_pip","NForce_Atcr_RMR_Top_SkeetIR_Down","rhsusf_acc_anpas13gv1","a3ti_reapir_pip"       //ReapIR
 

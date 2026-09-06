@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\None.hpp"
 //
 [
-        "hlc_smg_mp510","hlc_mp510_tac","SMG_03C_TR_camo","SMG_03C_TR_hex","SMG_03C_TR_khaki","SMG_03C_TR_black"
+	"RM277C_F","RM277C_Blk_F","RM277C_Khk_F",
+	"hlc_smg_mp510","hlc_mp510_tac","SMG_03C_TR_camo","SMG_03C_TR_hex","SMG_03C_TR_khaki","SMG_03C_TR_black"
 ]

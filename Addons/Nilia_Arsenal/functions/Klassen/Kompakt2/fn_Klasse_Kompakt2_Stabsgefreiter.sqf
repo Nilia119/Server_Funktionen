@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\Stabsgefreiter.hpp"
 //
 [
-    "hlc_rifle_saiga12k","hlc_rifle_G36CTac"
+	"RM277UBS_F","RM277UBS_Blk_F","RM277UBS_Khk_F",
+	"hlc_rifle_saiga12k","hlc_rifle_G36CTac"
 ]

@@ -94,7 +94,10 @@
 "rhs_weap_ak104_zenitco01","rhs_weap_ak104_npz","rhs_weap_ak104_zenitco01_b33",
 //  JCA
 "JCA_arifle_HK433_black_F","JCA_arifle_HK433_olive_F","JCA_arifle_HK433_sand_F","JCA_arifle_HK433_short_black_F","JCA_arifle_HK433_short_olive_F","JCA_arifle_HK433_short_sand_F",
-    "JCA_srifle_M107_black_F","JCA_srifle_M107_olive_F","JCA_srifle_M107_sand_F",
-    "JCA_launch_M72_sand_primed_F","JCA_launch_M72_black_primed_F","JCA_launch_M72_olive_primed_F",
+"JCA_srifle_M107_black_F","JCA_srifle_M107_olive_F","JCA_srifle_M107_sand_F",
+"JCA_launch_M72_sand_primed_F","JCA_launch_M72_black_primed_F","JCA_launch_M72_olive_primed_F",
+//  US/RUS Armory
+"RM277_F","RM277_Blk_F","RM277_Khk_F","RM277C_F","RM277C_Blk_F","RM277C_Khk_F","RM277DMR_F","RM277DMR_Blk_F","RM277DMR_Khk_F","RM277GL_F","RM277GL_Blk_F","RM277GL_Khk_F",
+"RM277UBS_F","RM277UBS_Blk_F","RM277UBS_Khk_F",
 //  ACE
 "ACE_VMH3","ACE_launch_NLAW_ready_F","NLAW_F"

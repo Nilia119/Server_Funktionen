@@ -18,5 +18,6 @@
 //		#include "Klassen\Standard\None.hpp"
 //
 [
+		"RM277GL_F","RM277GL_Blk_F","RM277GL_Khk_F",
         "hlc_rifle_G36E1AG36","hlc_rifle_G36VAG36"
 ]

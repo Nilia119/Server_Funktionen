@@ -24,5 +24,6 @@
     "rhs_weap_ak105","rhs_weap_ak105_zenitco01",
     "rhs_acc_pgs64",
     "hlc_WP_SCARH_CQC","hlc_wp_SCARH_CQC_Blk","hlc_wp_SCARH_CQC_camo",
+	"RM277UBS_F","RM277UBS_Blk_F","RM277UBS_Khk_F",
     "arifle_MSBS65_black_F","arifle_MSBS65_sand_F","arifle_MSBS65_F","arifle_MSBS65_camo_F"
 ]

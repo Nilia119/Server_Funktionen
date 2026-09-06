@@ -30,6 +30,7 @@
     "EUFOR_Helmets_HBK_Chops_Fleck","EUFOR_Helmets_HBK_Chops_Multi","EUFOR_Helmets_HBK_Chops_Schnee","EUFOR_Helmets_HBK_Chops_Tropen","EUFOR_Helmets_HBK_Chops_TropenD",
     "hlc_30Rnd_762x51_T_L4","hlc_30Rnd_762x51_T_fal","hlc_30Rnd_762x51_barrier_L4","hlc_30Rnd_762x51_barrier_fal","hlc_30Rnd_762x51_mk316_L4",
     "hlc_30Rnd_762x51_mk316_fal","hlc_30Rnd_762x51_TDim_L4","hlc_30Rnd_762x51_TDim_fal","hlc_30rnd_762x51_M_L4","hlc_30rnd_762x51_MDIM_L4","hlc_30Rnd_762x51_B_L4",
+	"30Rnd_680x51TVCM_Drum_F",  // RM277 30rnd.
     "hlc_30rnd_762x51_M_FAL","hlc_30rnd_762x51_MDIM_FAL","hlc_30Rnd_762x51_B_fal", // FAL 30rnd.
     "rhsusf_weap_m1911a1","crow_x26_green"
 ]

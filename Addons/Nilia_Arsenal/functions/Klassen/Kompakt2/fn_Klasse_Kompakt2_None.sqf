@@ -18,6 +18,7 @@
 //		#include "Klassen\Standard\None.hpp"
 //
 [
-    "hlc_smg_mp510","hlc_mp510_tac",
+	"RM277C_F","RM277C_Blk_F","RM277C_Khk_F",
+	"hlc_smg_mp510","hlc_mp510_tac",
     "rhs_weap_Izh18"
 ]

@@ -19,7 +19,7 @@
 //
 [
     "GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_BLACK","GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_DESERT","GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_GREEN",
-    "GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_HEX","GX_DEPLOYABLE_MAGAZINE_RQ11B_UAV",
+    "GX_DEPLOYABLE_MAGAZINE_HONEYBADGER_UGV_AT_HEX","GX_DEPLOYABLE_MAGAZINE_RQ11B_UAV","Drone_rearm_ammobox",
     "GX_DEPLOYABLE_MAGAZINE_UAV_06_ANTIMINE","B_UavTerminal","WNZ_EMPGrenade","rhs_charge_tnt_x2_mag","rhs_grenade_sthgr43_SSfrag_mag","TrainingMine_Mag","rhs_mine_ozm72_c_mag",
     "rhs_mine_ozm72_b_mag","rhs_mine_ozm72_a_mag","iedd_item_notebook","advrepair_ToolkitLight","ACE_M26_Clacker","ACE_Cellphone","advrepair_SpareParts","ToolKit",
     "APERSMineDispenser_Mag","CUP_Mine_M","ACE_DeadManSwitch","IEDLandSmall_Remote_Mag","IEDUrbanSmall_Remote_Mag","DemoCharge_Remote_Mag","ATMine_Range_Mag",
