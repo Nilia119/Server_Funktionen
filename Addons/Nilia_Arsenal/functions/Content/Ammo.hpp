@@ -76,9 +76,9 @@
 "greenmag_ammo_545x39_basic_30Rnd","greenmag_ammo_545x39_basic_60Rnd","greenmag_ammo_556x45_basic_30Rnd","greenmag_ammo_556x45_basic_60Rnd","greenmag_beltlinked_556x45_basic_100",
 "greenmag_beltlinked_556x45_basic_150","greenmag_beltlinked_556x45_basic_200","greenmag_beltlinked_556x45_basic_50","greenmag_beltlinked_93x64_basic_200",
 "greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd","greenmag_ammo_580x42_basic_30Rnd","greenmag_ammo_580x42_basic_60Rnd","greenmag_ammo_650x39_basic_30Rnd",
-"greenmag_ammo_650x39_basic_60Rnd","greenmag_beltlinked_650x39_basic_100","greenmag_beltlinked_650x39_basic_150","greenmag_beltlinked_650x39_basic_200",
+"greenmag_ammo_650x39_basic_60Rnd","greenmag_beltlinked_650x39_basic_100","greenmag_beltlinked_650x39_basic_150","greenmag_beltlinked_650x39_basic_200","greenmag_ammo_762x54_basic_30Rnd",
 "greenmag_beltlinked_93x64_basic_50","greenmag_beltlinked_650x39_basic_50","greenmag_ammo_762x39_basic_30Rnd","greenmag_ammo_762x39_basic_60Rnd","greenmag_ammo_762x51_basic_30Rnd",
-"greenmag_ammo_762x51_basic_60Rnd","greenmag_beltlinked_762x51_basic_100","greenmag_beltlinked_762x51_basic_150","greenmag_ammo_93x64_basic_30Rnd",
+"greenmag_ammo_762x51_basic_60Rnd","greenmag_beltlinked_762x51_basic_100","greenmag_beltlinked_762x51_basic_150","greenmag_ammo_93x64_basic_30Rnd","greenmag_ammo_762x54_basic_60Rnd",
 "greenmag_ammo_93x64_basic_60Rnd","greenmag_beltlinked_93x64_basic_100","greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_570x28_basic_30Rnd","greenmag_ammo_570x28_basic_60Rnd",
 "greenmag_beltlinked_762x51_basic_200","greenmag_beltlinked_762x51_basic_50","greenmag_beltlinked_762x54_basic_100","greenmag_beltlinked_762x54_basic_150",
 "greenmag_beltlinked_762x54_basic_200","greenmag_beltlinked_762x54_basic_50","ace_30rnd_65x39_mx_green","ace_30rnd_65x39_mx_yellow","ace_30rnd_65x39_mx_tracer_green",
@@ -145,4 +145,8 @@
 "rhsgref_1Rnd_00Buck","40xtra_1Rnd_12g_buckshotflec","40xtra_1Rnd_12g_buckshotSpike","40xtra_1Rnd_12g_buckshottriball","40xtra_1Rnd_12g_buckshotslug",
 "40xtra_1Rnd_12g_buckshotsg_softload","40xtra_1Rnd_12g_buckshotsg","40xtra_1Rnd_12g_buckshotsgm","40xtra_1Rnd_12g_buckshotrs","40xtra_1Rnd_12g_buckshotmix_softload",
 "40xtra_1Rnd_12g_buckshotmixm","40xtra_1Rnd_12g_buckshotmg_softload","40xtra_1Rnd_12g_buckshotmix","40xtra_1Rnd_12g_buckshotmgm","40xtra_1Rnd_12g_buckshotmg",
-"40xtra_1Rnd_12g_buckshotlg_softload","40xtra_1Rnd_12g_buckshotlgm","40xtra_1Rnd_12g_buckshotlg","40xtra_1Rnd_12g_buckshotbb"
+"40xtra_1Rnd_12g_buckshotlg_softload","40xtra_1Rnd_12g_buckshotlgm","40xtra_1Rnd_12g_buckshotlg","40xtra_1Rnd_12g_buckshotbb","greenmag_ammo_650x39_basic_1Rnd",
+"greenmag_ammo_570x28_basic_1Rnd","greenmag_ammo_580x42_basic_1Rnd","greenmag_ammo_762x39_basic_1Rnd","greenmag_ammo_545x39_basic_1Rnd","greenmag_ammo_556x45_basic_1Rnd",
+"greenmag_ammo_127x99_basic_1Rnd","greenmag_ammo_127x54_basic_1Rnd","greenmag_ammo_127x108_basic_1Rnd","greenmag_ammo_762x51_basic_1Rnd","greenmag_ammo_93x64_basic_1Rnd",
+"greenmag_ammo_50BW_basic_1Rnd","greenmag_ammo_9x19_basic_1Rnd","greenmag_ammo_45ACP_basic_1Rnd","greenmag_ammo_9x21_basic_1Rnd","greenmag_ammo_408_basic_1Rnd",
+"greenmag_ammo_762x54_basic_1Rnd","greenmag_ammo_338_basic_1Rnd"
