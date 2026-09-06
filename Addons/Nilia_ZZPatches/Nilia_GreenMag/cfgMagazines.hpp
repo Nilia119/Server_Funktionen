@@ -1,0 +1,1 @@
+#include "Compat\Magazines.hpp"

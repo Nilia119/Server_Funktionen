@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Nilia_Serverfunktionen">
+    <Package name="ReArma_US">
+        <Key ID="STR_Nilia_Serverfunktionen_ReArma_US_name">
+            <English>Nilia - EuDef Scripte - Re ArmA US Additions</English>
+            <German>Nilia - EuDef Scripte - Re ArmA US Additions</German>
+        </Key>
+        <Key ID="STR_Nilia_Serverfunktionen_ReArma_US_name_Author">
+            <English>Nilia</English>
+            <German>Nilia</German>
+        </Key>
+    </Package>
+</Project>
