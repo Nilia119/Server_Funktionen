@@ -17,6 +17,8 @@
 //		#include "Content\Items.hpp"
 //
 
+//  EUFOR Old Vests Compat
+"EUFOR_Vest_TacVest_Tropen_Digital","EUFOR_Vest_Carrier_1_Tropen_Digital","EUFOR_Vest_Carrier_2_Tropen_Digital","EUFOR_Vest_Carrier_3_Tropen_Digital",
 "ACE_CableTie","ACE_Sandbag_empty","ACE_DAGR","ACE_ATragMX","ACE_MRE_BeefStew","ACE_MRE_SteakVegetables","ACE_Canteen",
 "kka3_ace_extension_TapeSign_F","ACE_Humanitarian_Ration","ACE_Flashlight_KSF1","kka3_ace_extension_Campfire_burning_F","ACE_Clacker",
 "kka3_ace_extension_Land_BagFence_Long_F","ACE_EntrenchingTool","ACE_Kestrel4500","ACE_HuntIR_M203","ItemMap",

@@ -24,7 +24,7 @@
 "CUP_V_B_GER_Armatus_BB_Fleck","CUP_V_B_GER_Armatus_Fleck","CUP_V_B_GER_Armatus_Trop",
 "CUP_V_B_GER_Armatus_BB_Trop",
 //  EUFOR
-"EUFOR_Vest_TacVest_Fleck","EUFOR_Vest_TacVest_Schnee","EUFOR_Vest_TacVest_Multi","EUFOR_Vest_TacVest_Tropen_Digital",
-"EUFOR_Vest_Carrier_1_Fleck","EUFOR_Vest_Carrier_1_Schnee","EUFOR_Vest_Carrier_1_Multi","EUFOR_Vest_Carrier_1_Tropen_Digital",
-"EUFOR_Vest_Carrier_2_Fleck","EUFOR_Vest_Carrier_2_Schnee","EUFOR_Vest_Carrier_2_Multi","EUFOR_Vest_Carrier_2_Tropen_Digital",
-"EUFOR_Vest_Carrier_3_Fleck","EUFOR_Vest_Carrier_3_Schnee","EUFOR_Vest_Carrier_3_Multi","EUFOR_Vest_Carrier_3_Tropen_Digital"
+"EUFOR_Vest_TacVest_Fleck","EUFOR_Vest_TacVest_Schnee","EUFOR_Vest_TacVest_Multi","EUFOR_Vest_TacVest_TropenD",
+"EUFOR_Vest_Carrier_1_Fleck","EUFOR_Vest_Carrier_1_Schnee","EUFOR_Vest_Carrier_1_Multi","EUFOR_Vest_Carrier_1_TropenD",
+"EUFOR_Vest_Carrier_2_Fleck","EUFOR_Vest_Carrier_2_Schnee","EUFOR_Vest_Carrier_2_Multi","EUFOR_Vest_Carrier_2_TropenD",
+"EUFOR_Vest_Carrier_3_Fleck","EUFOR_Vest_Carrier_3_Schnee","EUFOR_Vest_Carrier_3_Multi","EUFOR_Vest_Carrier_3_TropenD"

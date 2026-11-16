@@ -32,12 +32,12 @@
 "EUFOR_Uniforms_CBRN_Fleck","EUFOR_Uniforms_CBRN_Multi","EUFOR_Uniforms_CBRN_Schnee","EUFOR_Uniforms_CBRN_TropenD","EUFOR_Uniforms_CBRN_Tropen","EUFOR_Uniforms_CBRN_Black",
 "EUFOR_Uniforms_CBRN_Blue","EUFOR_Uniforms_CBRN_Olive","EUFOR_Uniforms_CBRN_Pol",   // EUFOR Contact CBRN
 "EUFOR_Vest_Carrier_GL_Fleck","EUFOR_Vest_Carrier_GL_Fleck1","EUFOR_Vest_Carrier_GL_Schnee","EUFOR_Vest_Carrier_GL_Multi","EUFOR_Vest_Carrier_GL_Tropen",
-"EUFOR_Vest_Carrier_GL_Tropen_Digital","EUFOR_Vest_TacVest_Fleck1","EUFOR_Vest_Carrier_1_Fleck1","EUFOR_Vest_Carrier_2_Fleck1","EUFOR_Vest_Carrier_3_Fleck1",
-"EUFOR_Vest_Carrier_Spec_Fleck","EUFOR_Vest_Carrier_Spec_Fleck1","EUFOR_Vest_Carrier_Spec_Schnee","EUFOR_Vest_Carrier_Spec_Multi","EUFOR_Vest_Carrier_Spec_Tropen_Digital",
+"EUFOR_Vest_Carrier_GL_TropenD","EUFOR_Vest_TacVest_Fleck1","EUFOR_Vest_Carrier_1_Fleck1","EUFOR_Vest_Carrier_2_Fleck1","EUFOR_Vest_Carrier_3_Fleck1",
+"EUFOR_Vest_Carrier_Spec_Fleck","EUFOR_Vest_Carrier_Spec_Fleck1","EUFOR_Vest_Carrier_Spec_Schnee","EUFOR_Vest_Carrier_Spec_Multi","EUFOR_Vest_Carrier_Spec_TropenD",
 "EUFOR_Vest_Carrier_GL_Fleck","EUFOR_Vest_Carrier_GL_Fleck1","EUFOR_Vest_Carrier_GL_Schnee","EUFOR_Vest_Carrier_GL_Multi","EUFOR_Vest_Carrier_GL_Tropen",
-"EUFOR_Vest_Carrier_GL_Tropen_Digital","EUFOR_Vest_KBT_Fleck","EUFOR_Vest_KBT_Fleck1","EUFOR_Vest_KBT_Schnee","EUFOR_Vest_KBT_Multi","EUFOR_Vest_KBT_Tropen_Digital",
-"EUFOR_Vest_KBT_Light_Fleck","EUFOR_Vest_KBT_Light_Fleck1","EUFOR_Vest_KBT_Light_Schnee","EUFOR_Vest_KBT_Light_Multi","EUFOR_Vest_KBT_Light_Tropen_Digital",
-"EUFOR_Vest_KBT_Heavy_Fleck","EUFOR_Vest_KBT_Heavy_Fleck1","EUFOR_Vest_KBT_Heavy_Schnee","EUFOR_Vest_KBT_Heavy_Multi","EUFOR_Vest_KBT_Heavy_Tropen_Digital",
+"EUFOR_Vest_Carrier_GL_TropenD","EUFOR_Vest_KBT_Fleck","EUFOR_Vest_KBT_Fleck1","EUFOR_Vest_KBT_Schnee","EUFOR_Vest_KBT_Multi","EUFOR_Vest_KBT_TropenD",
+"EUFOR_Vest_KBT_Light_Fleck","EUFOR_Vest_KBT_Light_Fleck1","EUFOR_Vest_KBT_Light_Schnee","EUFOR_Vest_KBT_Light_Multi","EUFOR_Vest_KBT_Light_TropenD",
+"EUFOR_Vest_KBT_Heavy_Fleck","EUFOR_Vest_KBT_Heavy_Fleck1","EUFOR_Vest_KBT_Heavy_Schnee","EUFOR_Vest_KBT_Heavy_Multi","EUFOR_Vest_KBT_Heavy_TropenD",
 "EUFOR_Vest_Carrier_Spec_Tropen","EUFOR_Vest_KBT_Tropen","EUFOR_Vest_KBT_Light_Tropen","EUFOR_Vest_KBT_Heavy_Tropen",   // EUFOR Westen
 "EUFOR_Helmets_Balaclava_Fleck","EUFOR_Helmets_Balaclava_G_Fleck","EUFOR_Helmets_Balaclava_Multi","EUFOR_Helmets_Balaclava_G_Multi","EUFOR_Helmets_Balaclava_Schnee",
 "EUFOR_Helmets_Balaclava_G_Schnee","EUFOR_Helmets_Balaclava_Tropen","EUFOR_Helmets_Balaclava_G_Tropen", // EUFOR Balaclava

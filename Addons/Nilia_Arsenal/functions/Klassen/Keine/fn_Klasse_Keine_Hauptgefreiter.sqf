@@ -24,7 +24,7 @@
     "EUFOR_Uniforms_Tarn_Fleck_Sleeves","EUFOR_Uniforms_Tarn_Fleck_Shirt",    // EUFOR Tarn Uniform
 	"EUFOR_Uniforms_CBRN_Fleck","EUFOR_Uniforms_CBRN_Multi","EUFOR_Uniforms_CBRN_Schnee","EUFOR_Uniforms_CBRN_TropenD","EUFOR_Uniforms_CBRN_Tropen","EUFOR_Uniforms_CBRN_Black",
 	"EUFOR_Uniforms_CBRN_Blue","EUFOR_Uniforms_CBRN_Olive","EUFOR_Uniforms_CBRN_Pol",
-    "EUFOR_Vest_KBT_Heavy_Fleck","EUFOR_Vest_KBT_Heavy_Fleck1","EUFOR_Vest_KBT_Heavy_Schnee","EUFOR_Vest_KBT_Heavy_Multi","EUFOR_Vest_KBT_Heavy_Tropen_Digital",
+    "EUFOR_Vest_KBT_Heavy_Fleck","EUFOR_Vest_KBT_Heavy_Fleck1","EUFOR_Vest_KBT_Heavy_Schnee","EUFOR_Vest_KBT_Heavy_Multi","EUFOR_Vest_KBT_Heavy_TropenD",
     "EUFOR_Helmets_Balaclava_Fleck","EUFOR_Helmets_Balaclava_G_Fleck","EUFOR_Helmets_Balaclava_Multi","EUFOR_Helmets_Balaclava_G_Multi","EUFOR_Helmets_Balaclava_Schnee",
     "EUFOR_Helmets_Balaclava_G_Schnee","EUFOR_Helmets_Balaclava_Tropen","EUFOR_Helmets_Balaclava_G_Tropen", // EUFOR Balaclava
     "EUFOR_Helmets_HelmetB_TI_Fleck","EUFOR_Helmets_HelmetB_TI_Multi","EUFOR_Helmets_HelmetB_TI_Schnee","EUFOR_Helmets_HelmetB_TI_TropenD",
