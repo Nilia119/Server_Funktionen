@@ -17,6 +17,14 @@
 //	Example:
 //		#include "Klassen\Standard\None.hpp"
 //
+private _baseItems =
 [
         "hlc_m249_pip3","LMG_Mk200_F"
-]
+];
+
+// MissionNamespace Items anhängen
+private _MnsItems = missionNamespace getVariable ["Nilia_MNS_MG", []];
+if !(_MnsItems isEqualType []) then { _MnsItems = ["itemCompass"]; };
+
+// Rückgabe: Original + MNS
+_baseItems + _MnsItems

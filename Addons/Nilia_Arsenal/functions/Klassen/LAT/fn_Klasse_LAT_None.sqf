@@ -17,6 +17,14 @@
 //	Example:
 //		#include "Klassen\Standard\None.hpp"
 //
+private _baseItems =
 [
         "rhs_weap_M136"
-]
+];
+
+// MissionNamespace Items anhängen
+private _MnsItems = missionNamespace getVariable ["Nilia_MNS_LAT", []];
+if !(_MnsItems isEqualType []) then { _MnsItems = ["itemCompass"]; };
+
+// Rückgabe: Original + MNS
+_baseItems + _MnsItems
