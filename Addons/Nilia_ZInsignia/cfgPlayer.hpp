@@ -15,6 +15,12 @@
       texture = "\Nilia_ZInsignia\data\Player\Nilia.paa";
 	  author="Nilia";
   };
+  class EuDef_Insignia_Nilia_Lucy
+    {
+      displayName = "EuDef Nilia 2";
+      texture = "\Nilia_ZInsignia\data\Player\Nilia_Lucy.paa";
+	  author="Nilia";
+  };
 
 	class EuDef_Insignia_NATO
 	{
@@ -67,12 +73,6 @@
         author="Nilia";
     };
 
-    class EuDef_Insignia_Paul
-    {
-        displayName = "EuDef Paul";
-        texture = "\Nilia_ZInsignia\data\Player\Paul.paa";
-        author="Nilia";
-    };
 
     class EuDef_Insignia_Benedikt
     {
@@ -95,12 +95,6 @@
         author="Nilia";
     };
 
-    class EuDef_Insignia_Zitobe
-    {
-        displayName = "EuDef Zitobe";
-        texture = "\Nilia_ZInsignia\data\Player\Zitobe.paa";
-        author="Nilia";
-    };
 
     class EuDef_Insignia_SamKing_T
     {
@@ -116,12 +110,6 @@
         author="Nilia";
     };
 
-    class EuDef_Insignia_Scharfspelz
-    {
-        displayName = "EuDef Scharfspelz";
-        texture = "\Nilia_ZInsignia\data\Player\Scharfspelz.paa";
-        author="Nilia";
-    };
 
     class EuDef_Insignia_DieScholle
     {
@@ -137,17 +125,11 @@
         author="Nilia";
     };
 
-    class EuDef_Insignia_Jannik
-    {
-        displayName = "EuDef Jannik";
-        texture = "\Nilia_ZInsignia\data\Player\Jannik.paa";
-        author="Nilia";
-    };
 
-    class EuDef_Insignia_Kevin7451
+    class EuDef_Insignia_Kevin745
     {
         displayName = "EuDef Kevin7451";
-        texture = "\Nilia_ZInsignia\data\Player\Kevin7451.paa";
+        texture = "\Nilia_ZInsignia\data\Player\Kevin745.paa";
         author="Nilia";
     };
 
@@ -186,13 +168,33 @@
 		author="Nilia";
 	};
 
-	class EuDef_Insignia_Floki
+	class EuDef_Insignia_EnderWyvern
 	{
-		displayName = "EuDef Floki";
-		texture = "\Nilia_ZInsignia\data\Player\Floki.paa";
+		displayName = "EuDef EnderWyvern";
+		texture = "\Nilia_ZInsignia\data\Player\EnderWyvern.paa";
 		author="Nilia";
 	};
 
+	class EuDef_Insignia_Hoffenburg
+	{
+		displayName = "EuDef Hoffenburg";
+		texture = "\Nilia_ZInsignia\data\Player\Hoffenburg.paa";
+		author="Nilia";
+	};
+
+	class EuDef_Insignia_Rossebma
+	{
+		displayName = "EuDef Rossebma";
+		texture = "\Nilia_ZInsignia\data\Player\Rossebma.paa";
+		author="Nilia";
+	};
+
+	class EuDef_Insignia_Gort
+	{
+		displayName = "EuDef Gort";
+		texture = "\Nilia_ZInsignia\data\Player\Gort.paa";
+		author="Nilia";
+	};
 
 
 //HIER In der nächsten Zeile einfügen
